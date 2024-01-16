@@ -1,0 +1,22 @@
+
+Script to make .obj format files from text survey input.  Will make three interceting planes 1mm X 1mm at the origin of the point.  
+This is to help with visually inspecting output.  
+
+The script can be run with root in the following way:  root 'MUSE_obj_converter.cxx("infile.txt","collection")'
+It will create and output file named: "infile_collection.obj"
+You will convert only the parts of the file where "collection" is the same as the first column in the text file.  If you enter "" as the collection, then all points in the file will be considered.
+
+You can add a rotation or translation in any order by doing the following:
+
+root "MUSE_obj_converter.cxx("infile.txt", "collection", "xyzXYXARBT", {20.0, 1.0, -0.9, 0.11, 0.33, 1.425, 1, 1, 1, 0.3})"
+
+The first option after the inputfile is a string that should contain only the characters x, y, z, X, Y, Z and ARBT.  
+These dictate the type and order of the transformation.
+The lowercase letters will translate the relevant point by the amount provided in the brackets.
+The uppercase letters will perform a rotation about that axis by the amount in the brackets.
+ARBT will use the following four values to define a vector (first 3 of 4 values given), and then rotate about that vector by the 4th value given 
+
+The example above would first add 20.0 to the x-coordinate of all points, then add 1.0 to the y-coordinate of all points, them subtract 0.9 from the x-component.
+Next it would rotate all points about the x-axis by 0.11 radians, then rotate about the y-axis by 0.33 and then the z-axis by 1.425 radians.
+Finally, for a vector pointing in (1,1,1), all points will be rotated about that vector by 0.3 radians
+There is no limit to the amount of succesive translations or rotations you can apply, and no limitation for what order they can be applied. 

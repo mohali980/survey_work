@@ -1,0 +1,3 @@
+1)	In the TXT file, there is a header, and there are (sometimes) blank lines, Reading from the original TXT files shows some mistakes, so, the header is removed from all of the TXT files, and any blanked line is removed too. After this, reading works well. Later, while working with the data using Ms. Excil, some hidden characters/symbols were found within the TXT files. Probably, this is the reason for the first reading from the TXT files' errors.
+* Example on this: int the file (20200218_WEHA_PIM1_Muse_Kontrollen_AussenAreal_Target) Collection (20200218KontrolleTargetAusgebaut). The exprition (<0x1f>) is hidden.
+
