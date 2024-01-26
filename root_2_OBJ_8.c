@@ -7,7 +7,7 @@ int vcounter = 0; //this keeps track of the number of vertex points in the obj f
 
 static TString ptColor = "red"; //collor of point
 static float unitsConv = 0.10; //if a units conversion is needed, we can do it here (i.e. m to mm)
-static float ptHW = 2.0*unitsConv; //this will make each plane have +/- ptHW in mm
+static float ptHW = 4.0*unitsConv; //this will make each plane have +/- ptHW in mm
 
 void ptconv(vector<float> pts, TString name, ofstream *st)
 {
@@ -56,7 +56,7 @@ void root_2_OBJ_8()
 //	the first one is ole and its frame is the old/main PSI frame, there is no need to use it, it is not a direct MUSE survey.
 
 	int nu_of_trees=0;
-	in_trees_file.open("trees_file_9.txt");
+	in_trees_file.open("09_trees.txt");
 
 	vector<TString> trees_names;
 
@@ -74,7 +74,7 @@ void root_2_OBJ_8()
 
 //	................................................................
 
-TFile file("points_9.root");
+TFile file("09_points.root");
 
 
 		TString dir="OBJ_files";
@@ -239,7 +239,7 @@ TFile file("points_9.root");
 		if(k+1==281)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET, unrecognized shape in a plane, maybe THE CAD FILE needed";	}
 		if(k+1==282)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET, unrecognized shape in a plane, maybe THE CAD FILE needed";	}
 		if(k+1==283)	{	rotTrans="Xzx"	;	vrt={90*(PI/180),142.24,-0.636};	tt=1;	meaning="flange, chamber window";	}
-		if(k+1==284)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET ~(98 cm row of points, they exist in the 285 tree), don't know for what, THE CAD FILE needed";	}
+		if(k+1==284)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET ~(two parallel 98 cm row of points), look like a panel sides, THE CAD FILE needed";	}
 		if(k+1==285)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET ~(two parallel 98 cm row of points), look like a panel sides, THE CAD FILE needed";	}
 		if(k+1==286)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET ~(two parallel 98 cm row of points, the same as 285), look like a panel sides, THE CAD FILE needed";	}
 		if(k+1==287)	{	rotTrans=""		;	vrt={};								tt=1;	meaning="NOT TRANSFORMED YET ~(two parallel 98 cm row of points, the same as 285), look like a panel sides, THE CAD FILE needed";	}

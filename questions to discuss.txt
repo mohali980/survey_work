@@ -1,0 +1,2 @@
+1) Do we need all the design points, or just the active face (effective detector area) (rectangle, cylinder ... )?
+2) When we need to used the "offp" & "offr" values? Are their effect covered by the fitter code?

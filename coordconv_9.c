@@ -301,7 +301,7 @@ void coordconv_9()
 //	storing all the points from the vector to a TXT file. All the points ~255031 points from about 56 TXT files.
 
 	ofstream out_file_9_0;
-	out_file_9_0.open("out_file_9_0.txt");
+	out_file_9_0.open("090_out_file_all_data.txt");
 	for(int i=0;i<x_vec.size();i++)
 	{
 		out_file_9_0<<file_name_vec[i]<<","<<frame_vec[i]<<","<<collection_vec[i]<<","<<group_vec[i]<<","<<point_vec[i]<<","<<x_vec[i]<<","<<y_vec[i]<<","<<z_vec[i]<<" ,  "<<offp_vec[i]<<","<<offr_vec[i]<<","<<date_time_vec[i]<<endl;
@@ -394,7 +394,7 @@ for(int l=0;l<x_vec.size();l++)
 
 //	-------------------------------------------------------
 	ofstream out_file_9_points;
-	out_file_9_points.open("out_file_9_points.txt");
+	out_file_9_points.open("091_out_file_points_data.txt");
 	for(int k=0;k<working_points_x_vec.size();k++)
 	{
 	out_file_9_points<<working_points_file_name_vec[k]<<","<<working_points_frame_vec[k]<<","<<working_points_collection_vec[k]<<","<<working_points_group_vec[k]<<","<<working_points_point_vec[k]<<","<<working_points_x_vec[k]<<","<<working_points_y_vec[k]<<","<<working_points_z_vec[k]<<" ,  "<<working_points_offp_vec[k]<<","<<working_points_offr_vec[k]<<","<<working_points_date_time_vec[k]<<endl;
@@ -438,7 +438,7 @@ flagat.clear();
 
 
 //	.............................................................................
-	TFile *	out_root_file	=	new TFile("points_9.root","RECREATE");
+	TFile *	out_root_file	=	new TFile("09_points.root","RECREATE");
 //	.............................................................................
 
 	vector<TString> trees;
@@ -7175,7 +7175,7 @@ flagat.clear();
 //	.....................................................
 //	storing all the points from the vector to a TXT file.
 	ofstream out_file_9_2;
-	out_file_9_2.open("after_locals_9.txt");
+	out_file_9_2.open("092_rest_after_locals.txt");
 	for(int i=0;i<working_2_x_vec.size();i++)
 	{
 		out_file_9_2<<working_2_file_name_vec[i]<<","<<working_2_frame_vec[i]<<","<<working_2_collection_vec[i]<<","<<working_2_group_vec[i]<<","<<working_2_point_vec[i]<<","<<working_2_x_vec[i]<<","<<working_2_y_vec[i]<<","<<working_2_z_vec[i]<<" ,  "<<working_2_offp_vec[i]<<","<<working_2_offr_vec[i]<<","<<working_2_date_time_vec[i]<<endl;
@@ -7185,6 +7185,9 @@ flagat.clear();
 
 
 
+
+
+/*
 
 //	----------------------------------------------------------------------------
 //	collecting some group of points from the points vector.
@@ -7429,32 +7432,127 @@ flagat.clear();
 	out_tree_377	->	Branch("offp",&out_offp);
 	out_tree_377	->	Branch("offr",&out_offr);
 	out_tree_377	->	Branch("date_time",&out_date_time);
-
-
-
-
-/*
-
 //	-----------------------------------------------------------
-	a = string ("3_");
+	a = string ("378_3_G_points_instr2");
 	trees.push_back(Form("%s",a.c_str()));
-	TTree *out_tree_3 = new TTree(Form("%s",a.c_str()),"");
+	TTree *out_tree_378 = new TTree(Form("%s",a.c_str()),"");
 
-		->	Branch("file_name",&out_file_name);
-		->	Branch("frame",&out_frame);
-		->	Branch("collection",&out_collection);
-		->	Branch("group",&out_group);
-		->	Branch("point",&out_point);
-		->	Branch("x",&out_x);
-		->	Branch("y",&out_y);
-		->	Branch("z",&out_z);
-		->	Branch("offp",&out_offp);
-		->	Branch("offr",&out_offr);
-		->	Branch("date_time",&out_date_time);
+	out_tree_378	->	Branch("file_name",&out_file_name);
+	out_tree_378	->	Branch("frame",&out_frame);
+	out_tree_378	->	Branch("collection",&out_collection);
+	out_tree_378	->	Branch("group",&out_group);
+	out_tree_378	->	Branch("point",&out_point);
+	out_tree_378	->	Branch("x",&out_x);
+	out_tree_378	->	Branch("y",&out_y);
+	out_tree_378	->	Branch("z",&out_z);
+	out_tree_378	->	Branch("offp",&out_offp);
+	out_tree_378	->	Branch("offr",&out_offr);
+	out_tree_378	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("379_10_H_points_instr2");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_379 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_379	->	Branch("file_name",&out_file_name);
+	out_tree_379	->	Branch("frame",&out_frame);
+	out_tree_379	->	Branch("collection",&out_collection);
+	out_tree_379	->	Branch("group",&out_group);
+	out_tree_379	->	Branch("point",&out_point);
+	out_tree_379	->	Branch("x",&out_x);
+	out_tree_379	->	Branch("y",&out_y);
+	out_tree_379	->	Branch("z",&out_z);
+	out_tree_379	->	Branch("offp",&out_offp);
+	out_tree_379	->	Branch("offr",&out_offr);
+	out_tree_379	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("380_9_PIM1_points");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_380 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_380	->	Branch("file_name",&out_file_name);
+	out_tree_380	->	Branch("frame",&out_frame);
+	out_tree_380	->	Branch("collection",&out_collection);
+	out_tree_380	->	Branch("group",&out_group);
+	out_tree_380	->	Branch("point",&out_point);
+	out_tree_380	->	Branch("x",&out_x);
+	out_tree_380	->	Branch("y",&out_y);
+	out_tree_380	->	Branch("z",&out_z);
+	out_tree_380	->	Branch("offp",&out_offp);
+	out_tree_380	->	Branch("offr",&out_offr);
+	out_tree_380	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("381_19_H_points");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_381 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_381	->	Branch("file_name",&out_file_name);
+	out_tree_381	->	Branch("frame",&out_frame);
+	out_tree_381	->	Branch("collection",&out_collection);
+	out_tree_381	->	Branch("group",&out_group);
+	out_tree_381	->	Branch("point",&out_point);
+	out_tree_381	->	Branch("x",&out_x);
+	out_tree_381	->	Branch("y",&out_y);
+	out_tree_381	->	Branch("z",&out_z);
+	out_tree_381	->	Branch("offp",&out_offp);
+	out_tree_381	->	Branch("offr",&out_offr);
+	out_tree_381	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("382_5_G_points");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_382 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_382	->	Branch("file_name",&out_file_name);
+	out_tree_382	->	Branch("frame",&out_frame);
+	out_tree_382	->	Branch("collection",&out_collection);
+	out_tree_382	->	Branch("group",&out_group);
+	out_tree_382	->	Branch("point",&out_point);
+	out_tree_382	->	Branch("x",&out_x);
+	out_tree_382	->	Branch("y",&out_y);
+	out_tree_382	->	Branch("z",&out_z);
+	out_tree_382	->	Branch("offp",&out_offp);
+	out_tree_382	->	Branch("offr",&out_offr);
+	out_tree_382	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("383_2_TC_points");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_383 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_383	->	Branch("file_name",&out_file_name);
+	out_tree_383	->	Branch("frame",&out_frame);
+	out_tree_383	->	Branch("collection",&out_collection);
+	out_tree_383	->	Branch("group",&out_group);
+	out_tree_383	->	Branch("point",&out_point);
+	out_tree_383	->	Branch("x",&out_x);
+	out_tree_383	->	Branch("y",&out_y);
+	out_tree_383	->	Branch("z",&out_z);
+	out_tree_383	->	Branch("offp",&out_offp);
+	out_tree_383	->	Branch("offr",&out_offr);
+	out_tree_383	->	Branch("date_time",&out_date_time);
 
 */
 
+					/*
 
+					//	-----------------------------------------------------------
+						a = string ("3_");
+						trees.push_back(Form("%s",a.c_str()));
+						TTree *out_tree_3 = new TTree(Form("%s",a.c_str()),"");
+
+							->	Branch("file_name",&out_file_name);
+							->	Branch("frame",&out_frame);
+							->	Branch("collection",&out_collection);
+							->	Branch("group",&out_group);
+							->	Branch("point",&out_point);
+							->	Branch("x",&out_x);
+							->	Branch("y",&out_y);
+							->	Branch("z",&out_z);
+							->	Branch("offp",&out_offp);
+							->	Branch("offr",&out_offr);
+							->	Branch("date_time",&out_date_time);
+
+					*/
+
+/*
 
 
 flagat.clear();
@@ -7476,7 +7574,7 @@ flagat.clear();
 		out_frame=working_points_file_name_vec[i];
 		out_collection=working_points_collection_vec[i];
 		out_group=working_points_group_vec[i];
-		out_point=working_points_group_vec[i]+"___"+working_2_point_vec[i];
+		out_point=working_points_point_vec[i];
 		out_x=working_points_x_vec[i];
 		out_y=working_points_y_vec[i];
 		out_z=working_points_z_vec[i];
@@ -7532,6 +7630,28 @@ flagat.clear();
 	if((G=="Ref")&&(C=="AufmassP6")&&F==("202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2")&&P.Contains("PA"))	
 		{out_tree_377->Fill(); flagat.push_back(1);	continue;	}
 
+//	...............................................
+	if((G=="Gestelletc.Aufmass"||G=="St5GestellTelescope(DS)")&&(C=="20220810")&&F==("202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2"))	
+		{
+			if(P.Contains("G"))	{out_tree_378->Fill(); flagat.push_back(1);	continue;	}
+			if(P.Contains("H"))	{out_tree_379->Fill(); flagat.push_back(1);	continue;	}
+		}
+//	...............................................
+	if((G=="1"||G=="2"||G=="6"||G=="7"||G=="AutoCorr1vorJust"||G=="GestellnJ"||G=="GestellST4"||G=="Instrument-6"||G=="NachFixierung"||
+		G=="Netz-2"||G=="Netz0712"||G=="Netz0712a"||G=="Netz0731"||G=="Netz2"||G=="PositioniereInstr.1"||G=="PositioniereInstr.1*"||
+		G=="PositioniereInstr.2"||G=="PositioniereInstr.3"||G=="RefGestellWdh"||G=="Vormontagereferenz")
+		&&(C=="2023019"||C=="20180706"||C=="20180731"||C=="20190719"||C=="20230117"||C=="20230118"||
+			C=="201807012"||C=="20181024Netzerweiterung"||C=="20210928KontrolleGestellnachEinbau")
+		&&(F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)"||F=="20191028::MUSE"||F=="20191028::MUSE_2"
+			||F=="20210928_Justierung_Vakuumkammer_und_Target::PIM1"||F=="20230118::MUSE"||F=="20230117::MUSE"||F=="2023019::MUSE"
+			||F=="Standpunkt_1::WORLD")	)
+	{
+		if(P.Contains("PIM"))	{out_tree_380->Fill(); flagat.push_back(1);	continue;	}
+		if(P.Contains("H"))		{out_tree_381->Fill(); flagat.push_back(1);	continue;	}
+		if(P.Contains("G"))		{out_tree_382->Fill(); flagat.push_back(1);	continue;	}
+		if(P.Contains("TC"))	{out_tree_383->Fill(); flagat.push_back(1);	continue;	}
+	}
+
 
 
 
@@ -7579,15 +7699,48 @@ flagat.clear();
 
 cout<<"--------------------------------------------------------------------------"<<working_points_x_vec.size()<<endl;
 
-/*
-
-
-	vector<int>	same_xyz,flags;
 
 
 
 
-	flagat.clear();
+
+
+
+
+
+
+//	.....................................................
+//	storing all the points from the vector to a TXT file.
+	ofstream out_file_9_3;
+	out_file_9_3.open("093_rest_after_points.txt");
+	for(int i=0;i<working_points_x_vec.size();i++)
+	{
+		out_file_9_3<<working_points_file_name_vec[i]<<","<<working_points_frame_vec[i]<<","<<working_points_collection_vec[i]<<","<<working_points_group_vec[i]<<","<<working_points_point_vec[i]<<","<<working_points_x_vec[i]<<","<<working_points_y_vec[i]<<","<<working_points_z_vec[i]<<" ,  "<<working_points_offp_vec[i]<<","<<working_points_offr_vec[i]<<","<<working_points_date_time_vec[i]<<endl;
+	}
+	out_file_9_3.close();
+//	.....................................................
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
 
 //	----------------------------------------------------------------------------
 //	3) START :	Classifying the points in 2D vector according to same frame	....
@@ -7596,6 +7749,9 @@ cout<<"-------------------------------------------------------------------------
 
 	vector<float>	working_3_x_vec,working_3_y_vec,working_3_z_vec,working_3_offp_vec,working_3_offr_vec;
 	vector<TString>	working_3_file_name_vec,working_3_frame_vec,working_3_collection_vec,working_3_group_vec,working_3_point_vec,working_3_date_time_vec;
+
+	vector<float>	working_33_x_vec,working_33_y_vec,working_33_z_vec,working_33_offp_vec,working_33_offr_vec;
+	vector<TString>	working_33_file_name_vec,working_33_frame_vec,working_33_collection_vec,working_33_group_vec,working_33_point_vec,working_33_date_time_vec;
 
 	working_3_file_name_vec=working_points_file_name_vec;
 	working_3_frame_vec=working_points_frame_vec;
@@ -7609,66 +7765,112 @@ cout<<"-------------------------------------------------------------------------
 	working_3_offr_vec=working_points_offr_vec;
 	working_3_date_time_vec=working_points_date_time_vec;
 
+	working_33_file_name_vec=working_points_file_name_vec;
+	working_33_frame_vec=working_points_frame_vec;
+	working_33_collection_vec=working_points_collection_vec;
+	working_33_group_vec=working_points_group_vec;
+	working_33_point_vec=working_points_point_vec;
+	working_33_x_vec=working_points_x_vec;
+	working_33_y_vec=working_points_y_vec;
+	working_33_z_vec=working_points_z_vec;
+	working_33_offp_vec=working_points_offp_vec;
+	working_33_offr_vec=working_points_offr_vec;
+	working_33_date_time_vec=working_points_date_time_vec;
+
 	vector<vector<float>>	C_x_vec,C_y_vec,C_z_vec,C_offp_vec,C_offr_vec;
 	vector<vector<TString>>	C_file_name_vec,C_frame_vec,C_collection_vec,C_group_vec,C_point_vec,C_date_time_vec;
+
+	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
+	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
 
 	vector<float>	tmp_x_vec,tmp_y_vec,tmp_z_vec,tmp_offp_vec,tmp_offr_vec;
 	vector<TString>	tmp_file_name_vec,tmp_frame_vec,tmp_collection_vec,tmp_group_vec,tmp_point_vec,tmp_date_time_vec;
 
-	float eps=1.0;
 
-	int ss=working_3_x_vec.size();
 
-	int i=0;
+	vector<int>	same_xyz,same_xyz_pos,flags;
+	flagat.clear();
 
-	while(working_3_x_vec.size()>0 && i<working_3_x_vec.size())
-	{	
+	float eps=3.0;
+
+
+//	..............................................................................
+//	First: separting the point from the same (Frame, Collection, Group) in the 2D C-vector.
+
+	for(int i=0;i<working_33_x_vec.size();i++)
+	{
+		vector<int> same_xyz(working_3_x_vec.size(),0);
+		vector<int> flags(working_3_x_vec.size(),0);
+
 		for(int j=0;j<working_3_x_vec.size();j++)
 		{
-			if(working_3_point_vec[i]==working_3_point_vec[j])
+			if(working_33_point_vec[i]==working_3_point_vec[j] && fabs(working_3_x_vec[j]-working_33_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_33_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_33_z_vec[i])<eps)
 			{
-				if(fabs(working_3_x_vec[j]-working_3_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_3_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_3_z_vec[i])<eps)
-				{
-					flagat.push_back(1);
-				}
-				else	{flagat.push_back(0);}
+				replace( same_xyz.begin(), same_xyz.end(), same_xyz[j], 1 );
+				same_xyz_pos.push_back(j);
 			}
 		}
 
+	if(same_xyz_pos.size()>1)
+	{
+		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+	}
 
 
-		for(int k=0;k<working_3_x_vec.size();k++)
+	same_xyz_pos.clear();
+	}	//	for(i)
+
+	
+
+/*
+
+		if(same_xyz_pos.size()>1)
 		{
-			if(flagat[k]==1)
+			cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+
+			for(int k=0;k<same_xyz_pos.size();k++)
 			{
 				for(int j=0;j<working_3_x_vec.size();j++)
 				{
-					if(working_3_group_vec[k]==working_3_point_vec[j] && working_3_collection_vec[k]==working_3_collection_vec[j] && working_3_frame_vec[k]==working_3_frame_vec[j])
+					if(working_3_group_vec[same_xyz_pos[k]]==working_3_group_vec[j] && working_3_collection_vec[same_xyz_pos[k]]==working_3_collection_vec[j] && working_3_frame_vec[same_xyz_pos[k]]==working_3_frame_vec[j])
 					{
-						tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
-						tmp_frame_vec.push_back(working_3_frame_vec[j]);
-						tmp_collection_vec.push_back(working_3_collection_vec[j]);
-						tmp_group_vec.push_back(working_3_group_vec[j]);
-						tmp_point_vec.push_back(working_3_point_vec[j]);
-						tmp_x_vec.push_back(working_3_x_vec[j]);
-						tmp_y_vec.push_back(working_3_y_vec[j]);
-						tmp_z_vec.push_back(working_3_z_vec[j]);
-						tmp_offp_vec.push_back(working_3_offp_vec[j]);
-						tmp_offr_vec.push_back(working_3_offr_vec[j]);
-						tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
+					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
+					tmp_frame_vec.push_back(working_3_frame_vec[j]);
+					tmp_collection_vec.push_back(working_3_collection_vec[j]);
+					tmp_group_vec.push_back(working_3_group_vec[j]);
+					tmp_point_vec.push_back(working_3_point_vec[j]);
+					tmp_x_vec.push_back(working_3_x_vec[j]);
+					tmp_y_vec.push_back(working_3_y_vec[j]);
+					tmp_z_vec.push_back(working_3_z_vec[j]);
+					tmp_offp_vec.push_back(working_3_offp_vec[j]);
+					tmp_offr_vec.push_back(working_3_offr_vec[j]);
+					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
 
-						flags.push_back(1);
+					replace( flags.begin(), flags.end(), flags[j], 1 );
 					}
-					else	{flags.push_back(0);}
 				}
 			}
-		}
+//	...
+		C_file_name_vec.push_back(tmp_file_name_vec);
+		C_frame_vec.push_back(tmp_frame_vec);
+		C_collection_vec.push_back(tmp_collection_vec);
+		C_group_vec.push_back(tmp_group_vec);
+		C_point_vec.push_back(tmp_point_vec);
+		C_x_vec.push_back(tmp_x_vec);
+		C_y_vec.push_back(tmp_y_vec);
+		C_z_vec.push_back(tmp_z_vec);
+		C_offp_vec.push_back(tmp_offp_vec);
+		C_offr_vec.push_back(tmp_offr_vec);
+		C_date_time_vec.push_back(tmp_date_time_vec);
 
+		}	//	if(same_xyz_pos.size()>1)
+
+		else {continue;}
 
 //	.......................................................
 		for(int l=working_3_x_vec.size()-1;l>-1;l--)
 		{
-			if(flags[l]==1)
+		if(flags[l]==1)
 			{
 				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
 				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
@@ -7684,26 +7886,6 @@ cout<<"-------------------------------------------------------------------------
 			}
 		}	//	for(l)
 //	.......................................................
-
-	int summm=0;
-	for (int t=0;t<flags.size();t++){summm=summm+flags[t];}
-	if(summm==0){i++;}
-	else
-		{
-		cout<<" ) the size after : "<<working_3_x_vec.size()<<"	| the 1-D vector size : "<<tmp_x_vec.size()<<" | the C 2-D vec size : ";
-
-		C_file_name_vec.push_back(tmp_file_name_vec);
-		C_frame_vec.push_back(tmp_frame_vec);
-		C_collection_vec.push_back(tmp_collection_vec);
-		C_group_vec.push_back(tmp_group_vec);
-		C_point_vec.push_back(tmp_point_vec);
-		C_x_vec.push_back(tmp_x_vec);
-		C_y_vec.push_back(tmp_y_vec);
-		C_z_vec.push_back(tmp_z_vec);
-		C_offp_vec.push_back(tmp_offp_vec);
-		C_offr_vec.push_back(tmp_offr_vec);
-		C_date_time_vec.push_back(tmp_date_time_vec);
-
 		tmp_file_name_vec.clear();
 		tmp_frame_vec.clear();
 		tmp_collection_vec.clear();
@@ -7716,14 +7898,41 @@ cout<<"-------------------------------------------------------------------------
 		tmp_offr_vec.clear();
 		tmp_date_time_vec.clear();
 
-		cout<<C_x_vec.size()<<endl;
 
-		}
-	
 
-	flagat.clear();
 	flags.clear();
-	}	//	for(i) ... while
+	same_xyz.clear();
+	same_xyz_pos.clear();
+
+
+
+
+	}	//	for(i)
+
+
+*/
+
+//	----------------------------------------------------------------------------
+//	3) END :	Classifying the points in 2D vector according to same frame	....
+//	----------------------------------------------------------------------------
+
+
+
+
+
+//	.....................................................
+//	storing all the points from the vector to a TXT file.
+	ofstream out_file_9_5;
+	out_file_9_5.open("094_classified_points.txt");
+	for(int i=0;i<C_x_vec.size();i++)
+	{for(int j=0;j<C_x_vec[i].size();j++)
+	{
+		out_file_9_5<<C_file_name_vec[i][j]<<","<<C_frame_vec[i][j]<<","<<C_collection_vec[i][j]<<","<<C_group_vec[i][j]<<","<<C_point_vec[i][j]<<","<<C_x_vec[i][j]<<","<<C_y_vec[i][j]<<","<<C_z_vec[i][j]<<" ,  "<<C_offp_vec[i][j]<<","<<C_offr_vec[i][j]<<","<<C_date_time_vec[i][j]<<endl;
+	}
+	out_file_9_5<<endl;
+	}
+	out_file_9_5.close();
+//	.....................................................
 
 
 
@@ -7731,9 +7940,7 @@ cout<<"-------------------------------------------------------------------------
 
 
 
-
-
-
+/*
 
 
 ////////////////////////////////////////////////////////////
@@ -7880,19 +8087,18 @@ cout<<"-------------------------------------------------------------------------
 		}
 	}	//	for(l)
 //	...............................................
-///////////////////////////////////////////////////////////////
 
 
 
 //	----------------------------------------------------------------------------
-//	2) END :	seperating frames to vectors	................................
+//	3) END :	Classifying the points in 2D vector according to same frame	....
 //	----------------------------------------------------------------------------
 
+*/
 
 
 
-
-
+/*
 
 
 
@@ -8486,7 +8692,7 @@ i++;
 //	.....................................................
 //	storing all the trees' names from the vector to a TXT file.
 	ofstream out_trees_names_9;
-	out_trees_names_9.open("trees_file_9.txt");
+	out_trees_names_9.open("09_trees.txt");
 	for(int k=0;k<trees.size();k++)	
 	{	
 		out_trees_names_9<<trees[k]<<endl;	
