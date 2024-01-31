@@ -7,7 +7,7 @@ int vcounter = 0; //this keeps track of the number of vertex points in the obj f
 
 static TString ptColor = "red"; //collor of point
 static float unitsConv = 0.10; //if a units conversion is needed, we can do it here (i.e. m to mm)
-static float ptHW = 4.0*unitsConv; //this will make each plane have +/- ptHW in mm
+static float ptHW = 2.0*unitsConv; //this will make each plane have +/- ptHW in mm
 
 void ptconv(vector<float> pts, TString name, ofstream *st)
 {

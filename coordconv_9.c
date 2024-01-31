@@ -7788,6 +7788,158 @@ cout<<"-------------------------------------------------------------------------
 
 
 
+	vector<int>	same_xyz,same_combination_pos,flags;
+	flagat.clear();
+
+	float eps=3.0;
+
+
+//	..............................................................................
+//	First: separting the point from the same (Frame, Collection, Group) in the 2D C-vector.
+
+
+//	int i=0;
+
+//	while(working_3_x_vec.size()>0)
+	for(int i=0;i<working_33_x_vec.size();i++)
+	{
+		cout<<"size : "<<working_3_x_vec.size();
+
+		vector<int> same_combination_flag(working_3_x_vec.size(),0);	//	
+
+		for(int j=0;j<working_3_x_vec.size();j++)
+		{
+			if(working_3_frame_vec[j]==working_33_frame_vec[i] && working_3_collection_vec[j]==working_33_collection_vec[i] && working_3_group_vec[j]==working_33_group_vec[i])
+			{
+				replace( same_combination_flag.begin(), same_combination_flag.end(), same_combination_flag[j], 1 );
+
+				tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
+				tmp_frame_vec.push_back(working_3_frame_vec[j]);
+				tmp_collection_vec.push_back(working_3_collection_vec[j]);
+				tmp_group_vec.push_back(working_3_group_vec[j]);
+				tmp_point_vec.push_back(working_3_point_vec[j]);
+				tmp_x_vec.push_back(working_3_x_vec[j]);
+				tmp_y_vec.push_back(working_3_y_vec[j]);
+				tmp_z_vec.push_back(working_3_z_vec[j]);
+				tmp_offp_vec.push_back(working_3_offp_vec[j]);
+				tmp_offr_vec.push_back(working_3_offr_vec[j]);
+				tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
+			}
+		}
+
+//	...
+		if(tmp_x_vec.size()>0)
+		{
+		C_file_name_vec.push_back(tmp_file_name_vec);
+		C_frame_vec.push_back(tmp_frame_vec);
+		C_collection_vec.push_back(tmp_collection_vec);
+		C_group_vec.push_back(tmp_group_vec);
+		C_point_vec.push_back(tmp_point_vec);
+		C_x_vec.push_back(tmp_x_vec);
+		C_y_vec.push_back(tmp_y_vec);
+		C_z_vec.push_back(tmp_z_vec);
+		C_offp_vec.push_back(tmp_offp_vec);
+		C_offr_vec.push_back(tmp_offr_vec);
+		C_date_time_vec.push_back(tmp_date_time_vec);
+		}
+//	.......................................................
+		for(int l=working_3_x_vec.size()-1;l>-1;l--)
+		{
+		if(same_combination_flag[l]==1)
+			{
+				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
+				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
+				working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
+				working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
+				working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
+				working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
+				working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
+				working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
+				working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
+				working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
+				working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
+			}
+		}	//	for(l)
+//	.......................................................
+	
+	cout<<"	done : "<<working_3_x_vec.size()<<"	within : "<<C_x_vec.size()<<"   frames, and the elements : "<<tmp_x_vec.size()<<endl;
+
+	tmp_file_name_vec.clear();
+	tmp_frame_vec.clear();
+	tmp_collection_vec.clear();
+	tmp_group_vec.clear();
+	tmp_point_vec.clear();
+	tmp_x_vec.clear();
+	tmp_y_vec.clear();
+	tmp_z_vec.clear();
+	tmp_offp_vec.clear();
+	tmp_offr_vec.clear();
+	tmp_date_time_vec.clear();
+
+	same_combination_flag.clear();
+
+
+
+	}	//	while(working_3_x_vec.size()>0)
+
+
+
+
+//	----------------------------------------------------------------------------
+//	3) END :	Classifying the points in 2D vector according to same frame	....
+//	----------------------------------------------------------------------------
+
+/*
+
+
+
+
+//	----------------------------------------------------------------------------
+//	3) START :	Classifying the points in 2D vector according to same frame	....
+//	----------------------------------------------------------------------------
+	cout<<"START Block (3) : Classifying the points in 2D vector according to same frame "<<endl;
+
+	vector<float>	working_3_x_vec,working_3_y_vec,working_3_z_vec,working_3_offp_vec,working_3_offr_vec;
+	vector<TString>	working_3_file_name_vec,working_3_frame_vec,working_3_collection_vec,working_3_group_vec,working_3_point_vec,working_3_date_time_vec;
+
+	vector<float>	working_33_x_vec,working_33_y_vec,working_33_z_vec,working_33_offp_vec,working_33_offr_vec;
+	vector<TString>	working_33_file_name_vec,working_33_frame_vec,working_33_collection_vec,working_33_group_vec,working_33_point_vec,working_33_date_time_vec;
+
+	working_3_file_name_vec=working_points_file_name_vec;
+	working_3_frame_vec=working_points_frame_vec;
+	working_3_collection_vec=working_points_collection_vec;
+	working_3_group_vec=working_points_group_vec;
+	working_3_point_vec=working_points_point_vec;
+	working_3_x_vec=working_points_x_vec;
+	working_3_y_vec=working_points_y_vec;
+	working_3_z_vec=working_points_z_vec;
+	working_3_offp_vec=working_points_offp_vec;
+	working_3_offr_vec=working_points_offr_vec;
+	working_3_date_time_vec=working_points_date_time_vec;
+
+	working_33_file_name_vec=working_points_file_name_vec;
+	working_33_frame_vec=working_points_frame_vec;
+	working_33_collection_vec=working_points_collection_vec;
+	working_33_group_vec=working_points_group_vec;
+	working_33_point_vec=working_points_point_vec;
+	working_33_x_vec=working_points_x_vec;
+	working_33_y_vec=working_points_y_vec;
+	working_33_z_vec=working_points_z_vec;
+	working_33_offp_vec=working_points_offp_vec;
+	working_33_offr_vec=working_points_offr_vec;
+	working_33_date_time_vec=working_points_date_time_vec;
+
+	vector<vector<float>>	C_x_vec,C_y_vec,C_z_vec,C_offp_vec,C_offr_vec;
+	vector<vector<TString>>	C_file_name_vec,C_frame_vec,C_collection_vec,C_group_vec,C_point_vec,C_date_time_vec;
+
+	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
+	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
+
+	vector<float>	tmp_x_vec,tmp_y_vec,tmp_z_vec,tmp_offp_vec,tmp_offr_vec;
+	vector<TString>	tmp_file_name_vec,tmp_frame_vec,tmp_collection_vec,tmp_group_vec,tmp_point_vec,tmp_date_time_vec;
+
+
+
 	vector<int>	same_xyz,same_xyz_pos,flags;
 	flagat.clear();
 
@@ -7813,16 +7965,162 @@ cout<<"-------------------------------------------------------------------------
 
 	if(same_xyz_pos.size()>1)
 	{
-		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+//		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+
+		for(int j=0;j<working_3_x_vec.size();j++)
+		{
+			if(same_xyz[j]==1)
+			{
+				for(int k=0;k<working_3_x_vec.size();k++)
+				{
+					if(working_3_frame_vec[j]==working_3_frame_vec[k] && working_3_collection_vec[j]==working_3_collection_vec[k] && working_3_group_vec[j]==working_3_group_vec[k])
+					{
+					replace( flags.begin(), flags.end(), flags[j], 1 );
+					}
+				}
+			}
+		}
 	}
 
 
-	same_xyz_pos.clear();
-	}	//	for(i)
+
+
 
 	
 
-/*
+
+
+		if(same_xyz_pos.size()>1)
+		{
+			cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+			for(int k=0;k<same_xyz_pos.size();k++)
+			{
+				for(int j=0;j<working_3_x_vec.size();j++)
+				{
+					if(working_3_group_vec[same_xyz_pos[k]]==working_3_group_vec[j] && working_3_collection_vec[same_xyz_pos[k]]==working_3_collection_vec[j] && working_3_frame_vec[same_xyz_pos[k]]==working_3_frame_vec[j])
+					{
+					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
+					tmp_frame_vec.push_back(working_3_frame_vec[j]);
+					tmp_collection_vec.push_back(working_3_collection_vec[j]);
+					tmp_group_vec.push_back(working_3_group_vec[j]);
+					tmp_point_vec.push_back(working_3_point_vec[j]);
+					tmp_x_vec.push_back(working_3_x_vec[j]);
+					tmp_y_vec.push_back(working_3_y_vec[j]);
+					tmp_z_vec.push_back(working_3_z_vec[j]);
+					tmp_offp_vec.push_back(working_3_offp_vec[j]);
+					tmp_offr_vec.push_back(working_3_offr_vec[j]);
+					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
+
+					replace( flags.begin(), flags.end(), flags[j], 1 );
+					}
+				}
+			}
+//	...
+		C_file_name_vec.push_back(tmp_file_name_vec);
+		C_frame_vec.push_back(tmp_frame_vec);
+		C_collection_vec.push_back(tmp_collection_vec);
+		C_group_vec.push_back(tmp_group_vec);
+		C_point_vec.push_back(tmp_point_vec);
+		C_x_vec.push_back(tmp_x_vec);
+		C_y_vec.push_back(tmp_y_vec);
+		C_z_vec.push_back(tmp_z_vec);
+		C_offp_vec.push_back(tmp_offp_vec);
+		C_offr_vec.push_back(tmp_offr_vec);
+		C_date_time_vec.push_back(tmp_date_time_vec);
+
+		}	//	if(same_xyz_pos.size()>1)
+
+		else {continue;}
+
+//	.......................................................
+		for(int l=working_3_x_vec.size()-1;l>-1;l--)
+		{
+		if(flags[l]==1)
+			{
+				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
+				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
+				working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
+				working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
+				working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
+				working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
+				working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
+				working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
+				working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
+				working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
+				working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
+			}
+		}	//	for(l)
+//	.......................................................
+		tmp_file_name_vec.clear();
+		tmp_frame_vec.clear();
+		tmp_collection_vec.clear();
+		tmp_group_vec.clear();
+		tmp_point_vec.clear();
+		tmp_x_vec.clear();
+		tmp_y_vec.clear();
+		tmp_z_vec.clear();
+		tmp_offp_vec.clear();
+		tmp_offr_vec.clear();
+		tmp_date_time_vec.clear();
+
+
+
+	flags.clear();
+	same_xyz.clear();
+	same_xyz_pos.clear();
+
+
+
+
+	}	//	for(i)
+
+
+
+
+
+
+
+
+	for(int i=0;i<working_33_x_vec.size();i++)
+	{
+		vector<int> same_xyz(working_3_x_vec.size(),0);
+		vector<int> flags(working_3_x_vec.size(),0);
+
+		for(int j=0;j<working_3_x_vec.size();j++)
+		{
+			if(working_33_point_vec[i]==working_3_point_vec[j] && fabs(working_3_x_vec[j]-working_33_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_33_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_33_z_vec[i])<eps)
+			{
+				replace( same_xyz.begin(), same_xyz.end(), same_xyz[j], 1 );
+				same_xyz_pos.push_back(j);
+			}
+		}
+
+	if(same_xyz_pos.size()>1)
+	{
+//		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
+
+		for(int j=0;j<working_3_x_vec.size();j++)
+		{
+			if(same_xyz[j]==1)
+			{
+				for(int k=0;k<working_3_x_vec.size();k++)
+				{
+					if(working_3_frame_vec[j]==working_3_frame_vec[k] && working_3_collection_vec[j]==working_3_collection_vec[k] && working_3_group_vec[j]==working_3_group_vec[k])
+					{
+					replace( flags.begin(), flags.end(), flags[j], 1 );
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+
+	
+
+
 
 		if(same_xyz_pos.size()>1)
 		{
@@ -7910,13 +8208,15 @@ cout<<"-------------------------------------------------------------------------
 	}	//	for(i)
 
 
-*/
 
 //	----------------------------------------------------------------------------
 //	3) END :	Classifying the points in 2D vector according to same frame	....
 //	----------------------------------------------------------------------------
 
 
+
+
+*/
 
 
 
