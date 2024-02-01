@@ -7187,13 +7187,13 @@ flagat.clear();
 
 
 
-/*
+
 
 //	----------------------------------------------------------------------------
 //	collecting some group of points from the points vector.
 
 //	-----------------------------------------------------------
-	a = string ("363_Hoehe_Schiene_Detector");
+	a = string ("363_Turn_center_check");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_363 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7209,7 +7209,7 @@ flagat.clear();
 	out_tree_363	->	Branch("offr",&out_offr);
 	out_tree_363	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("364_Dreh_zentr_umcheck");
+	a = string ("364_Height_Rail_Detector_DS_to_Plane_From_CAD");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_364 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7225,7 +7225,7 @@ flagat.clear();
 	out_tree_364	->	Branch("offr",&out_offr);
 	out_tree_364	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("365_Panel10O_1");
+	a = string ("365_Axis_of_rotation_PIM1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_365 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7241,7 +7241,7 @@ flagat.clear();
 	out_tree_365	->	Branch("offr",&out_offr);
 	out_tree_365	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("366_Panel10O_2");
+	a = string ("366_Axis_of_rotation_PIM1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_366 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7257,7 +7257,7 @@ flagat.clear();
 	out_tree_366	->	Branch("offr",&out_offr);
 	out_tree_366	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("367_Rotationsachse_PIM1");
+	a = string ("367_Axis_of_rotation_instr1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_367 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7273,7 +7273,7 @@ flagat.clear();
 	out_tree_367	->	Branch("offr",&out_offr);
 	out_tree_367	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("368_Rotationsachse_EC_local");
+	a = string ("368_Axis_of_rotation_instr2");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_368 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7289,7 +7289,7 @@ flagat.clear();
 	out_tree_368	->	Branch("offr",&out_offr);
 	out_tree_368	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("369_St4Calorimeter_instr1");
+	a = string ("369_Center_of_rotation_outward");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_369 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7305,7 +7305,7 @@ flagat.clear();
 	out_tree_369	->	Branch("offr",&out_offr);
 	out_tree_369	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("370_Rotationsachse");
+	a = string ("370_Center_of_rotation_rep");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_370 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7321,7 +7321,7 @@ flagat.clear();
 	out_tree_370	->	Branch("offr",&out_offr);
 	out_tree_370	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("371_St4Calorimeter_EC_local");
+	a = string ("371_Target_correction_HP_PIM1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_371 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7337,7 +7337,7 @@ flagat.clear();
 	out_tree_371	->	Branch("offr",&out_offr);
 	out_tree_371	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("372_RotationszentrumWdh");
+	a = string ("372_Target_correction_HP_Lokal_Mittig");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_372 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7353,7 +7353,7 @@ flagat.clear();
 	out_tree_372	->	Branch("offr",&out_offr);
 	out_tree_372	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("373_RotationszentrumHinweg");
+	a = string ("373_Target_correction_HP_Kammer_LOKAL");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_373 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7369,7 +7369,7 @@ flagat.clear();
 	out_tree_373	->	Branch("offr",&out_offr);
 	out_tree_373	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("374_Rotationsachse_instr2");
+	a = string ("374_Panel10O1_MUSE");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_374 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7385,7 +7385,7 @@ flagat.clear();
 	out_tree_374	->	Branch("offr",&out_offr);
 	out_tree_374	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("375_HP_PIM1");
+	a = string ("375_St4Calorimeter_PIM1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_375 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7401,7 +7401,7 @@ flagat.clear();
 	out_tree_375	->	Branch("offr",&out_offr);
 	out_tree_375	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("376_HP_local");
+	a = string ("376_St4Calorimeter_EC_local");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_376 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7417,7 +7417,7 @@ flagat.clear();
 	out_tree_376	->	Branch("offr",&out_offr);
 	out_tree_376	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("377_Panel6_instr2");
+	a = string ("377_St4Calorimeter_instr1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_377 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7433,7 +7433,7 @@ flagat.clear();
 	out_tree_377	->	Branch("offr",&out_offr);
 	out_tree_377	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("378_3_G_points_instr2");
+	a = string ("378_St4Calorimeter_instr2");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_378 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7449,7 +7449,7 @@ flagat.clear();
 	out_tree_378	->	Branch("offr",&out_offr);
 	out_tree_378	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("379_10_H_points_instr2");
+	a = string ("379_D_Detektor_Ref_hinten");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_379 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7465,7 +7465,7 @@ flagat.clear();
 	out_tree_379	->	Branch("offr",&out_offr);
 	out_tree_379	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("380_9_PIM1_points");
+	a = string ("380_D_Detektor_Ref_vorne");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_380 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7481,7 +7481,7 @@ flagat.clear();
 	out_tree_380	->	Branch("offr",&out_offr);
 	out_tree_380	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("381_19_H_points");
+	a = string ("381_Ref_1");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_381 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7497,7 +7497,7 @@ flagat.clear();
 	out_tree_381	->	Branch("offr",&out_offr);
 	out_tree_381	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("382_5_G_points");
+	a = string ("382_Ref_2");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_382 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7513,7 +7513,7 @@ flagat.clear();
 	out_tree_382	->	Branch("offr",&out_offr);
 	out_tree_382	->	Branch("date_time",&out_date_time);
 //	-----------------------------------------------------------
-	a = string ("383_2_TC_points");
+	a = string ("383_O_Oben");
 	trees.push_back(Form("%s",a.c_str()));
 	TTree *out_tree_383 = new TTree(Form("%s",a.c_str()),"");
 
@@ -7528,8 +7528,23 @@ flagat.clear();
 	out_tree_383	->	Branch("offp",&out_offp);
 	out_tree_383	->	Branch("offr",&out_offr);
 	out_tree_383	->	Branch("date_time",&out_date_time);
+//	-----------------------------------------------------------
+	a = string ("384_U_Unten");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_384 = new TTree(Form("%s",a.c_str()),"");
 
-*/
+	out_tree_384	->	Branch("file_name",&out_file_name);
+	out_tree_384	->	Branch("frame",&out_frame);
+	out_tree_384	->	Branch("collection",&out_collection);
+	out_tree_384	->	Branch("group",&out_group);
+	out_tree_384	->	Branch("point",&out_point);
+	out_tree_384	->	Branch("x",&out_x);
+	out_tree_384	->	Branch("y",&out_y);
+	out_tree_384	->	Branch("z",&out_z);
+	out_tree_384	->	Branch("offp",&out_offp);
+	out_tree_384	->	Branch("offr",&out_offr);
+	out_tree_384	->	Branch("date_time",&out_date_time);
+
 
 					/*
 
@@ -7552,7 +7567,7 @@ flagat.clear();
 
 					*/
 
-/*
+
 
 
 flagat.clear();
@@ -7585,77 +7600,74 @@ flagat.clear();
 
 
 //	...............................................
-	if((G=="HoeheSchieneDetectorDStoPlaneFromCAD")&&(C=="20181127KontrollenimAreal")&&F.Contains("20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)"))	
+	if(G=="Drehzentrumcheck" && F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)")	
 		{out_tree_363->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Drehzentrumcheck")&&(C=="201807012")&&F.Contains("20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)"))	
+	if(G=="HoeheSchieneDetectorDStoPlaneFromCAD" && F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)")	
 		{out_tree_364->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Panel10O1")&&(C=="20191030-GVPanel9-12")&&F.Contains("20191028::MUSE_2"))	
+	if(G=="Rotationsachse" && F=="20220119_Kontrolle_Rahmen::PIM1")	
 		{out_tree_365->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Panel10O1")&&(C=="20191030-GVPanel9-12")&&F.Contains("20191028::MUSE"))	
+	if(G=="Rotationsachse" && F=="20220830::EC-local")	
 		{out_tree_366->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Rotationsachse")&&(C=="20220810")&&F.Contains("20220119_Kontrolle_Rahmen::PIM1"))	
+	if(G=="Rotationsachse" && F=="20220831::Koordinatensystem_Instr20220831_1")	
 		{out_tree_367->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Rotationsachse")&&(C=="20220810")&&F.Contains("20220830::EC-local"))	
+	if(G=="Rotationsachse" && F=="202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2")	
 		{out_tree_368->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="St4Calorimeter")&&(C=="20220809")&&F.Contains("20220831::Koordinatensystem_Instr20220831_1")&&P.Contains("Ebene"))	
+	if(G=="RotationszentrumHinweg" && F=="20230118::MUSE")	
 		{out_tree_369->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Rotationsachse")&&(C=="20220810")&&F.Contains("20220831::Koordinatensystem_Instr20220831_1")&&P.Contains("P"))	
+	if(G=="RotationszentrumWdh" && F=="20230118::MUSE")	
 		{out_tree_370->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="St4Calorimeter")&&(C=="20220809")&&F.Contains("20220830::EC-local")&&P.Contains("Ebene"))	
+	if((G=="o10" || G=="o12") && F=="Station1::PIM1" && C=="Targetkorrektur")	
 		{out_tree_371->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="RotationszentrumWdh")&&(C=="20230118")&&F.Contains("20230118::MUSE")&&P.Contains("Rot"))	
+	if((G=="o10" || G=="o12") && F=="Grundvermessung_Vakuumkammer::Kammer_LOKAL" && C=="Targetkorrektur")	
 		{out_tree_372->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="RotationszentrumHinweg")&&(C=="20230118")&&F.Contains("20230118::MUSE")&&P.Contains("Rot"))	
+	if((G=="o10" || G=="o12") && F.Contains("Kammer_Lokal_Mittig") && C=="Targetkorrektur")	
 		{out_tree_373->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Rotationsachse")&&(C=="20220810")&&F.Contains("202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2")&&P.Contains("P"))	
+	if((G=="Panel10O1") && (F=="20191028::MUSE"||F=="20191028::MUSE_2") && C=="20191030-GVPanel9-12")	
 		{out_tree_374->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="o12")&&(C=="Targetkorrektur")&&F.Contains("Station1::PIM1")&&P.Contains("HP"))	
+	if((G=="St4Calorimeter") && (F=="20220119_Kontrolle_Rahmen::PIM1") && C=="20220809")	
 		{out_tree_375->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="o12")&&(C=="Targetkorrektur")&&F==("Grundvermessung_Vakuumkammer::Kammer_LOKAL")&&P.Contains("HP"))	
+	if((G=="St4Calorimeter") && (F=="20220830::EC-local") && C=="20220809")	
 		{out_tree_376->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="Ref")&&(C=="AufmassP6")&&F==("202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2")&&P.Contains("PA"))	
+	if((G=="St4Calorimeter") && (F=="20220831::Koordinatensystem_Instr20220831_1") && C=="20220809")	
 		{out_tree_377->Fill(); flagat.push_back(1);	continue;	}
-
 //	...............................................
-	if((G=="Gestelletc.Aufmass"||G=="St5GestellTelescope(DS)")&&(C=="20220810")&&F==("202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2"))	
-		{
-			if(P.Contains("G"))	{out_tree_378->Fill(); flagat.push_back(1);	continue;	}
-			if(P.Contains("H"))	{out_tree_379->Fill(); flagat.push_back(1);	continue;	}
-		}
+	if((G=="St4Calorimeter") && (F=="202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2") && C=="20220809")	
+		{out_tree_378->Fill(); flagat.push_back(1);	continue;	}
 //	...............................................
-	if((G=="1"||G=="2"||G=="6"||G=="7"||G=="AutoCorr1vorJust"||G=="GestellnJ"||G=="GestellST4"||G=="Instrument-6"||G=="NachFixierung"||
-		G=="Netz-2"||G=="Netz0712"||G=="Netz0712a"||G=="Netz0731"||G=="Netz2"||G=="PositioniereInstr.1"||G=="PositioniereInstr.1*"||
-		G=="PositioniereInstr.2"||G=="PositioniereInstr.3"||G=="RefGestellWdh"||G=="Vormontagereferenz")
-		&&(C=="2023019"||C=="20180706"||C=="20180731"||C=="20190719"||C=="20230117"||C=="20230118"||
-			C=="201807012"||C=="20181024Netzerweiterung"||C=="20210928KontrolleGestellnachEinbau")
-		&&(F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)"||F=="20191028::MUSE"||F=="20191028::MUSE_2"
-			||F=="20210928_Justierung_Vakuumkammer_und_Target::PIM1"||F=="20230118::MUSE"||F=="20230117::MUSE"||F=="2023019::MUSE"
-			||F=="Standpunkt_1::WORLD")	)
-	{
-		if(P.Contains("PIM"))	{out_tree_380->Fill(); flagat.push_back(1);	continue;	}
-		if(P.Contains("H"))		{out_tree_381->Fill(); flagat.push_back(1);	continue;	}
-		if(P.Contains("G"))		{out_tree_382->Fill(); flagat.push_back(1);	continue;	}
-		if(P.Contains("TC"))	{out_tree_383->Fill(); flagat.push_back(1);	continue;	}
-	}
-
-
-
-
-
+	if((G=="St4Calorimeter") && (F=="202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2") && C=="20220809")	
+		{out_tree_378->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if(G.Contains("Detektor_Ref_hinten") && (F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)") && C=="20180731")	
+		{out_tree_379->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if(G.Contains("Detektor_Ref_vorne") && (F=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)") && C=="20180731")	
+		{out_tree_380->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if(G.Contains("Referenzen") && (F=="Standpunkt_1::WORLD") && C=="20180425")	
+		{out_tree_381->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if(G.Contains("GEMsundSupport") && (F=="202209006_Wdh_mit_Gasdruck::Koordinatensystem_Instr2") && C=="20220913_GEMs")	
+		{out_tree_382->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if((G=="EbeneOben"||G=="Oben2") && (F=="Standpunkt_1::WORLD") && C=="Standpunkt1")	
+		{out_tree_383->Fill(); flagat.push_back(1);	continue;	}
+//	...............................................
+	if((G=="EbeneUnten"||G=="Unten2") && (F=="Standpunkt_1::WORLD") && C=="Standpunkt1")	
+		{out_tree_384->Fill(); flagat.push_back(1);	continue;	}
 
 
 //	...............................................
@@ -7683,32 +7695,6 @@ flagat.clear();
 		}
 	}	//	for(l)
 
-
-
-
-
-
-//	----------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-cout<<"--------------------------------------------------------------------------"<<working_points_x_vec.size()<<endl;
-
-
-
-
-
-
-
-
-
-
-
 //	.....................................................
 //	storing all the points from the vector to a TXT file.
 	ofstream out_file_9_3;
@@ -7719,27 +7705,6 @@ cout<<"-------------------------------------------------------------------------
 	}
 	out_file_9_3.close();
 //	.....................................................
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
 
 
 //	----------------------------------------------------------------------------
@@ -7780,13 +7745,11 @@ cout<<"-------------------------------------------------------------------------
 	vector<vector<float>>	C_x_vec,C_y_vec,C_z_vec,C_offp_vec,C_offr_vec;
 	vector<vector<TString>>	C_file_name_vec,C_frame_vec,C_collection_vec,C_group_vec,C_point_vec,C_date_time_vec;
 
-	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
-	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
-
 	vector<float>	tmp_x_vec,tmp_y_vec,tmp_z_vec,tmp_offp_vec,tmp_offr_vec;
 	vector<TString>	tmp_file_name_vec,tmp_frame_vec,tmp_collection_vec,tmp_group_vec,tmp_point_vec,tmp_date_time_vec;
 
-
+	vector<float>	tmp_1_x_vec,tmp_1_y_vec,tmp_1_z_vec,tmp_1_offp_vec,tmp_1_offr_vec;
+	vector<TString>	tmp_1_file_name_vec,tmp_1_frame_vec,tmp_1_collection_vec,tmp_1_group_vec,tmp_1_point_vec,tmp_1_date_time_vec;
 
 	vector<int>	same_xyz,same_combination_pos,flags;
 	flagat.clear();
@@ -7797,21 +7760,20 @@ cout<<"-------------------------------------------------------------------------
 //	..............................................................................
 //	First: separting the point from the same (Frame, Collection, Group) in the 2D C-vector.
 
-
+	int sum=0;
 //	int i=0;
 
-//	while(working_3_x_vec.size()>0)
 	for(int i=0;i<working_33_x_vec.size();i++)
 	{
-		cout<<"size : "<<working_3_x_vec.size();
+//		cout<<"size : "<<working_3_x_vec.size();
 
-		vector<int> same_combination_flag(working_3_x_vec.size(),0);	//	
+		vector<int> same_combination_flag;//(working_3_x_vec.size(),0);	//	
 
 		for(int j=0;j<working_3_x_vec.size();j++)
 		{
 			if(working_3_frame_vec[j]==working_33_frame_vec[i] && working_3_collection_vec[j]==working_33_collection_vec[i] && working_3_group_vec[j]==working_33_group_vec[i])
 			{
-				replace( same_combination_flag.begin(), same_combination_flag.end(), same_combination_flag[j], 1 );
+//				replace( same_combination_flag.begin(), same_combination_flag.end(), same_combination_flag[j], 1 );
 
 				tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
 				tmp_frame_vec.push_back(working_3_frame_vec[j]);
@@ -7824,9 +7786,13 @@ cout<<"-------------------------------------------------------------------------
 				tmp_offp_vec.push_back(working_3_offp_vec[j]);
 				tmp_offr_vec.push_back(working_3_offr_vec[j]);
 				tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
+
+				same_combination_flag.push_back(1);
 			}
+			else{same_combination_flag.push_back(0);}
 		}
 
+		sum=sum+tmp_x_vec.size();
 //	...
 		if(tmp_x_vec.size()>0)
 		{
@@ -7862,7 +7828,7 @@ cout<<"-------------------------------------------------------------------------
 		}	//	for(l)
 //	.......................................................
 	
-	cout<<"	done : "<<working_3_x_vec.size()<<"	within : "<<C_x_vec.size()<<"   frames, and the elements : "<<tmp_x_vec.size()<<endl;
+//	cout<<"	done : "<<working_3_x_vec.size()<<"	within : "<<C_x_vec.size()<<"   frames, and the elements : "<<tmp_x_vec.size()<<endl;
 
 	tmp_file_name_vec.clear();
 	tmp_frame_vec.clear();
@@ -7880,345 +7846,12 @@ cout<<"-------------------------------------------------------------------------
 
 
 
-	}	//	while(working_3_x_vec.size()>0)
-
-
+	}	//	for(i)
 
 
 //	----------------------------------------------------------------------------
 //	3) END :	Classifying the points in 2D vector according to same frame	....
 //	----------------------------------------------------------------------------
-
-/*
-
-
-
-
-//	----------------------------------------------------------------------------
-//	3) START :	Classifying the points in 2D vector according to same frame	....
-//	----------------------------------------------------------------------------
-	cout<<"START Block (3) : Classifying the points in 2D vector according to same frame "<<endl;
-
-	vector<float>	working_3_x_vec,working_3_y_vec,working_3_z_vec,working_3_offp_vec,working_3_offr_vec;
-	vector<TString>	working_3_file_name_vec,working_3_frame_vec,working_3_collection_vec,working_3_group_vec,working_3_point_vec,working_3_date_time_vec;
-
-	vector<float>	working_33_x_vec,working_33_y_vec,working_33_z_vec,working_33_offp_vec,working_33_offr_vec;
-	vector<TString>	working_33_file_name_vec,working_33_frame_vec,working_33_collection_vec,working_33_group_vec,working_33_point_vec,working_33_date_time_vec;
-
-	working_3_file_name_vec=working_points_file_name_vec;
-	working_3_frame_vec=working_points_frame_vec;
-	working_3_collection_vec=working_points_collection_vec;
-	working_3_group_vec=working_points_group_vec;
-	working_3_point_vec=working_points_point_vec;
-	working_3_x_vec=working_points_x_vec;
-	working_3_y_vec=working_points_y_vec;
-	working_3_z_vec=working_points_z_vec;
-	working_3_offp_vec=working_points_offp_vec;
-	working_3_offr_vec=working_points_offr_vec;
-	working_3_date_time_vec=working_points_date_time_vec;
-
-	working_33_file_name_vec=working_points_file_name_vec;
-	working_33_frame_vec=working_points_frame_vec;
-	working_33_collection_vec=working_points_collection_vec;
-	working_33_group_vec=working_points_group_vec;
-	working_33_point_vec=working_points_point_vec;
-	working_33_x_vec=working_points_x_vec;
-	working_33_y_vec=working_points_y_vec;
-	working_33_z_vec=working_points_z_vec;
-	working_33_offp_vec=working_points_offp_vec;
-	working_33_offr_vec=working_points_offr_vec;
-	working_33_date_time_vec=working_points_date_time_vec;
-
-	vector<vector<float>>	C_x_vec,C_y_vec,C_z_vec,C_offp_vec,C_offr_vec;
-	vector<vector<TString>>	C_file_name_vec,C_frame_vec,C_collection_vec,C_group_vec,C_point_vec,C_date_time_vec;
-
-	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
-	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
-
-	vector<float>	tmp_x_vec,tmp_y_vec,tmp_z_vec,tmp_offp_vec,tmp_offr_vec;
-	vector<TString>	tmp_file_name_vec,tmp_frame_vec,tmp_collection_vec,tmp_group_vec,tmp_point_vec,tmp_date_time_vec;
-
-
-
-	vector<int>	same_xyz,same_xyz_pos,flags;
-	flagat.clear();
-
-	float eps=3.0;
-
-
-//	..............................................................................
-//	First: separting the point from the same (Frame, Collection, Group) in the 2D C-vector.
-
-	for(int i=0;i<working_33_x_vec.size();i++)
-	{
-		vector<int> same_xyz(working_3_x_vec.size(),0);
-		vector<int> flags(working_3_x_vec.size(),0);
-
-		for(int j=0;j<working_3_x_vec.size();j++)
-		{
-			if(working_33_point_vec[i]==working_3_point_vec[j] && fabs(working_3_x_vec[j]-working_33_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_33_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_33_z_vec[i])<eps)
-			{
-				replace( same_xyz.begin(), same_xyz.end(), same_xyz[j], 1 );
-				same_xyz_pos.push_back(j);
-			}
-		}
-
-	if(same_xyz_pos.size()>1)
-	{
-//		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
-
-		for(int j=0;j<working_3_x_vec.size();j++)
-		{
-			if(same_xyz[j]==1)
-			{
-				for(int k=0;k<working_3_x_vec.size();k++)
-				{
-					if(working_3_frame_vec[j]==working_3_frame_vec[k] && working_3_collection_vec[j]==working_3_collection_vec[k] && working_3_group_vec[j]==working_3_group_vec[k])
-					{
-					replace( flags.begin(), flags.end(), flags[j], 1 );
-					}
-				}
-			}
-		}
-	}
-
-
-
-
-
-	
-
-
-
-		if(same_xyz_pos.size()>1)
-		{
-			cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
-			for(int k=0;k<same_xyz_pos.size();k++)
-			{
-				for(int j=0;j<working_3_x_vec.size();j++)
-				{
-					if(working_3_group_vec[same_xyz_pos[k]]==working_3_group_vec[j] && working_3_collection_vec[same_xyz_pos[k]]==working_3_collection_vec[j] && working_3_frame_vec[same_xyz_pos[k]]==working_3_frame_vec[j])
-					{
-					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
-					tmp_frame_vec.push_back(working_3_frame_vec[j]);
-					tmp_collection_vec.push_back(working_3_collection_vec[j]);
-					tmp_group_vec.push_back(working_3_group_vec[j]);
-					tmp_point_vec.push_back(working_3_point_vec[j]);
-					tmp_x_vec.push_back(working_3_x_vec[j]);
-					tmp_y_vec.push_back(working_3_y_vec[j]);
-					tmp_z_vec.push_back(working_3_z_vec[j]);
-					tmp_offp_vec.push_back(working_3_offp_vec[j]);
-					tmp_offr_vec.push_back(working_3_offr_vec[j]);
-					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
-
-					replace( flags.begin(), flags.end(), flags[j], 1 );
-					}
-				}
-			}
-//	...
-		C_file_name_vec.push_back(tmp_file_name_vec);
-		C_frame_vec.push_back(tmp_frame_vec);
-		C_collection_vec.push_back(tmp_collection_vec);
-		C_group_vec.push_back(tmp_group_vec);
-		C_point_vec.push_back(tmp_point_vec);
-		C_x_vec.push_back(tmp_x_vec);
-		C_y_vec.push_back(tmp_y_vec);
-		C_z_vec.push_back(tmp_z_vec);
-		C_offp_vec.push_back(tmp_offp_vec);
-		C_offr_vec.push_back(tmp_offr_vec);
-		C_date_time_vec.push_back(tmp_date_time_vec);
-
-		}	//	if(same_xyz_pos.size()>1)
-
-		else {continue;}
-
-//	.......................................................
-		for(int l=working_3_x_vec.size()-1;l>-1;l--)
-		{
-		if(flags[l]==1)
-			{
-				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
-				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
-				working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
-				working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
-				working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
-				working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
-				working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
-				working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
-				working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
-				working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
-				working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
-			}
-		}	//	for(l)
-//	.......................................................
-		tmp_file_name_vec.clear();
-		tmp_frame_vec.clear();
-		tmp_collection_vec.clear();
-		tmp_group_vec.clear();
-		tmp_point_vec.clear();
-		tmp_x_vec.clear();
-		tmp_y_vec.clear();
-		tmp_z_vec.clear();
-		tmp_offp_vec.clear();
-		tmp_offr_vec.clear();
-		tmp_date_time_vec.clear();
-
-
-
-	flags.clear();
-	same_xyz.clear();
-	same_xyz_pos.clear();
-
-
-
-
-	}	//	for(i)
-
-
-
-
-
-
-
-
-	for(int i=0;i<working_33_x_vec.size();i++)
-	{
-		vector<int> same_xyz(working_3_x_vec.size(),0);
-		vector<int> flags(working_3_x_vec.size(),0);
-
-		for(int j=0;j<working_3_x_vec.size();j++)
-		{
-			if(working_33_point_vec[i]==working_3_point_vec[j] && fabs(working_3_x_vec[j]-working_33_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_33_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_33_z_vec[i])<eps)
-			{
-				replace( same_xyz.begin(), same_xyz.end(), same_xyz[j], 1 );
-				same_xyz_pos.push_back(j);
-			}
-		}
-
-	if(same_xyz_pos.size()>1)
-	{
-//		cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
-
-		for(int j=0;j<working_3_x_vec.size();j++)
-		{
-			if(same_xyz[j]==1)
-			{
-				for(int k=0;k<working_3_x_vec.size();k++)
-				{
-					if(working_3_frame_vec[j]==working_3_frame_vec[k] && working_3_collection_vec[j]==working_3_collection_vec[k] && working_3_group_vec[j]==working_3_group_vec[k])
-					{
-					replace( flags.begin(), flags.end(), flags[j], 1 );
-					}
-				}
-			}
-		}
-	}
-
-
-
-
-
-	
-
-
-
-		if(same_xyz_pos.size()>1)
-		{
-			cout<<i<<" ) "<<same_xyz_pos.size()<<endl;
-
-			for(int k=0;k<same_xyz_pos.size();k++)
-			{
-				for(int j=0;j<working_3_x_vec.size();j++)
-				{
-					if(working_3_group_vec[same_xyz_pos[k]]==working_3_group_vec[j] && working_3_collection_vec[same_xyz_pos[k]]==working_3_collection_vec[j] && working_3_frame_vec[same_xyz_pos[k]]==working_3_frame_vec[j])
-					{
-					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
-					tmp_frame_vec.push_back(working_3_frame_vec[j]);
-					tmp_collection_vec.push_back(working_3_collection_vec[j]);
-					tmp_group_vec.push_back(working_3_group_vec[j]);
-					tmp_point_vec.push_back(working_3_point_vec[j]);
-					tmp_x_vec.push_back(working_3_x_vec[j]);
-					tmp_y_vec.push_back(working_3_y_vec[j]);
-					tmp_z_vec.push_back(working_3_z_vec[j]);
-					tmp_offp_vec.push_back(working_3_offp_vec[j]);
-					tmp_offr_vec.push_back(working_3_offr_vec[j]);
-					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
-
-					replace( flags.begin(), flags.end(), flags[j], 1 );
-					}
-				}
-			}
-//	...
-		C_file_name_vec.push_back(tmp_file_name_vec);
-		C_frame_vec.push_back(tmp_frame_vec);
-		C_collection_vec.push_back(tmp_collection_vec);
-		C_group_vec.push_back(tmp_group_vec);
-		C_point_vec.push_back(tmp_point_vec);
-		C_x_vec.push_back(tmp_x_vec);
-		C_y_vec.push_back(tmp_y_vec);
-		C_z_vec.push_back(tmp_z_vec);
-		C_offp_vec.push_back(tmp_offp_vec);
-		C_offr_vec.push_back(tmp_offr_vec);
-		C_date_time_vec.push_back(tmp_date_time_vec);
-
-		}	//	if(same_xyz_pos.size()>1)
-
-		else {continue;}
-
-//	.......................................................
-		for(int l=working_3_x_vec.size()-1;l>-1;l--)
-		{
-		if(flags[l]==1)
-			{
-				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
-				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
-				working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
-				working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
-				working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
-				working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
-				working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
-				working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
-				working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
-				working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
-				working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
-			}
-		}	//	for(l)
-//	.......................................................
-		tmp_file_name_vec.clear();
-		tmp_frame_vec.clear();
-		tmp_collection_vec.clear();
-		tmp_group_vec.clear();
-		tmp_point_vec.clear();
-		tmp_x_vec.clear();
-		tmp_y_vec.clear();
-		tmp_z_vec.clear();
-		tmp_offp_vec.clear();
-		tmp_offr_vec.clear();
-		tmp_date_time_vec.clear();
-
-
-
-	flags.clear();
-	same_xyz.clear();
-	same_xyz_pos.clear();
-
-
-
-
-	}	//	for(i)
-
-
-
-//	----------------------------------------------------------------------------
-//	3) END :	Classifying the points in 2D vector according to same frame	....
-//	----------------------------------------------------------------------------
-
-
-
-
-*/
-
-
 
 //	.....................................................
 //	storing all the points from the vector to a TXT file.
@@ -8240,228 +7873,6 @@ cout<<"-------------------------------------------------------------------------
 
 
 
-/*
-
-
-////////////////////////////////////////////////////////////
-	for(int i=0;i<working_points_x_vec.size();i++)
-	{
-//	.......................................................
-		for(int j=0;j<working_3_x_vec.size();j++)
-		{
-		if(fabs(working_3_x_vec[j]-working_points_x_vec[i])<eps && fabs(working_3_y_vec[j]-working_points_y_vec[i])<eps && fabs(working_3_z_vec[j]-working_points_z_vec[i])<eps && working_3_point_vec[j]==working_points_point_vec[i])
-			{
-				same_xyz.push_back(j);
-			}
-		}
-//	.......................................................
-	if(same_xyz.size()>2)	{	cout<<"the size before : "<<working_3_x_vec.size()<<"	";	}
-//	.......................................................
-	if(same_xyz.size()>2)
-	{	
-		for(int m=0;m<same_xyz.size();m++)
-		{	
-			for(int j=0;j<working_3_x_vec.size();j++)
-			{
-				if((working_3_frame_vec[j]==working_3_frame_vec[same_xyz[m]]) && (working_3_group_vec[j]==working_3_group_vec[same_xyz[m]]) && (working_3_collection_vec[j]==working_3_collection_vec[same_xyz[m]]))
-				{
-					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
-					tmp_frame_vec.push_back(working_3_frame_vec[j]);
-					tmp_collection_vec.push_back(working_3_collection_vec[j]);
-					tmp_group_vec.push_back(working_3_group_vec[j]);
-					tmp_point_vec.push_back(working_3_point_vec[j]);
-					tmp_x_vec.push_back(working_3_x_vec[j]);
-					tmp_y_vec.push_back(working_3_y_vec[j]);
-					tmp_z_vec.push_back(working_3_z_vec[j]);
-					tmp_offp_vec.push_back(working_3_offp_vec[j]);
-					tmp_offr_vec.push_back(working_3_offr_vec[j]);
-					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
-
-					flags.push_back(1);
-				//	replace( flags.begin(), flags.end(), flags[j], 1 );
-				}
-				else{flags.push_back(0);}		//	else{flags.push_back(0);}
-			}	//	for(j)
-//	.......................................................
-		for(int l=working_3_x_vec.size()-1;l>-1;l--)
-		{
-			if(flags[l]==1)
-			{
-				working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
-				working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
-				working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
-				working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
-				working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
-				working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
-				working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
-				working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
-				working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
-				working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
-				working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
-			}
-		}	//	for(l)
-//	.......................................................
-
-		flags.clear();
-		}		//	for(m)
-//	...............................................
-
-	C_file_name_vec.push_back(tmp_file_name_vec);
-	C_frame_vec.push_back(tmp_frame_vec);
-	C_collection_vec.push_back(tmp_collection_vec);
-	C_group_vec.push_back(tmp_group_vec);
-	C_point_vec.push_back(tmp_point_vec);
-	C_x_vec.push_back(tmp_x_vec);
-	C_y_vec.push_back(tmp_y_vec);
-	C_z_vec.push_back(tmp_z_vec);
-	C_offp_vec.push_back(tmp_offp_vec);
-	C_offr_vec.push_back(tmp_offr_vec);
-	C_date_time_vec.push_back(tmp_date_time_vec);
-//	...............................................
-
-	cout<<" ) the size after : "<<working_3_x_vec.size()<<"	| the 1-D vector size : "<<tmp_x_vec.size()<<" | the C 2-D vec size : "<<C_x_vec.size()<<endl;
-
-	tmp_file_name_vec.clear();
-	tmp_frame_vec.clear();
-	tmp_collection_vec.clear();
-	tmp_group_vec.clear();
-	tmp_point_vec.clear();
-	tmp_x_vec.clear();
-	tmp_y_vec.clear();
-	tmp_z_vec.clear();
-	tmp_offp_vec.clear();
-	tmp_offr_vec.clear();
-	tmp_date_time_vec.clear();
-	same_xyz.clear();
-	}			//	if(same_xyz.size()>1)
-	same_xyz.clear();
-
-	}	//	for(i)
-//////////////////////////////////////////////////////
-
-
-
-
-//	...............................................
-//	also storing the single (non repeated) points in the last 1D vector inside the C-2D grand vector.
-
-			for(int j=0;j<working_3_x_vec.size();j++)
-			{
-				if(1==1)
-				{
-					tmp_file_name_vec.push_back(working_3_file_name_vec[j]);
-					tmp_frame_vec.push_back(working_3_frame_vec[j]);
-					tmp_collection_vec.push_back(working_3_collection_vec[j]);
-					tmp_group_vec.push_back(working_3_group_vec[j]);
-					tmp_point_vec.push_back(working_3_point_vec[j]);
-					tmp_x_vec.push_back(working_3_x_vec[j]);
-					tmp_y_vec.push_back(working_3_y_vec[j]);
-					tmp_z_vec.push_back(working_3_z_vec[j]);
-					tmp_offp_vec.push_back(working_3_offp_vec[j]);
-					tmp_offr_vec.push_back(working_3_offr_vec[j]);
-					tmp_date_time_vec.push_back(working_3_date_time_vec[j]);
-
-					flags.push_back(1);
-				//	replace( flags.begin(), flags.end(), flags[j], 1 );
-				}
-				else{flags.push_back(0);}
-				//	else{flags.push_back(0);}
-			}	//	for(j)
-
-//	...............................................
-	for(int l=working_3_x_vec.size()-1;l>-1;l--)
-	{
-		if(flags[l]==1)
-		{
-			working_3_file_name_vec.erase(std::next(working_3_file_name_vec.begin(),l));
-			working_3_frame_vec.erase(std::next(working_3_frame_vec.begin(),l));
-			working_3_collection_vec.erase(std::next(working_3_collection_vec.begin(),l));
-			working_3_group_vec.erase(std::next(working_3_group_vec.begin(),l));
-			working_3_point_vec.erase(std::next(working_3_point_vec.begin(),l));
-			working_3_x_vec.erase(std::next(working_3_x_vec.begin(),l));
-			working_3_y_vec.erase(std::next(working_3_y_vec.begin(),l));
-			working_3_z_vec.erase(std::next(working_3_z_vec.begin(),l));
-			working_3_offp_vec.erase(std::next(working_3_offp_vec.begin(),l));
-			working_3_offr_vec.erase(std::next(working_3_offr_vec.begin(),l));
-			working_3_date_time_vec.erase(std::next(working_3_date_time_vec.begin(),l));
-		}
-	}	//	for(l)
-//	...............................................
-
-
-
-//	----------------------------------------------------------------------------
-//	3) END :	Classifying the points in 2D vector according to same frame	....
-//	----------------------------------------------------------------------------
-
-*/
-
-
-
-/*
-
-
-
-
-
-//	.....................................................
-//	storing all the points from the vector to a TXT file.
-	ofstream out_file_9_5;
-	out_file_9_5.open("classified_points.txt");
-	for(int i=0;i<C_x_vec.size();i++)
-	{for(int j=0;j<C_x_vec[i].size();j++)
-	{
-		out_file_9_5<<C_file_name_vec[i][j]<<","<<C_frame_vec[i][j]<<","<<C_collection_vec[i][j]<<","<<C_group_vec[i][j]<<","<<C_point_vec[i][j]<<","<<C_x_vec[i][j]<<","<<C_y_vec[i][j]<<","<<C_z_vec[i][j]<<" ,  "<<C_offp_vec[i][j]<<","<<C_offr_vec[i][j]<<","<<C_date_time_vec[i][j]<<endl;
-	}
-	out_file_9_5<<endl;
-	}
-	out_file_9_5.close();
-//	.....................................................
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
-	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
-
-
-
-
-
-	
-	D_x_vec			=	C_x_vec;
-	D_y_vec			=	C_y_vec;
-	D_z_vec			=	C_z_vec;
-	D_offp_vec		=	C_offp_vec;
-	D_offr_vec		=	C_offr_vec;
-	D_file_name_vec	=	C_file_name_vec;
-	D_frame_vec		=	C_frame_vec;
-	D_collection_vec=	C_collection_vec;
-	D_group_vec		=	C_group_vec;
-	D_point_vec		=	C_point_vec;
-	D_date_time_vec	=	C_date_time_vec;
-
-
-
-
-
-
-
-
-
-///////////////////////////////////////////////////
 
 
 
@@ -8469,9 +7880,7 @@ cout<<"-------------------------------------------------------------------------
 //	----------------------------------------------------------------------------
 //	4) START :	Unifying frames to the Hall fram	............................
 //	----------------------------------------------------------------------------
-	cout<<"START Block (4) : Unifying frames to the Hall fram. "<<endl;
-
-
+	cout<<"START Block (4) : Unifying points' frames to the Hall fram. "<<endl;
 
 //	The transformation goes through the following steps:
 //	1) In the 1st Block: collecting all the points from different files and frames. Then, store them in one big vector for each parameter { file_name, frame, collection, group, point_name, x, y, z, offp, offr, date_time.
@@ -8491,7 +7900,20 @@ cout<<"-------------------------------------------------------------------------
 //			6) Adding the A1 vector to all the points to return the points to their original position, which is the undoing step (3).
 //		*	storing the transformation parameters {dr (vector) , step_back (vector), rot_axis_1 (vector), theta_1 (float), rot_axis_2 (vector), theta_2 (float)}.
 
-
+	vector<vector<float>>	D_x_vec,D_y_vec,D_z_vec,D_offp_vec,D_offr_vec;
+	vector<vector<TString>>	D_file_name_vec,D_frame_vec,D_collection_vec,D_group_vec,D_point_vec,D_date_time_vec;
+	
+	D_x_vec			=	C_x_vec;
+	D_y_vec			=	C_y_vec;
+	D_z_vec			=	C_z_vec;
+	D_offp_vec		=	C_offp_vec;
+	D_offr_vec		=	C_offr_vec;
+	D_file_name_vec	=	C_file_name_vec;
+	D_frame_vec		=	C_frame_vec;
+	D_collection_vec=	C_collection_vec;
+	D_group_vec		=	C_group_vec;
+	D_point_vec		=	C_point_vec;
+	D_date_time_vec	=	C_date_time_vec;
 
 //	....................................................
 	vector<float>	working_4_x_vec,working_4_y_vec,working_4_z_vec,working_4_offp_vec,working_4_offr_vec;
@@ -8522,7 +7944,8 @@ cout<<"-------------------------------------------------------------------------
 	flagat.clear();
 
 //	....................................................
-//	deterrmining some of the hall frames...
+//	picking one of the hall frames... and start converting/sorting points' coordinates to the picked frame in the "final_..._vec" vector  
+
 	for (int i=0;i<working_points_x_vec.size();i++)
 	{
 		bool hall_file_frame_flag	=(file_name_vec[i]=="20181028_WEHA_PIM1_Muse_calc" && frame_vec[i]=="20181128_Kontrollen_im_Areal::Drehzentrum-Strahl_(MUSE)");
@@ -8531,7 +7954,7 @@ cout<<"-------------------------------------------------------------------------
 		bool hall_coll_group_3_flag	=(collection_vec[i]=="20181024Netzerweiterung" && group_vec[i]=="Netz-2");
 		bool hall_coll_group_4_flag	=(collection_vec[i]=="20181024Detektoren" && group_vec[i]=="REF");
 		bool hall_frame_flag=hall_file_frame_flag && (hall_coll_group_1_flag||hall_coll_group_2_flag||hall_coll_group_3_flag||hall_coll_group_4_flag);
-
+//	....
 		if(hall_frame_flag)	
 		{	
 			final_file_name_vec.push_back(working_4_file_name_vec[i]);
@@ -8550,52 +7973,143 @@ cout<<"-------------------------------------------------------------------------
 		}	//	if(hall_frame_flag)
 		else{flagat.push_back(0);}
 	}	//	for(i)
-//	....................................................
 
-//	...............................................
-	for(int l=working_4_x_vec.size()-1;l>-1;l--)
+cout<<"before : "<<D_x_vec.size()<<"	final_vec_size : "<<final_x_vec.size()<<endl;
+//	................................................
+//	first, combine the same points-frames, without transformations.
+
+for(int N=0;N<4;N++)
+{
+	for(int i=0;i<C_x_vec.size();i++)
 	{
-		if(flagat[l]==1)
+		int same_frame=0;
+//	...............................................
+		for(int j=0;j<D_x_vec[i].size();j++)
 		{
-			working_4_file_name_vec.erase(std::next(working_4_file_name_vec.begin(),l));
-			working_4_frame_vec.erase(std::next(working_4_frame_vec.begin(),l));
-			working_4_collection_vec.erase(std::next(working_4_collection_vec.begin(),l));
-			working_4_group_vec.erase(std::next(working_4_group_vec.begin(),l));
-			working_4_point_vec.erase(std::next(working_4_point_vec.begin(),l));
-			working_4_x_vec.erase(std::next(working_4_x_vec.begin(),l));
-			working_4_y_vec.erase(std::next(working_4_y_vec.begin(),l));
-			working_4_z_vec.erase(std::next(working_4_z_vec.begin(),l));
-			working_4_offp_vec.erase(std::next(working_4_offp_vec.begin(),l));
-			working_4_offr_vec.erase(std::next(working_4_offr_vec.begin(),l));
-			working_4_date_time_vec.erase(std::next(working_4_date_time_vec.begin(),l));
-		}
-	}	//	for(l)
+			for(int m=0;m<final_x_vec.size();m++)
+			{
+				if(final_point_vec[m]==D_point_vec[i][j] && fabs(final_x_vec[m]-D_x_vec[i][j])+fabs(final_y_vec[m]-D_y_vec[i][j])+fabs(final_z_vec[m]-D_z_vec[i][j])<eps 	)
+				{
+					same_frame=1;
+				}
+			}	//	for(m
+		}		//	for(j)	the 1-D internal vectors, inside C-vectors, each contains the same-frame points.
+//	...............................................
+
+		if(same_frame==1)
+		{
+			for(int j=0;j<D_x_vec[i].size();j++)
+				{
+					final_file_name_vec.push_back(D_file_name_vec[i][j]);
+					final_frame_vec.push_back(D_frame_vec[i][j]);
+					final_collection_vec.push_back(D_collection_vec[i][j]);
+					final_group_vec.push_back(D_group_vec[i][j]);
+					final_point_vec.push_back(D_point_vec[i][j]);
+					final_x_vec.push_back(D_x_vec[i][j]);
+					final_y_vec.push_back(D_y_vec[i][j]);
+					final_z_vec.push_back(D_z_vec[i][j]);
+					final_offp_vec.push_back(D_offp_vec[i][j]);
+					final_offr_vec.push_back(D_offr_vec[i][j]);
+					final_date_time_vec.push_back(D_date_time_vec[i][j]);
+				}	//	for(j)
+		//	.......................................................
+				D_file_name_vec.erase(std::next(D_file_name_vec.begin(),i));
+				D_frame_vec.erase(std::next(D_frame_vec.begin(),i));
+				D_collection_vec.erase(std::next(D_collection_vec.begin(),i));
+				D_group_vec.erase(std::next(D_group_vec.begin(),i));
+				D_point_vec.erase(std::next(D_point_vec.begin(),i));
+				D_x_vec.erase(std::next(D_x_vec.begin(),i));
+				D_y_vec.erase(std::next(D_y_vec.begin(),i));
+				D_z_vec.erase(std::next(D_z_vec.begin(),i));
+				D_offp_vec.erase(std::next(D_offp_vec.begin(),i));
+				D_offr_vec.erase(std::next(D_offr_vec.begin(),i));
+				D_date_time_vec.erase(std::next(D_date_time_vec.begin(),i));
+		//	.......................................................
+		}	//	if(off_dist)
+	}		//	for(i)	the 2-D C-vectors
+}			//	for(N)
 //	...............................................
 
 
+cout<<"after : "<<D_x_vec.size()<<"	final_vec_size : "<<final_x_vec.size()<<endl;
 
 
-	int sss=D_x_vec.size();
 
 
-
-//	:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-	for(int N=0;N<10;N++)
+//	.....................................................
+//	storing all the points from the vector to a TXT file.
+	ofstream out_file_9_6;
+	out_file_9_6.open("096_non_classified_points.txt");
+	for(int i=0;i<D_x_vec.size();i++)
+	{for(int j=0;j<D_x_vec[i].size();j++)
 	{
-		int i=0;
+		out_file_9_6<<D_file_name_vec[i][j]<<","<<D_frame_vec[i][j]<<","<<D_collection_vec[i][j]<<","<<D_group_vec[i][j]<<","<<D_point_vec[i][j]<<","<<D_x_vec[i][j]<<","<<D_y_vec[i][j]<<","<<D_z_vec[i][j]<<" ,  "<<D_offp_vec[i][j]<<","<<D_offr_vec[i][j]<<","<<D_date_time_vec[i][j]<<endl;
+	}
+	out_file_9_6<<endl;
+	}
+	out_file_9_6.close();
+//	.....................................................
+
+
+
+//	.....................................................
+//	storing all the points from the vector to a TXT file.
+	ofstream out_file_9_7;
+	out_file_9_7.open("097_final_vec_points.txt");
+	for(int i=0;i<final_x_vec.size();i++)
+	{
+		out_file_9_7<<final_file_name_vec[i]<<","<<final_frame_vec[i]<<","<<final_collection_vec[i]<<","<<final_group_vec[i]<<","<<final_point_vec[i]<<","<<final_x_vec[i]<<","<<final_y_vec[i]<<","<<final_z_vec[i]<<" ,  "<<final_offp_vec[i]<<","<<final_offr_vec[i]<<","<<final_date_time_vec[i]<<endl;
+	}
+	out_file_9_7.close();
+//	.....................................................
+
+//	-----------------------------------------------------------
+	a = string ("1000_final_vec");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_1000 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_1000	->	Branch("file_name",&out_file_name);
+	out_tree_1000	->	Branch("frame",&out_frame);
+	out_tree_1000	->	Branch("collection",&out_collection);
+	out_tree_1000	->	Branch("group",&out_group);
+	out_tree_1000	->	Branch("point",&out_point);
+	out_tree_1000	->	Branch("x",&out_x);
+	out_tree_1000	->	Branch("y",&out_y);
+	out_tree_1000	->	Branch("z",&out_z);
+	out_tree_1000	->	Branch("offp",&out_offp);
+	out_tree_1000	->	Branch("offr",&out_offr);
+	out_tree_1000	->	Branch("date_time",&out_date_time);
+//..................................................................
+for(int i=0;i<final_x_vec.size();i++)
+{
+		out_file_name=final_file_name_vec[i];
+		out_frame=final_file_name_vec[i];
+		out_collection=final_collection_vec[i];
+		out_group=final_group_vec[i];
+		out_point=final_group_vec[i]+"___"+working_2_point_vec[i];
+		out_x=final_x_vec[i];
+		out_y=final_y_vec[i];
+		out_z=final_z_vec[i];
+		out_offp=final_offp_vec[i];
+		out_offr=final_offr_vec[i];
+		out_date_time=final_date_time_vec[i];
+	out_tree_1000->Fill();
+}
+//	.....................................................
 
 
 
 
 
+/*
+
+for(int N=0;N<4;N++)
+{
 
 
 //	...............................................
-//	for(int i=0;i<D_x_vec.size();i++)
-	while(D_x_vec.size()>0 && i<sss)
+	for(int i=0;i<C_x_vec.size();i++)
 	{
-	
-
 	TString		same_point_1="000";
 	TString		same_point_2="000";
 	TString		same_point_3="000";
@@ -8625,26 +8139,28 @@ cout<<"-------------------------------------------------------------------------
 
 	if(A3_xs.size()>2)		//	if the common points are 3 then we can start the transformation.
 	{
-			A1.SetXYZ(A3_xs[0],A3_ys[0],A3_zs[0]);
-			A2.SetXYZ(A3_xs[1],A3_ys[1],A3_zs[1]);
-			A3.SetXYZ(A3_xs[2],A3_ys[2],A3_zs[2]);
-			B1.SetXYZ(B3_xs[0],B3_ys[0],B3_zs[0]);
-			B2.SetXYZ(B3_xs[1],B3_ys[1],B3_zs[1]);
-			B3.SetXYZ(B3_xs[2],B3_ys[2],B3_zs[2]);
+		A1.SetXYZ(A3_xs[0],A3_ys[0],A3_zs[0]);
+		A2.SetXYZ(A3_xs[1],A3_ys[1],A3_zs[1]);
+		A3.SetXYZ(A3_xs[2],A3_ys[2],A3_zs[2]);
+		B1.SetXYZ(B3_xs[0],B3_ys[0],B3_zs[0]);
+		B2.SetXYZ(B3_xs[1],B3_ys[1],B3_zs[1]);
+		B3.SetXYZ(B3_xs[2],B3_ys[2],B3_zs[2]);
 
 	float A12_dist,A13_dist,A23_dist,B12_dist,B13_dist,B23_dist;
 
 	A12_dist=(A2-A1).Mag();	A13_dist=(A3-A1).Mag();	A23_dist=(A2-A3).Mag();
 	B12_dist=(B2-B1).Mag();	B13_dist=(B3-B1).Mag();	B23_dist=(B2-B3).Mag();
 
-	bool off_dist= (fabs(A12_dist-B12_dist) + fabs(A13_dist-B13_dist) + fabs(A23_dist-B23_dist))<20;
+	float triangle_offset=100000; // mm
+
+	bool off_dist= (fabs(A12_dist-B12_dist) + fabs(A13_dist-B13_dist) + fabs(A23_dist-B23_dist))<triangle_offset;
 	cout<<"the triangle offset-distance    :  "<<(fabs(A12_dist-B12_dist) + fabs(A13_dist-B13_dist) + fabs(A23_dist-B23_dist))<<endl;
-	cout<<"If the value small (<20 mm), then they are the same collection of points, and the transformation will be don."<<endl;
+	cout<<"If the value small (<"<<triangle_offset<<" mm), then they are the same collection of points, and the transformation will be done."<<endl;
 
 
-cout<<endl;
-cout<<i<<" ) these are 3 common points : "<<same_point_1<<" , "<<same_point_2<<" , "<<same_point_3<<endl;
-cout<<"......................................................."<<endl;
+	cout<<endl;
+	cout<<i<<" ) these are 3 common points : "<<same_point_1<<" , "<<same_point_2<<" , "<<same_point_3<<endl;
+	cout<<"......................................................."<<endl;
 
 
 	cout<<"coordenates before transformations :"<<endl;
@@ -8664,189 +8180,186 @@ cout<<"......................................................."<<endl;
 
 
 
-	if(off_dist)
-	{
+		if(off_dist)
+		{
 
 
-//	1) finding the 1st transformation : the draging dx,dy,dz.
+		//	1) finding the 1st transformation : the draging dx,dy,dz.
 
-		dx	=	B1.X()-A1.X();
-		dy	=	B1.Y()-A1.Y();
-		dz	=	B1.Z()-A1.Z();
+				dx	=	B1.X()-A1.X();
+				dy	=	B1.Y()-A1.Y();
+				dz	=	B1.Z()-A1.Z();
 
-		dr.SetXYZ(dx,dy,dz);
+				dr.SetXYZ(dx,dy,dz);
 
-		B1=B1-dr;	B2=B2-dr;	B3=B3-dr;
-//	.......................................................
-	cout<<"coordenates after 1st transformation :"<<endl;
+				B1=B1-dr;	B2=B2-dr;	B3=B3-dr;
+		//	.......................................................
+			cout<<"coordenates after 1st transformation :"<<endl;
 
-	cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
-	cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
-	cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
-	cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
-	cout<<endl;
-	cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
-	cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
-	cout<<"------------------------------------------"<<endl;
+			cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
+			cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
+			cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
+			cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
+			cout<<endl;
+			cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
+			cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
+			cout<<"------------------------------------------"<<endl;
 
-//	2) sending A1,B1 to the origin, the rotatin is around a vector passing through the origin.
+		//	2) sending A1,B1 to the origin, the rotatin is around a vector passing through the origin.
 
-	step_back=A1;
+			step_back=A1;
 
-	A1=A1-step_back;	A2=A2-step_back;	A3=A3-step_back;
-	B1=B1-step_back;	B2=B2-step_back;	B3=B3-step_back;
+			A1=A1-step_back;	A2=A2-step_back;	A3=A3-step_back;
+			B1=B1-step_back;	B2=B2-step_back;	B3=B3-step_back;
 
-//	.......................................................
-	cout<<"coordenates after 2nd transformation :"<<endl;
+		//	.......................................................
+			cout<<"coordenates after 2nd transformation :"<<endl;
 
-	cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
-	cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
-	cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
-	cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
-	cout<<endl;
-	cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
-	cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
-	cout<<"------------------------------------------"<<endl;
+			cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
+			cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
+			cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
+			cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
+			cout<<endl;
+			cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
+			cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
+			cout<<"------------------------------------------"<<endl;
 
-//	3) finding the 2nd transformation : rotating by theta_1.
+		//	3) finding the 2nd transformation : rotating by theta_1.
 
-	norm_1	=	(B2).Cross(A2);
-	theta_1	=	(B2).Angle(A2);
+			norm_1	=	(B2).Cross(A2);
+			theta_1	=	(B2).Angle(A2);
 
-	rot_axis_1=norm_1;
-	cout<<"theta_1 : "<<(180/PI)*theta_1<<endl;
-	B1.Rotate(theta_1,rot_axis_1);	B2.Rotate(theta_1,rot_axis_1);	B3.Rotate(theta_1,rot_axis_1);
-//	.......................................................
-	cout<<"coordenates after 3rd transformation :"<<endl;
+			rot_axis_1=norm_1;
+			cout<<"theta_1 : "<<(180/PI)*theta_1<<endl;
+			B1.Rotate(theta_1,rot_axis_1);	B2.Rotate(theta_1,rot_axis_1);	B3.Rotate(theta_1,rot_axis_1);
+		//	.......................................................
+			cout<<"coordenates after 3rd transformation :"<<endl;
 
-	cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
-	cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
-	cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
-	cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
-	cout<<endl;
-	cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
-	cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
-	cout<<"------------------------------------------"<<endl;
-//	.......................................................
-//	4) finding the 4rth transformation : rotating by theta_1.
+			cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
+			cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
+			cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
+			cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
+			cout<<endl;
+			cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
+			cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
+			cout<<"------------------------------------------"<<endl;
+		//	.......................................................
+		//	4) finding the 4rth transformation : rotating by theta_1.
 
-	norm_2	=	(B2).Cross(B3);
-	norm_3	=	(A2).Cross(A3);
-	theta_2	=	norm_2.Angle(norm_3);
+			norm_2	=	(B2).Cross(B3);
+			norm_3	=	(A2).Cross(A3);
+			theta_2	=	norm_2.Angle(norm_3);
 
-	rot_axis_2=B2;
-	cout<<"theta_2 : "<<(180/PI)*theta_2<<endl;
+			rot_axis_2=B2;
+			cout<<"theta_2 : "<<(180/PI)*theta_2<<endl;
 
-	B1.Rotate(theta_2,rot_axis_2);	B2.Rotate(theta_2,rot_axis_2);	B3.Rotate(theta_2,rot_axis_2);
+			B1.Rotate(theta_2,rot_axis_2);	B2.Rotate(theta_2,rot_axis_2);	B3.Rotate(theta_2,rot_axis_2);
 
-//	.......................................................
-	cout<<"coordenates after 4th transformation :"<<endl;
+		//	.......................................................
+			cout<<"coordenates after 4th transformation :"<<endl;
 
-	cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
-	cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
-	cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
-	cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
-	cout<<endl;
-	cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
-	cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
-	cout<<"------------------------------------------"<<endl;
+			cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
+			cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
+			cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
+			cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
+			cout<<endl;
+			cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
+			cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
+			cout<<"------------------------------------------"<<endl;
 
-//	.......................................................
-//	5) returning to the first frame (A1-frame).
-	A1=A1+step_back;	A2=A2+step_back;	A3=A3+step_back;
-	B1=B1+step_back;	B2=B2+step_back;	B3=B3+step_back;
-//	.......................................................
-	cout<<"coordenates after 5th transformation :"<<endl;
+		//	.......................................................
+		//	5) returning to the first frame (A1-frame).
+			A1=A1+step_back;	A2=A2+step_back;	A3=A3+step_back;
+			B1=B1+step_back;	B2=B2+step_back;	B3=B3+step_back;
+		//	.......................................................
+			cout<<"coordenates after 5th transformation :"<<endl;
 
-	cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
-	cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
-	cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
-	cout<<".............."<<endl;
-	cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
-	cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
-	cout<<endl;
-	cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
-	cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
-	cout<<"------------------------------------------"<<endl;
+			cout<<setw(15)<<A1.X()<<"	|	"<<setw(15)<<A1.Y()<<"	|	"<<setw(15)<<A1.Z()<<"	|	"<<setw(15)<<(180/PI)*A1.Theta()<<"	|	"<<setw(15)<<(180/PI)*A1.Phi()<<endl;
+			cout<<setw(15)<<B1.X()<<"	|	"<<setw(15)<<B1.Y()<<"	|	"<<setw(15)<<B1.Z()<<"	|	"<<setw(15)<<(180/PI)*B1.Theta()<<"	|	"<<setw(15)<<(180/PI)*B1.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A2.X()<<"	|	"<<setw(15)<<A2.Y()<<"	|	"<<setw(15)<<A2.Z()<<"	|	"<<setw(15)<<(180/PI)*A2.Theta()<<"	|	"<<setw(15)<<(180/PI)*A2.Phi()<<endl;
+			cout<<setw(15)<<B2.X()<<"	|	"<<setw(15)<<B2.Y()<<"	|	"<<setw(15)<<B2.Z()<<"	|	"<<setw(15)<<(180/PI)*B2.Theta()<<"	|	"<<setw(15)<<(180/PI)*B2.Phi()<<endl;
+			cout<<".............."<<endl;
+			cout<<setw(15)<<A3.X()<<"	|	"<<setw(15)<<A3.Y()<<"	|	"<<setw(15)<<A3.Z()<<"	|	"<<setw(15)<<(180/PI)*A3.Theta()<<"	|	"<<setw(15)<<(180/PI)*A3.Phi()<<endl;
+			cout<<setw(15)<<B3.X()<<"	|	"<<setw(15)<<B3.Y()<<"	|	"<<setw(15)<<B3.Z()<<"	|	"<<setw(15)<<(180/PI)*B3.Theta()<<"	|	"<<setw(15)<<(180/PI)*B3.Phi()<<endl;
+			cout<<endl;
+			cout<<"A12 length : "<<(A2-A1).Mag()<<"	|	A13 length : "<<(A3-A1).Mag()<<"	|	A23 length : "<<(A3-A2).Mag()<<endl;
+			cout<<"B12 length : "<<(B2-B1).Mag()<<"	|	B13 length : "<<(B3-B1).Mag()<<"	|	B23 length : "<<(B3-B2).Mag()<<endl;
+			cout<<"------------------------------------------"<<endl;
 
-//	.......................................................
-//	start transforming all the points inside the vector
-	cout<<"Transforming the frame # ("<<i<<") to the hall frame : "<<endl;
+		//	.......................................................
+		//	start transforming all the points inside the vector
+			cout<<"Transforming the frame # ("<<i<<") to the hall frame : "<<endl;
 
-	TVector3 tmp_vec_point;
+			TVector3 tmp_vec_point;
 
-	for(int j=0;j<D_x_vec[i].size();j++)
-	{
-		tmp_vec_point.SetXYZ(D_x_vec[i][j],D_y_vec[i][j],D_z_vec[i][j]);
+			for(int j=0;j<D_x_vec[i].size();j++)
+				{
+					tmp_vec_point.SetXYZ(D_x_vec[i][j],D_y_vec[i][j],D_z_vec[i][j]);
 
-		tmp_vec_point=tmp_vec_point-dr;
+					tmp_vec_point=tmp_vec_point-dr;
 
-		tmp_vec_point=tmp_vec_point-step_back;
+					tmp_vec_point=tmp_vec_point-step_back;
 
-		tmp_vec_point.Rotate(theta_1,rot_axis_1);
+					tmp_vec_point.Rotate(theta_1,rot_axis_1);
 
-		tmp_vec_point.Rotate(theta_2,rot_axis_2);
+					tmp_vec_point.Rotate(theta_2,rot_axis_2);
 
-		tmp_vec_point=tmp_vec_point+step_back;
+					tmp_vec_point=tmp_vec_point+step_back;
 
-		
-		final_file_name_vec.push_back(D_file_name_vec[i][j]);
-		final_frame_vec.push_back(D_frame_vec[i][j]);
-		final_collection_vec.push_back(D_collection_vec[i][j]);
-		final_group_vec.push_back(D_group_vec[i][j]);
-		final_point_vec.push_back(D_point_vec[i][j]);
-		final_x_vec.push_back(tmp_vec_point.X());
-		final_y_vec.push_back(tmp_vec_point.Y());
-		final_z_vec.push_back(tmp_vec_point.Z());
-		final_offp_vec.push_back(D_offp_vec[i][j]);
-		final_offr_vec.push_back(D_offr_vec[i][j]);
-		final_date_time_vec.push_back(D_date_time_vec[i][j]);
+					
+					final_file_name_vec.push_back(D_file_name_vec[i][j]);
+					final_frame_vec.push_back(D_frame_vec[i][j]);
+					final_collection_vec.push_back(D_collection_vec[i][j]);
+					final_group_vec.push_back(D_group_vec[i][j]);
+					final_point_vec.push_back(D_point_vec[i][j]);
+					final_x_vec.push_back(tmp_vec_point.X());
+					final_y_vec.push_back(tmp_vec_point.Y());
+					final_z_vec.push_back(tmp_vec_point.Z());
+					final_offp_vec.push_back(D_offp_vec[i][j]);
+					final_offr_vec.push_back(D_offr_vec[i][j]);
+					final_date_time_vec.push_back(D_date_time_vec[i][j]);
 
-//	.......................................................
-		D_file_name_vec.erase(std::next(D_file_name_vec.begin(),i));
-		D_frame_vec.erase(std::next(D_frame_vec.begin(),i));
-		D_collection_vec.erase(std::next(D_collection_vec.begin(),i));
-		D_group_vec.erase(std::next(D_group_vec.begin(),i));
-		D_point_vec.erase(std::next(D_point_vec.begin(),i));
-		D_x_vec.erase(std::next(D_x_vec.begin(),i));
-		D_y_vec.erase(std::next(D_y_vec.begin(),i));
-		D_z_vec.erase(std::next(D_z_vec.begin(),i));
-		D_offp_vec.erase(std::next(D_offp_vec.begin(),i));
-		D_offr_vec.erase(std::next(D_offr_vec.begin(),i));
-		D_date_time_vec.erase(std::next(D_date_time_vec.begin(),i));
-//	.......................................................
+			//	.......................................................
+					D_file_name_vec.erase(std::next(D_file_name_vec.begin(),i));
+					D_frame_vec.erase(std::next(D_frame_vec.begin(),i));
+					D_collection_vec.erase(std::next(D_collection_vec.begin(),i));
+					D_group_vec.erase(std::next(D_group_vec.begin(),i));
+					D_point_vec.erase(std::next(D_point_vec.begin(),i));
+					D_x_vec.erase(std::next(D_x_vec.begin(),i));
+					D_y_vec.erase(std::next(D_y_vec.begin(),i));
+					D_z_vec.erase(std::next(D_z_vec.begin(),i));
+					D_offp_vec.erase(std::next(D_offp_vec.begin(),i));
+					D_offr_vec.erase(std::next(D_offr_vec.begin(),i));
+					D_date_time_vec.erase(std::next(D_date_time_vec.begin(),i));
+			//	.......................................................
 
-		tmp_vec_point.Clear();
+					tmp_vec_point.Clear();
 
-	}	//	for(j)
-
-
-
-	}	//	if(off_dist)
+				}	//	for(j)
+		}	//	if(off_dist)
 	else
-	{
-		cout<<"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
-		cout<<"++  THE DISTANCE BETWEEN THE 3 POINTS IN THE PRIMARY FRAME IS NOT THE SAME AS THEM IN THE SECONDARY ONE!!!  ++"<<endl;
-		cout<<"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
-	}
+		{
+			cout<<"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
+			cout<<N<<":"<<i<<" ) ++  THE DISTANCE BETWEEN THE 3 POINTS IN THE PRIMARY FRAME IS NOT THE SAME AS THEM IN THE SECONDARY ONE!!!  ++"<<endl;
+			cout<<"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
+		}
 
 	}	//	if(A3_xs.size()>2)
 
@@ -8859,12 +8372,6 @@ cout<<"......................................................."<<endl;
 
 	A3_xs.clear();	A3_ys.clear();	A3_zs.clear();
 	B3_xs.clear();	B3_ys.clear();	B3_zs.clear();
-
-
-
-
-
-i++;
 	}			//	for(i)	the 2-D C-vectors
 //	...............................................
 
@@ -8886,7 +8393,7 @@ i++;
 }	//	for(N)
 //	:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+*/
 //	----------------------------------------------------------------------------
 //	4) END :	Unifying frames to the Hall fram	............................
 //	----------------------------------------------------------------------------
@@ -8898,94 +8405,7 @@ i++;
 
 
 
-//	-----------------------------------------------------------
-	a = string ("3_");
-	trees.push_back(Form("%s",a.c_str()));
-	TTree *out_tree_3 = new TTree(Form("%s",a.c_str()),"");
 
-		->	Branch("file_name",&out_file_name);
-		->	Branch("frame",&out_frame);
-		->	Branch("collection",&out_collection);
-		->	Branch("group",&out_group);
-		->	Branch("point",&out_point);
-		->	Branch("x",&out_x);
-		->	Branch("y",&out_y);
-		->	Branch("z",&out_z);
-		->	Branch("offp",&out_offp);
-		->	Branch("offr",&out_offr);
-		->	Branch("date_time",&out_date_time);
-
-
-
-
-//	-----------------------------------------------------------
-	a = string ("final");
-	trees.push_back(Form("%s",a.c_str()));
-	TTree *out_tree = new TTree(Form("%s",a.c_str()),"");
-
-	out_tree	->	Branch("file_name",&out_file_name);
-	out_tree	->	Branch("frame",&out_frame);
-	out_tree	->	Branch("collection",&out_collection);
-	out_tree	->	Branch("group",&out_group);
-	out_tree	->	Branch("point",&out_point);
-	out_tree	->	Branch("x",&out_x);
-	out_tree	->	Branch("y",&out_y);
-	out_tree	->	Branch("z",&out_z);
-	out_tree	->	Branch("offp",&out_offp);
-	out_tree	->	Branch("offr",&out_offr);
-	out_tree	->	Branch("date_time",&out_date_time);
-
-
-
-
-//	.....................................................
-
-	for(int i=0;i<final_x_vec.size();i++)	//	(AAA)
-	{	
-//..................................................................
-//	just to make the if-statements shorter.
-
-		TString P=working_2_point_vec[i];
-		TString G=working_2_group_vec[i];
-		TString C=working_2_collection_vec[i];
-		TString F=working_2_frame_vec[i];
-		TString Fi=working_2_file_name_vec[i];
-//..................................................................
-		out_file_name=working_2_file_name_vec[i];
-		out_frame=working_2_file_name_vec[i];
-		out_collection=working_2_collection_vec[i];
-		out_group=working_2_group_vec[i];
-		out_point=working_2_group_vec[i]+"___"+working_2_point_vec[i];
-		out_x=working_2_x_vec[i];
-		out_y=working_2_y_vec[i];
-		out_z=working_2_z_vec[i];
-		out_offp=working_2_offp_vec[i];
-		out_offr=working_2_offr_vec[i];
-		out_date_time=working_2_date_time_vec[i];
-//..................................................................
-
-	out_tree->Fill();
-	}
-
-//////////////////////////////////////////
-
-
-//	...............................................
-	cout<<endl;
-	cout<< setw(40)<<"the original total points : "<<x_vec.size()<<endl;
-
-	cout<< setw(40)<<"the original POINTS measurments : "<<working_points_x_vec.size()<<" ... The classified POINTS measurments : ";
-//	cout<<working_points_x_vec.size()-working_3_x_vec.size()<<" ... there still needed to be done	:"<<working_3_x_vec.size()<<endl;
-	cout<<endl;
-	cout<< setw(40)<<"the original local measurments : "<<(x_vec.size()-working_points_x_vec.size())<<" ... The classified local measurments : ";
-	cout<<(x_vec.size())-working_points_x_vec.size()-(working_2_x_vec.size())<<" ... there still needed to be done	:"<<working_2_x_vec.size()<<endl;
-//	...............................................
-
-
-
-
-
-*/
 
 
 
