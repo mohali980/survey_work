@@ -1,0 +1,265 @@
+
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_15_1   184.812035   321.732161   1321.132182 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_115_2   111.232534   319.137387   1321.147278 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_115_3   145.140364   -321.775911   1324.166284 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_115_4   -97.023351   318.699110   1321.152745 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_115_5   -185.132036   321.200357   1320.885690 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+20220119_Kontrolle_Rahmen::PIM1 BM_SM_115_6   -148.316893   -323.542486   1324.193539 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15
+
+
+#BMr right
+20220119_Kontrolle_Rahmen::PIM1 1   215.710401   114.925761   1312.260440 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 2   215.754309   109.637621   1292.904780 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 3   215.627141   96.604526   1308.117578 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 4   215.628668   85.851896   1291.248518 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 5   215.416313   74.406607   1307.674360 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 6   215.188586   60.075411   1293.602534 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 7   215.008660   41.753571   1301.657348 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 8   214.940443   27.991652   1287.141325 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 9   214.770833   7.934272   1285.723678 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 10   214.586168   -7.720453   1301.632895 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 11   214.525495   -27.335107   1297.549280 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 12   214.372192   -46.977250   1301.376376 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 13   214.331467   -62.708674   1288.892714 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 14   214.221694   -75.457886   1304.341270 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 15   214.364694   -91.280728   1292.046233 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 16   214.222349   -110.734437   1296.739580 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+
+#BMr Front
+20220119_Kontrolle_Rahmen::PIM1 17   199.519112   -117.863738   1263.012232 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 18   179.489230   -117.473965   1263.051041 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 19   160.527847   -111.101528   1263.060998 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 20   177.259661   -100.029845   1262.948193 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 21   195.469918   -91.694515   1262.876171 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 22   178.272304   -81.294537   1262.731024 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 23   159.017660   -75.715007   1263.056663 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 24   176.312393   -65.604677   1262.976404 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 25   193.865090   -55.941205   1262.936744 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 26   178.516074   -43.041926   1262.844710 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 27   160.203044   -35.000621   1262.787475 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 28   155.852226   -15.438324   1262.746764 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 29   154.132408   4.561274   1262.613460 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 30   155.846061   24.585254   1262.399611 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 31   157.555987   44.606844   1262.236973 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 32   158.740431   64.606455   1262.091208 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 33   157.740724   84.652664   1261.666317 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 34   160.273099   104.504755   1261.570763 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 35   164.420730   124.095259   1261.409727 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 36   182.998529   131.519257   1261.537634 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 37   193.859814   114.678246   1261.489948 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 38   196.901926   94.910044   1261.661923 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 39   197.370871   74.838254   1261.810430 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 40   201.462999   55.184494   1262.173162 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 41   202.023687   35.164078   1262.326899 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 42   201.719042   15.110248   1262.556983 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 43   201.956294   -4.989792   1262.690645 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 44   201.959681   -25.066110   1262.758742 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 45   200.330025   -45.042454   1262.889273 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 46   199.041180   -65.013553   1263.056299 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 47   141.417346   134.328030   1260.854330 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 48   121.543439   136.942992   1260.851996 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 49   101.617376   135.164579   1260.864034 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 50   121.550113   133.285216   1260.838388 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 51   138.540182   122.717950   1260.744211 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 52   141.150554   102.834850   1260.867986 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 53   143.310148   82.911402   1261.017862 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 54   126.227221   72.403045   1261.398457 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 55   106.190169   73.044477   1261.414549 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 56   117.182338   56.265850   1261.488436 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 57   135.461775   48.043245   1261.504119 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 58   116.709004   40.879950   1261.648123 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 59   98.686249   32.177764   1261.755981 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 60   95.271569   12.412327   1261.969403 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 61   94.288130   -7.570195   1262.132057 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 62   96.195156   -27.516352   1262.250619 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 63   101.791158   -46.743282   1262.316594 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 64   121.788877   -47.961364   1262.279680 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 65   115.127698   -66.839193   1262.480161 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 66   98.444371   -77.923355   1262.623858 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 67   104.540268   -96.984475   1262.455024 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 68   122.548440   -105.895661   1262.475960 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 69   140.104123   -115.523536   1262.505656 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 70   122.774149   -125.626806   1262.640090 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 71   103.351618   -130.613373   1262.783126 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 72   120.671330   -140.621851   1262.938082 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+#BMr left
+
+20220119_Kontrolle_Rahmen::PIM1 73   80.152447   -134.538706   1319.524701 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 74   80.167722   -139.969225   1300.265328 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 75   80.314492   -133.744225   1281.257540 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 76   80.060291   -119.873158   1295.721631 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 77   80.098184   -109.475056   1312.838317 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 78   80.234594   -100.850061   1294.689890 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 79   80.132354   -90.590115   1277.501108 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 80   80.304337   -84.269190   1296.571761 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 81   80.576191   -73.269128   1313.316097 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 82   80.696996   -65.575562   1294.773921 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 83   80.900429   -60.887386   1275.298780 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 84   80.875427   -47.120442   1289.952527 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 85   80.863832   -36.898870   1307.212781 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 86   81.086079   -23.365154   1292.394651 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 87   81.097990   -5.798646   1302.029452 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 88   81.254798   13.672986   1297.362686 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 89   81.432775   14.997727   1277.373483 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 90   81.430426   30.422286   1290.111751 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 91   81.391037   38.050332   1308.607895 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 92   81.518178   45.753218   1290.093595 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 93   81.709919   63.701219   1281.268061 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 94   81.683322   69.685873   1300.435831 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 95   81.586628   85.890466   1288.661948 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 96   81.792298   98.593479   1273.175510 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 97   81.703770   107.918751   1290.894830 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 98   81.847962   127.903562   1292.038449 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+
+#BMl r
+20220119_Kontrolle_Rahmen::PIM1 99   -75.102848   135.382486   1316.718419 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 100   -75.318511   133.520913   1296.772070 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 101   -75.480369   131.820166   1276.785746 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 102   -75.087707   127.744099   1296.410436 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 103   -75.342841   112.173136   1283.807544 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 104   -75.481970   94.915548   1294.050079 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 105   -75.925591   74.971964   1292.498184 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 106   -76.329218   34.989161   1291.974226 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 107   -76.293956   34.230086   1299.706054 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 108   -76.552309   19.236695   1286.449369 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 109   -76.543445   10.560174   1304.514746 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 110   -76.829768   -2.679195   1289.437059 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 111   -76.847952   -19.644156   1300.139765 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 112   -77.091475   -36.182573   1288.737456 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 113   -77.167515   -54.243926   1297.408308 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 114   -77.414867   -73.635924   1292.307151 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 115   -77.428529   -88.179769   1278.578323 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 116   -77.473998   -96.740641   1296.742009 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 117   -77.639593   -116.008623   1291.274137 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 118   -77.580078   -126.523021   1308.313793 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 119   -78.091368   -139.270939   1292.882310 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+
+#BMl front
+20220119_Kontrolle_Rahmen::PIM1 120   -133.989376   134.241043   1261.534057 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 121   -113.960832   135.352627   1261.499747 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 122   -94.062141   133.318992   1261.469717 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 123   -112.191504   124.657742   1261.288707 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 124   -131.233652   118.428589   1261.369123 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 125   -115.451342   106.041775   1261.452709 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 126   -119.580541   86.447098   1261.559222 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 127   -132.780515   71.407848   1261.953317 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 128   -114.693661   62.598755   1262.023947 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 129   -96.526557   54.159476   1261.998656 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 130   -115.092872   46.473814   1262.161551 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 131   -134.277670   40.650964   1262.137075 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 132   -138.315581   20.987013   1262.332912 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 133   -139.032319   0.970868   1262.495307 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 134   -138.642591   -19.145331   1262.578453 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 135   -132.616279   -38.230123   1262.699209 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 136   -113.137608   -42.859261   1262.679795 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 137   -98.726196   -28.861248   1262.610806 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 138   -96.301010   -8.862905   1262.526994 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 139   -96.921730   11.144415   1262.409287 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 140   -95.527912   31.120513   1262.240194 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 141   -95.101827   10.997198   1262.413142 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 142   -97.398277   -8.875265   1262.554062 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 143   -98.110580   -28.947963   1262.609564 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 144   -105.268885   -47.656929   1262.665098 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 145   -125.285517   -46.618087   1262.722093 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 146   -113.284830   -62.664723   1262.827815 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 147   -96.489819   -73.526763   1262.809890 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 148   -116.278507   -76.495725   1262.876056 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 149   -133.651971   -86.469901   1262.774452 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 150   -118.568633   -99.689387   1262.803189 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 151   -98.756655   -103.013865   1262.762030 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 152   -110.322665   -119.360711   1262.927023 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 153   -129.706277   -124.691951   1263.043769 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 154   -114.719906   -137.948656   1263.262924 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 155   -152.136484   131.953664   1261.473621 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 156   -172.137273   132.090288   1261.573131 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 157   -192.144602   132.144512   1261.770823 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 158   -172.814248   126.578351   1261.412505 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 159   -153.926694   119.859769   1261.343271 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 160   -169.107112   106.776924   1261.472551 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 161   -187.769669   99.433848   1261.715343 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 162   -180.261374   80.826932   1261.792152 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 163   -160.968039   75.272748   1261.747103 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 164   -174.400509   60.380330   1262.077148 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 165   -191.511562   49.969116   1262.296663 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 166   -171.574540   48.213375   1262.144889 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 167   -158.302662   33.210217   1262.100146 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 168   -157.615190   13.209159   1262.293715 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 169   -156.453576   -6.891801   1262.366058 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 170   -158.287956   -26.880560   1262.444836 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 171   -164.357869   -45.979883   1262.571856 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 172   -159.222725   -71.926051   1262.735987 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 173   -179.199485   -70.088308   1262.881086 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 174   -176.305765   -89.921601   1262.727836 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 175   -160.332804   -101.978679   1262.633513 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 176   -175.099725   -115.562609   1262.872968 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 177   -162.164215   -130.848978   1262.877319 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 178   -182.044825   -133.530746   1263.219677 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+
+
+#bml l
+20220119_Kontrolle_Rahmen::PIM1 179   -208.631991   133.205140   1310.694062 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 180   -209.199804   115.376120   1297.716519 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 181   -209.386590   95.759113   1293.742899 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 182   -209.459913   81.202369   1307.511771 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 183   -209.488742   68.407170   1292.065471 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 184   -209.584889   50.540577   1301.144889 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 185   -209.817294   36.537867   1286.810199 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 186   -209.909909   18.232936   1294.940441 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 187   -209.966341   4.778629   1303.051790 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 188   -210.160924   -13.413742   1311.499020 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 189   -210.376599   -29.310115   1299.315450 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 190   -210.668948   -49.326051   1299.231259 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 191   -210.802299   -63.918268   1285.554314 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 192   -210.848168   -77.502439   1300.270083 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 193   -211.353849   -96.459110   1293.721886 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 194   -211.485914   -115.320822   1300.488216 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 195   -211.720961   -129.249492   1286.123369 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+
+
+20220119_Kontrolle_Rahmen::PIM1 196   95.499605   -158.510369   1271.029611 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+20220119_Kontrolle_Rahmen::PIM1 197   -92.091211   -157.593498   1269.865823 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+20220119_Kontrolle_Rahmen::PIM1 198   -92.149215   155.990210   1267.165595 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 199   -112.027160   155.525460   1264.799762 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 200   -92.114395   155.863572   1266.765969 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+
+#bmr bot
+20220119_Kontrolle_Rahmen::PIM1 201   197.610291   154.341490   1267.776682 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf
+20220119_Kontrolle_Rahmen::PIM1 210   203.503975   154.369011   1269.715104 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 211   201.307850   154.394521   1269.264245 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 212   142.467780   155.590246   1267.327705 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 213   94.583304   155.151903   1265.373431 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 214   87.131191   155.207207   1314.950224 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 215   211.081720   153.995456   1306.499124 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+
+#bmr top
+20220119_Kontrolle_Rahmen::PIM1 216   209.193851   -158.316026   1306.381077 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 217   206.853888   -158.791007   1282.466354 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 218   159.952677   -158.661165   1269.608874 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 219   137.677272   -158.804102   1270.902260 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 220   94.884034   -158.483264   1272.623340 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 221   85.437980   -157.932039   1285.160656 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 222   85.911688   -157.842691   1313.420246 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+
+#bml top
+20220119_Kontrolle_Rahmen::PIM1 223   -91.757800   -157.382033   1270.185021 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 224   -135.057269   -156.785570   1269.865795 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 225   -156.480102   -157.996242   1271.670961 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 226   -201.448752   -157.576893   1273.231464 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 227   -207.398007   -157.021292   1298.618954 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+
+#bml  bot
+20220119_Kontrolle_Rahmen::PIM1 228   -79.923319   155.877604   1318.138169 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 229   -90.472971   155.969490   1267.950970 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 235   -194.025283   155.428754   1266.450391 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 236   -203.213261   155.948446   1288.331182 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 237   -203.773382   155.691055   1318.043084 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 238   -96.328535   156.399733   1268.122029 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1
+20220119_Kontrolle_Rahmen::PIM1 239   -130.686899   156.803899   1267.748023 mm # 20220119 Kontrolle Rahmen::PIM1/Kontrolle Panel 6 und 15 + Drehgestellreferenzen/P15 surf 1

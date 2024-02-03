@@ -77,7 +77,7 @@ void root_2_OBJ_8()
 TFile file("09_points.root");
 
 
-		TString dir="OBJ_files";
+		TString dir="03_OBJ_files";
 		gSystem->Exec("rm -rf "+dir);
 
 	gSystem->Exec("rm -rf "+dir);

@@ -1,0 +1,59 @@
+##########################
+# 2019 GEM Survey Points #
+##########################
+
+GEMSurvey GEMH0 -0.351 68.931 -523.525 mm
+GEMSurvey GEMV0 -70.271 124.273 34.712 mm
+GEMSurvey Point0 58.739 186.564 33.824 mm
+GEMSurvey Point1 59.194 186.589 33.835 mm
+GEMSurvey Point2 -58.280 187.022 33.922 mm
+GEMSurvey Point3 -55.753 186.909 34.013 mm
+GEMSurvey Point4 -63.084 64.064 34.982 mm
+GEMSurvey Point5 -62.966 63.811 35.088 mm
+GEMSurvey Point6 -63.203 179.810 33.989 mm
+GEMSurvey Point7 62.532 76.084 35.029 mm
+GEMSurvey GEMH1 -0.158 195.053 94.724 mm
+GEMSurvey GEMV1 -70.666 125.813 95.465 mm
+GEMSurvey Point8 -62.864 184.114 95.017 mm
+GEMSurvey Point9 -64.306 68.706 95.053 mm
+GEMSurvey Point10 57.508 187.140 95.419 mm
+GEMSurvey Point11 58.972 187.118 95.540 mm
+GEMSurvey Point12 61.471 75.891 95.879 mm
+GEMSurvey Point13 61.959 81.371 96.112 mm
+GEMSurvey Point14 -62.776 186.022 95.203 mm
+GEMSurvey GEMH2 -0.735 194.205 158.431 mm
+GEMSurvey GEMV2 -70.572 124.524 161.563 mm
+GEMSurvey Point15 -63.125 182.762 159.378 mm
+GEMSurvey Point16 -59.809 186.936 158.843 mm
+GEMSurvey Point17 -63.872 66.628 162.023 mm
+GEMSurvey Point18 55.892 187.034 156.831 mm
+GEMSurvey Point19 62.694 183.496 156.647 mm
+GEMSurvey GEMH3 -0.995 194.487 220.796 mm
+GEMSurvey GEMV3 -70.906 124.498 220.649 mm
+GEMSurvey Point20 -59.947 187.495 219.924 mm
+GEMSurvey Point21 -64.666 66.595 220.493 mm
+GEMSurvey Point22 57.596 187.578 220.344 mm
+GEMSurvey Point23 55.426 187.455 220.196 mm
+GEMSurvey Point24 62.473 79.701 221.083 mm
+GEMSurvey Point25 -61.314 187.328 220.253 mm
+
+# downstream table position (2)
+# -------------------------
+global Ref0 -67.799 -118.135 -549.577 mm
+global Ref1 66.797 -118.245 -549.763 mm
+global Ref2 -0.991 -118.195 -505.228 mm
+global Ref3 64.298 -118.107 -448.707 mm
+global Ref4 -65.149 -118.083 -439.135 mm
+global Ref5 64.811 -117.942 -320.139 mm
+global Ref6 -63.46 -117.626 -320.971 mm
+
+# upstream table position (1)
+# -----------------------
+#global Ref0 -69.233 -118.593 -1209.298 mm
+#global Ref1 65.363 -118.624 -1209.448 mm
+#global Ref2 -2.437 -118.667 -1164.932 mm
+#global Ref3 62.837 -118.607 -1108.393 mm
+#global Ref4 -66.613 -118.67 -1098.856 mm
+#global Ref5 63.316 -118.595 -979.825 mm
+#global Ref6 -64.955 -118.353 -980.691 mm
+
