@@ -1,0 +1,8 @@
+#############################################
+# 8/2022 EC-E-USc=0undERc12.7 survey points
+#############################################
+
+EC-E-USc=0undERc12.7 EC-E-USc=0undERc12.7___1 1361.05 1488.63 1424.49 mm
+EC-E-USc=0undERc12.7 EC-E-USc=0undERc12.7___2 1370.1 1490.49 1461.34 mm
+EC-E-USc=0undERc12.7 EC-E-USc=0undERc12.7___3 1423.79 1489.67 1706.43 mm
+EC-E-USc=0undERc12.7 EC-E-USc=0undERc12.7___4 1426.06 1489.07 1717.33 mm

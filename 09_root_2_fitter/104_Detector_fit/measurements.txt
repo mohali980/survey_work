@@ -1,0 +1,52 @@
+#############################################
+# 6/2019 Detektorausrichtung survey points
+#############################################
+
+Detektorausrichtung Detektorausrichtung___2 2525.44 -1494.42 -1065.08 mm
+Detektorausrichtung Detektorausrichtung___3 2567.41 -1510.48 -1066.85 mm
+Detektor Detektor___1 2500.5 -1545.15 -1063.99 mm
+DetektorFläche DetektorFläche___5 2526.9 -1551.41 -1062.82 mm
+DetektorFläche DetektorFläche___6 2537.58 -1555.59 -1065.65 mm
+DetektorFläche DetektorFläche___7 2496.52 -1539.84 -1063.88 mm
+DetektorFläche DetektorFläche___8 2536.2 -1554.88 -1060.49 mm
+DetektorFläche DetektorFläche___9 2547.43 -1559.28 -1063.17 mm
+Detektorausrichtung Detektorausrichtung___2 2525.44 -1494.42 -1065.08 mm
+Detektorausrichtung Detektorausrichtung___3 2567.41 -1510.48 -1066.85 mm
+Detektor Detektor___1 2500.5 -1545.15 -1063.99 mm
+DetektorFläche DetektorFläche___5 2526.9 -1551.41 -1062.82 mm
+DetektorFläche DetektorFläche___6 2537.58 -1555.59 -1065.65 mm
+DetektorFläche DetektorFläche___7 2496.52 -1539.84 -1063.88 mm
+DetektorFläche DetektorFläche___8 2536.2 -1554.88 -1060.49 mm
+DetektorFläche DetektorFläche___9 2547.43 -1559.28 -1063.17 mm
+Detektorausrichtung Detektorausrichtung___2 2525.44 -1494.42 -1065.08 mm
+Detektorausrichtung Detektorausrichtung___3 2567.41 -1510.48 -1066.85 mm
+Detektor Detektor___1 2500.5 -1545.15 -1063.99 mm
+DetektorFläche DetektorFläche___5 2526.9 -1551.41 -1062.82 mm
+DetektorFläche DetektorFläche___6 2537.58 -1555.59 -1065.65 mm
+DetektorFläche DetektorFläche___7 2496.52 -1539.84 -1063.88 mm
+DetektorFläche DetektorFläche___8 2536.2 -1554.88 -1060.49 mm
+DetektorFläche DetektorFläche___9 2547.43 -1559.28 -1063.17 mm
+Detektorausrichtung Detektorausrichtung___2 2525.44 -1494.42 -1065.08 mm
+Detektorausrichtung Detektorausrichtung___3 2567.41 -1510.48 -1066.85 mm
+Detektor Detektor___1 2500.5 -1545.15 -1063.99 mm
+DetektorFläche DetektorFläche___5 2526.9 -1551.41 -1062.82 mm
+DetektorFläche DetektorFläche___6 2537.58 -1555.59 -1065.65 mm
+DetektorFläche DetektorFläche___7 2496.52 -1539.84 -1063.88 mm
+DetektorFläche DetektorFläche___8 2536.2 -1554.88 -1060.49 mm
+DetektorFläche DetektorFläche___9 2547.43 -1559.28 -1063.17 mm
+Detektorausrichtung Detektorausrichtung___2 2525.44 -1494.42 -1065.08 mm
+Detektorausrichtung Detektorausrichtung___3 2567.41 -1510.48 -1066.85 mm
+Detektor Detektor___1 2500.5 -1545.15 -1063.99 mm
+DetektorFläche DetektorFläche___5 2526.9 -1551.41 -1062.82 mm
+DetektorFläche DetektorFläche___6 2537.58 -1555.59 -1065.65 mm
+DetektorFläche DetektorFläche___7 2496.52 -1539.84 -1063.88 mm
+DetektorFläche DetektorFläche___8 2536.2 -1554.88 -1060.49 mm
+DetektorFläche DetektorFläche___9 2547.43 -1559.28 -1063.17 mm
+Detektorausrichtung Detektorausrichtung___2 7.72906 -313.224 28.7231 mm
+Detektorausrichtung Detektorausrichtung___3 -37.2158 -314.86 29.123 mm
+Detektor Detektor___1 12.3876 -312.052 -27.615 mm
+DetektorFläche DetektorFläche___5 -14.4686 -310.818 -23.7795 mm
+DetektorFläche DetektorFläche___6 -25.9458 -313.607 -23.7695 mm
+DetektorFläche DetektorFläche___7 18.03 -311.968 -24.1264 mm
+DetektorFläche DetektorFläche___8 -24.3928 -308.451 -23.6067 mm
+DetektorFläche DetektorFläche___9 -36.461 -311.1 -23.5971 mm

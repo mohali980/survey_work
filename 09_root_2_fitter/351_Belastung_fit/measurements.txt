@@ -1,0 +1,15 @@
+#############################################
+# 5/2018 Belastung survey points
+#############################################
+
+Belastung Belastung___0 40.2187 467.91 7292.43 mm
+Belastung Belastung___1 40.2121 467.908 7292.43 mm
+Belastung Belastung___2 40.1975 467.902 7292.45 mm
+Belastung Belastung___3 40.2131 467.907 7292.44 mm
+Belastung Belastung___4 40.2157 467.904 7292.43 mm
+Belastung Belastung___5 40.2142 467.904 7292.44 mm
+Belastung2 Belastung2___6 40.2183 467.905 7292.44 mm
+Belastung2 Belastung2___7 40.2166 467.904 7292.44 mm
+Belastung2 Belastung2___8 40.2162 467.91 7292.43 mm
+Belastung2 Belastung2___9 40.2173 467.913 7292.43 mm
+Belastung2 Belastung2___10 40.2176 467.911 7292.43 mm

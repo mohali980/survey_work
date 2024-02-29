@@ -1,0 +1,8 @@
+#############################################
+# 1/2022 Gestellreferenzen survey points
+#############################################
+
+Gestellreferenzen Gestellreferenzen___1 1830.96 269.977 2357.8 mm
+Gestellreferenzen Gestellreferenzen___2 1839.78 270.143 2396.78 mm
+Gestellreferenzen Gestellreferenzen___3 1885.34 -61.5548 1498.84 mm
+Gestellreferenzen Gestellreferenzen___4 1982.41 -57.8309 1932.78 mm

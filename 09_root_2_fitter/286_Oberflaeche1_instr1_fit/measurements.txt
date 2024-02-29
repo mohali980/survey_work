@@ -1,0 +1,24 @@
+#############################################
+# 1/2022 Oberfläche1 survey points
+#############################################
+
+Oberfläche1 Oberfläche1___1 -2089.12 -2515.47 -940.955 mm
+Oberfläche1 Oberfläche1___2 -2147.53 -2414.83 -939.244 mm
+Oberfläche1 Oberfläche1___3 -2226.46 -2293.11 -950.264 mm
+Oberfläche1 Oberfläche1___4 -2294.61 -2159.81 -933.398 mm
+Oberfläche1 Oberfläche1___5 -2442.01 -1927.72 -949.472 mm
+Oberfläche1 Oberfläche1___6 -2507.89 -1803.16 -937.261 mm
+Oberfläche1 Oberfläche1___7 -2588.95 -1674.76 -945.44 mm
+Oberfläche2 Oberfläche2___8 -2186.38 -2538.8 -865.609 mm
+Oberfläche2 Oberfläche2___9 -2664.78 -1916.3 -816.807 mm
+Oberfläche2 Oberfläche2___10 -2476.02 -2715.49 -686.593 mm
+Oberfläche2 Oberfläche2___11 -3188.94 -2154.81 -510.296 mm
+Oberfläche2 Oberfläche2___12 -2920.96 -2980.54 -410.705 mm
+Oberfläche3 Oberfläche3___13 -2918.51 -3031.57 -415.776 mm
+Oberfläche3 Oberfläche3___14 -3068.5 -2776.89 -415.427 mm
+Oberfläche3 Oberfläche3___15 -3151.98 -2645.53 -424.847 mm
+Oberfläche3 Oberfläche3___16 -3274.04 -2432.24 -418.407 mm
+Oberfläche3 Oberfläche3___17 -3353.76 -2306.31 -426.953 mm
+Oberfläche3 Oberfläche3___18 -3423.97 -2172.74 -412.843 mm
+Oberfläche4 Oberfläche4___19 -2890.57 -3054.98 -413.403 mm
+Oberfläche4 Oberfläche4___20 -3502.26 -2015.73 -410.397 mm

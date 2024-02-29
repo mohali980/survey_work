@@ -1,0 +1,28 @@
+#############################################
+# 8/2022 Panel13USEbene survey points
+#############################################
+
+Panel13USEbene Panel13USEbene___1 -1217.61 -1866.71 -22.4757 mm
+Panel13USEbene Panel13USEbene___2 -1291.83 -1891.05 -19.3333 mm
+Panel13USEbene Panel13USEbene___3 -1223.08 -1868.97 -215.639 mm
+Panel13USEbene Panel13USEbene___4 -1288.34 -1890.52 -215.964 mm
+Panel13USEbene Panel13USEbene___5 -1291.43 -1890.86 -90.2959 mm
+Panel13USEbene Panel13USEbene___6 -1223.95 -1868.03 -109.699 mm
+Panel13USMittellinie Panel13USMittellinie___1 -1236.85 -1913.27 136.551 mm
+Panel13USMittellinie Panel13USMittellinie___2 -1235.73 -1915.45 -373.254 mm
+Panel13USEbene Panel13USEbene___1 -1217.61 -1866.71 -22.4757 mm
+Panel13USEbene Panel13USEbene___2 -1291.83 -1891.05 -19.3333 mm
+Panel13USEbene Panel13USEbene___3 -1223.08 -1868.97 -215.639 mm
+Panel13USEbene Panel13USEbene___4 -1288.34 -1890.52 -215.964 mm
+Panel13USEbene Panel13USEbene___5 -1291.43 -1890.86 -90.2959 mm
+Panel13USEbene Panel13USEbene___6 -1223.95 -1868.03 -109.699 mm
+Panel13USMittellinie Panel13USMittellinie___1 -1236.85 -1913.27 136.551 mm
+Panel13USMittellinie Panel13USMittellinie___2 -1235.73 -1915.45 -373.254 mm
+Panel13USEbene Panel13USEbene___1 -1217.61 -1866.71 -22.4757 mm
+Panel13USEbene Panel13USEbene___2 -1291.83 -1891.05 -19.3333 mm
+Panel13USEbene Panel13USEbene___3 -1223.08 -1868.97 -215.639 mm
+Panel13USEbene Panel13USEbene___4 -1288.34 -1890.52 -215.964 mm
+Panel13USEbene Panel13USEbene___5 -1291.43 -1890.86 -90.2959 mm
+Panel13USEbene Panel13USEbene___6 -1223.95 -1868.03 -109.699 mm
+Panel13USMittellinie Panel13USMittellinie___1 -1236.85 -1913.27 136.551 mm
+Panel13USMittellinie Panel13USMittellinie___2 -1235.73 -1915.45 -373.254 mm

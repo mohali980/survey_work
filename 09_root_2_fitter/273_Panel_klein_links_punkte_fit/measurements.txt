@@ -1,0 +1,14 @@
+#############################################
+# 11/2018 Panelkleinlinkspunkte1 survey points
+#############################################
+
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___1 564.19 -440.734 256.545 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___2 505.708 -404.392 354.799 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___3 565.384 -108.21 254.974 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___4 505.97 -100.833 354.852 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___5 565.364 -116.395 255.974 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___6 567.255 94.4965 257.011 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___7 510.186 106.395 354.958 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___8 506.114 105.705 355.058 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___9 507.45 433.138 354.848 mm
+Panelkleinlinkspunkte1 Panelkleinlinkspunkte1___10 564.419 430.504 255.202 mm

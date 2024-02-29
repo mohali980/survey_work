@@ -1,0 +1,16 @@
+#############################################
+# 2/2022 EckeSchaft6mm survey points
+#############################################
+
+EckeSchaft6mm EckeSchaft6mm___1 -2689.26 -277.586 -989.639 mm
+EckeSchaft6mm EckeSchaft6mm___2 -2420.61 -1128.67 -972.174 mm
+EckeSchaft6mm EckeSchaft6mm___3 -3581.72 -562.158 -949.662 mm
+EckeSchaft6mm EckeSchaft6mm___4 -3312.96 -1414.08 -942.002 mm
+EckeSchaft6mm EckeSchaft6mm___1 -2689.26 -277.586 -989.639 mm
+EckeSchaft6mm EckeSchaft6mm___2 -2420.61 -1128.67 -972.174 mm
+EckeSchaft6mm EckeSchaft6mm___3 -3581.72 -562.158 -949.662 mm
+EckeSchaft6mm EckeSchaft6mm___4 -3312.96 -1414.08 -942.002 mm
+EckeSchaft6mm EckeSchaft6mm___1 -2689.26 -277.586 -989.639 mm
+EckeSchaft6mm EckeSchaft6mm___2 -2420.61 -1128.67 -972.174 mm
+EckeSchaft6mm EckeSchaft6mm___3 -3581.72 -562.158 -949.662 mm
+EckeSchaft6mm EckeSchaft6mm___4 -3312.96 -1414.08 -942.002 mm

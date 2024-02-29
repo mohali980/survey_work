@@ -1,0 +1,15 @@
+#############################################
+# 11/2018 Drehtischgelb25.4 survey points
+#############################################
+
+Drehtischgelb25.4 Drehtischgelb25.4___1 384.242 -655.382 283.406 mm
+Drehtischgelb25.4 Drehtischgelb25.4___2 186.535 -655.438 442.741 mm
+Drehtischgelb25.4 Drehtischgelb25.4___3 -76.0941 -655.462 490.663 mm
+Drehtischgelb25.4 Drehtischgelb25.4___4 -291.342 -655.567 412.288 mm
+Drehtischgelb25.4 Drehtischgelb25.4___5 394.519 -655.425 138.518 mm
+Drehtischgelb25.4 Drehtischgelb25.4___6 349.165 -655.534 -267.373 mm
+Drehtischgelb25.4 Drehtischgelb25.4___7 242.593 -655.645 -404.261 mm
+Drehtischgelb25.4 Drehtischgelb25.4___8 -50.0959 -655.755 -509.698 mm
+Drehtischgelb25.4 Drehtischgelb25.4___9 -210.079 -655.725 -465.164 mm
+Drehtischgelb25.4 Drehtischgelb25.4___10 -427.855 -655.691 -154.507 mm
+Drehtischgelb25.4 Drehtischgelb25.4___11 -471.798 -655.651 -17.391 mm

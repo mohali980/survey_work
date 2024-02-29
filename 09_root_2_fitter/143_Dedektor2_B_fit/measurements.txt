@@ -1,0 +1,11 @@
+#############################################
+# 7/2019 Dedektor2_pos2 survey points
+#############################################
+
+Dedektor2_pos2 Dedektor2_pos2___1 -689.34 1529.46 261.878 mm
+Dedektor2_pos2 Dedektor2_pos2___2 -689.156 1527.76 -348.119 mm
+Dedektor2_pos2 Dedektor2_pos2___3 -654.277 1548.48 -322.957 mm
+Dedektor2_pos2 Dedektor2_pos2___4 -654.211 1550.21 236.868 mm
+Dedektor2_pos2 Dedektor2_pos2___5 -1095.7 1630.21 261.642 mm
+Dedektor2_pos2 Dedektor2_pos2___6 -1095.6 1630.25 261.716 mm
+Dedektor2_pos2 Dedektor2_pos2___7 -1095.94 1628 -348.225 mm

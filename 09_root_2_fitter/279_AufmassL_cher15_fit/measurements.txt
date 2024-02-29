@@ -1,0 +1,25 @@
+#############################################
+# 5/2018 AufmassLöcher1.5" survey points
+#############################################
+
+AufmassLöcher1.5" AufmassLöcher1.5"___1 -2.66703 -659.547 7381.01 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___2 93.6479 -659.505 7365.29 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___3 178.747 -659.54 7317.42 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___4 242.439 -659.533 7243.38 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___5 278.061 -659.512 7054.47 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___6 245.828 -659.488 6962.33 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___7 -241.102 -659.576 6956.5 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___8 -275.58 -659.563 7047.93 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___9 -276.715 -659.575 7145.41 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___10 -244.479 -659.592 7237.58 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___11 -182.536 -659.508 7313.27 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___12 -98.5793 -659.502 7363.08 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___13 41.6105 -744.032 7572.15 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___14 0.641329 -700.651 7574.02 mm
+AufmassLöcher1.5" AufmassLöcher1.5"___15 -41.2199 -744.113 7572.24 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___16 574.474 -837.587 6948.85 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___17 460.238 -837.676 7147.05 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___18 270.039 -837.621 7477 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___19 -269.771 -838.146 7477.45 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___20 -421.813 -837.941 7213.35 mm
+AufmassLöcher0.5" AufmassLöcher0.5"___21 -573.72 -837.293 6949.1 mm

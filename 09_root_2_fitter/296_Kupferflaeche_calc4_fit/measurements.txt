@@ -1,0 +1,10 @@
+#############################################
+# 6/2019 Kupferfläche survey points
+#############################################
+
+Kupferfläche Kupferfläche___1 37.7312 277.575 -55.4575 mm
+Kupferfläche Kupferfläche___2 54.4596 277.528 -41.8663 mm
+Kupferfläche Kupferfläche___3 34.8515 277.518 -32.5562 mm
+Kupferfläche Kupferfläche___4 25.7738 277.578 -31.9556 mm
+Kupferfläche Kupferfläche___5 42.2942 277.492 12.3106 mm
+Kupferfläche Kupferfläche___6 14.5957 277.406 42.6358 mm
