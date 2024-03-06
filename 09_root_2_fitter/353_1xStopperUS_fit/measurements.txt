@@ -1,8 +1,0 @@
-#############################################
-# 8/2018 1xStopperUS survey points
-#############################################
-
-1xStopperUS 1xStopperUS___1 -209.503 304.645 1319.6 mm
-1xStopperUS 1xStopperUS___2 -210.17 -305.42 1323.39 mm
-1xStopperUS 1xStopperUS___3 209.105 -305.889 1323.16 mm
-1xStopperUS 1xStopperUS___4 209.652 304.162 1319.46 mm

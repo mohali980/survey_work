@@ -47,134 +47,103 @@ void root_2_OBJ_fit()
 	TString rotTrans="";
 	vector<float> vrt={};
 
-	int flag=1;
 
-	ifstream in_pointdefs_file;
-	string line;
 
+//	reading the measurements input file, which is the survied data file:
+
+	ifstream in_file;
+	vector<TString> Point_vec,Frame_vec;
+	vector<float>	x_vec,y_vec,z_vec;
+	string line,unit;
+
+	TString tmp_frame,tmp_point;
+	float tmp_x,tmp_y,tmp_z;
 
 //	define the input files... 
 //	the first one is ole and its frame is the old/main PSI frame, there is no need to use it, it is not a direct MUSE survey.
 
-	int nu_of_trees=0;
-	in_pointdefs_file.open("10_trees.txt");
+	vector<TString> files_vec{"measurements"};//,"fitted"};
 
-	vector<TString> items;
-
-	while(getline(in_pointdefs_file,line))
+	for(int j=0;j<files_vec.size();j++)
 	{
-		stringstream ss(line);
-		TString item;
-		if(line.Contains("#")){flag=0;}
-		while (getline (ss,item)) {	if(flag==1)	{	items.push_back (item);	}	}
+
+	if(j==0)	{	in_file.open(files_vec[0]+".txt");	}
+	if(j==1)	{	in_file.open(files_vec[1]+".mac");	}
+
+	stringstream ss;
+
+
+	if(in_file.is_open()) 
+	{
+
+		while(getline(in_file,line)) 
+		{
+			
+			int flag=1;
+			ss.clear();
+			ss.str(line);
+
+			if(TString(line).Contains("#") || line.empty())		{flag=0;}
+
+			if(flag==1)
+			
+			{
+
+			ss>>tmp_frame>>tmp_point>>tmp_x>>tmp_y>>tmp_z>>unit;
+
+			Frame_vec.push_back(tmp_frame);
+			Point_vec.push_back(tmp_point);
+			x_vec.push_back(tmp_x);
+			y_vec.push_back(tmp_y);
+			z_vec.push_back(tmp_z);
+			}
+		}
+	}
+	else
+	{
+		cout << "File doesn't exist! " << "\n";
+		return;
 	}
 
 
+cout<<files_vec[j]<<endl;
+for(int t=0;t<x_vec.size();t++)
+{
+	cout<< Point_vec[t]<<"	"<<x_vec[t]<<"	"<<y_vec[t]<<endl;
+}
+cout<<endl;
 
 
-
-
-
-}	//	main
-
-/*
-	cout<<"Number of the different coordinates : "<<items.size()<<endl;
-
-	TString working_file_name,working_frame,working_collection,working_group,working_point;
-	int working_month,working_day,working_yr,working_hr,working_min,working_sec;
-	float working_x,working_y,working_z,working_offp,working_offr;
-
-//	................................................................
-
-TFile file("10_points.root");
-
-
-		TString dir="10_OBJ_files";
-		gSystem->Exec("rm -rf "+dir);
-
-	gSystem->Exec("rm -rf "+dir);
-	gSystem->Exec("mkdir "+dir);
-
-	TString meaning;
-	
-
-	for(int k=0;k<items.size();k++)	//	(AAA)
-	{
-	int tt=0;
-	basic_string<char> a = string (items[k]);
-
-	vrt.clear();
-
-
-//	................................................................
-
-		TTreeReader reader(Form("%s",a.c_str()), &file);
-
-		TTreeReaderValue<TString> in_file_name(reader, "file_name");
-		TTreeReaderValue<TString> in_frame(reader, "frame");
-		TTreeReaderValue<TString> in_collection(reader, "collection");
-		TTreeReaderValue<TString> in_group(reader, "group");
-		TTreeReaderValue<TString> in_point(reader, "point");
-
-		TTreeReaderValue<float> in_x(reader, "x");
-		TTreeReaderValue<float> in_y(reader, "y");
-		TTreeReaderValue<float> in_z(reader, "z");
-		TTreeReaderValue<float> in_offp(reader, "offp");
-		TTreeReaderValue<float> in_offr(reader, "offr");
-
-		TTreeReaderValue<int> in_month(reader, "month");
-		TTreeReaderValue<int> in_day(reader, "day");
-		TTreeReaderValue<int> in_yr(reader, "yr");
-		TTreeReaderValue<int> in_hr(reader, "hr");
-		TTreeReaderValue<int> in_min(reader, "min");
-		TTreeReaderValue<int> in_sec(reader, "sec");
-
-		cout<< setw(4)<<k+1<<" ) "<< setw(45)<<a.c_str()<<" : ";
-
+	TString working_frame,working_point;
+	float working_x,working_y,working_z;
 
 		
 
-		TString ofstName =  (TString) a.c_str() + ".obj";
+		TString ofstName =  files_vec[j]+".obj";
 
 		ofstream ofst;
-		ofst.open(dir+"/"+ofstName);
-
-
-		int tree_size=0;
+		ofst.open(ofstName);
 
 //	...............................................................................
 
-					while (reader.Next()) 
-					{
-						tree_size++;
-
-						working_file_name=*in_file_name;
-						working_frame=*in_frame;
-						working_collection=*in_collection;
-						working_group=*in_group;
-						working_point=*in_point;
-						working_month=*in_month;
-						working_day=*in_day;
-						working_yr=*in_yr;
-						working_hr=*in_hr;
-						working_min=*in_min;
-						working_sec=*in_sec;
-							
-						working_x=*in_x;
-						working_y=*in_y;
-						working_z=*in_z;
-						working_offp=*in_offp;
-						working_offr=*in_offr;
-
-						bool rt = false;
+	for (int k=0;k<x_vec.size();k++) 
+	{
+					
+		working_frame=Frame_vec[k];
+		working_point=Point_vec[k];
+		working_x=x_vec[k];
+		working_y=y_vec[k];
+		working_z=z_vec[k];
+	
+		bool rt = false;
 						
-						if((int)vrt.size())
-						{
-							if((int)vrt.size() == rotTrans.Length())
-							{
-						//	cout << "doing a rotations/translation" << endl;
-							rt = true;
-							}
+		if((int)vrt.size())
+			{
+			if((int)vrt.size() == rotTrans.Length())
+			{
+		//	cout << "doing a rotations/translation" << endl;
+			rt = true;
+			}
 							else
 							{
 							cout << "string " << rotTrans << " needs to have the same number of characters as the size of the supplied vector: " << vrt.size() << endl;
@@ -186,7 +155,7 @@ TFile file("10_points.root");
 					float pt1, pt2, pt3;
 					name =	working_point;
 
-					collname = working_collection;
+					collname = working_frame;
 					pt1 = unitsConv*working_x;
 					pt2 = unitsConv*working_y;
 					pt3 = unitsConv*working_z;
@@ -214,22 +183,23 @@ TFile file("10_points.root");
 					}
 					vector<float> pts = {pt1, pt2, pt3};
 					ptconv(pts, name, &ofst);
-					}	//	while (reader.Next())
-
+	}	//	for(k)
 //	...............................................................................
+		ofst.close();
+		in_file.close();
+
+			Frame_vec.clear();
+			Point_vec.clear();
+			x_vec.clear();
+			y_vec.clear();
+			z_vec.clear();
 
 
-	cout<<setw(5)<<tree_size;
-	if(tt==1){cout<<setw(40)<<" pts, Doing Transformations... notes/means : "<<setw(35)<<meaning<<endl;}
-	else{cout<<endl;}
+}	//	for(j)
 
-	ofst.close();
-
-	meaning="";
-	}		//	for(int k=0;k<trees_names.size();k++)	(AAA)
 
 }	//	main
 
 
-*/
+
 	

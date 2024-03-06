@@ -1,7 +1,0 @@
-#############################################
-# 5/2018 Targetposition survey points
-#############################################
-
-Targetposition Targetposition___1 -184.43 425.57 7035.68 mm
-Targetposition Targetposition___2 187.668 424.914 7034.25 mm
-Targetposition Targetposition___3 40.3771 423.783 7292.16 mm

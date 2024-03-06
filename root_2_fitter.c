@@ -74,12 +74,11 @@ void root_2_fitter()
 		TTreeReaderValue<int> in_sec(reader, "sec");
 //	...............................................................................
 
-
 		TString dir;
 
 		dir=trees_names[k]+"_fit";
 		gSystem->Exec("mkdir "+dir_name+"/"+dir);
-		
+		gSystem->Exec("cp root_2_OBJ_fit.c "+dir_name+"/"+dir+"/");		
 
 		ofstream out_f;
 		out_f.open(dir_name+"/"+dir+"/"+"measurements.txt");
@@ -108,21 +107,17 @@ void root_2_fitter()
 			working_offp=*in_offp;
 			working_offr=*in_offr;
 
-//	...........................
-// the measurements.txt header:
-	if(tt==0)
-	{
-	out_f<<"#############################################"<<endl;
-	out_f<<"# "<<working_month<<"/20"<<working_yr<<" "<<working_group<<" survey points"<<endl;
-	out_f<<"#############################################"<<endl;
-	out_f<<endl;
-	}
+		//	...........................
+		// the measurements.txt header:
+			if(tt==0)
+			{
+			out_f<<"#############################################"<<endl;
+			out_f<<"# "<<working_month<<"/20"<<working_yr<<" "<<working_group<<" survey points"<<endl;
+			out_f<<"#############################################"<<endl;
+			out_f<<endl;
+			}
 
 			out_f<<working_group<<" "<<working_point<<" "<<working_x<<" "<<working_y<<" "<<working_z<<" "<<"mm"<<endl;
-
-
-
-
 
 
 			tt++;
@@ -134,10 +129,14 @@ void root_2_fitter()
 
 
 
-
-
 		out_f.close();
 
+			gSystem->ChangeDirectory(dir_name+"/"+dir);
+			gSystem->Exec("root root_2_OBJ_fit.c");
+			gSystem->ChangeDirectory("../..");
+
+			.q
+			
 
 
 	}	//	for(k)

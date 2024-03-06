@@ -1,6 +1,0 @@
-#############################################
-# 5/2022 Targetkammer survey points
-#############################################
-
-Targetkammer Targetkammer___1 -155.484 228.915 -176.112 mm
-Targetkammer Targetkammer___2 157.599 228.492 -176.491 mm
