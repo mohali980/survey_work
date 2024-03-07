@@ -1,0 +1,28 @@
+#############################################
+# 8/2022 St5PlaneD(Beamright) survey points
+#############################################
+
+St5PlaneD(Beamright) St5PlaneD(Beamright)___4 -2066.18 29.9379 10.7256 mm
+St5PlaneD(Beamright) St5PlaneD(Beamright)___5 -2066.26 29.155 -249.338 mm
+St5PlaneD(Beamleft) St5PlaneD(Beamleft)___6 -1679.28 153.779 10.3781 mm
+PlaneDLeft PlaneDLeft___5 -1833.23 634.575 -252.151 mm
+PlaneDLeft PlaneDLeft___6 -1833.24 634.583 -252.164 mm
+PlaneDLeft PlaneDLeft___7 -1832.93 635.539 7.87242 mm
+PlaneDTop PlaneDTop___8 -1902.49 613.442 81.3924 mm
+PlaneDTop PlaneDTop___9 -2149.93 534.104 82.0202 mm
+St5PlaneD(Beamright) St5PlaneD(Beamright)___4 -2066.18 29.9379 10.7256 mm
+St5PlaneD(Beamright) St5PlaneD(Beamright)___5 -2066.26 29.155 -249.338 mm
+St5PlaneD(Beamleft) St5PlaneD(Beamleft)___6 -1679.28 153.779 10.3781 mm
+PlaneDLeft PlaneDLeft___5 -1833.23 634.575 -252.151 mm
+PlaneDLeft PlaneDLeft___6 -1833.24 634.583 -252.164 mm
+PlaneDLeft PlaneDLeft___7 -1832.93 635.539 7.87242 mm
+PlaneDTop PlaneDTop___8 -1902.49 613.442 81.3924 mm
+PlaneDTop PlaneDTop___9 -2149.93 534.104 82.0202 mm
+St5PlaneD(Beamright) St5PlaneD(Beamright)___4 -2066.18 29.9379 10.7256 mm
+St5PlaneD(Beamright) St5PlaneD(Beamright)___5 -2066.26 29.155 -249.338 mm
+St5PlaneD(Beamleft) St5PlaneD(Beamleft)___6 -1679.28 153.779 10.3781 mm
+PlaneDLeft PlaneDLeft___5 -1833.23 634.575 -252.151 mm
+PlaneDLeft PlaneDLeft___6 -1833.24 634.583 -252.164 mm
+PlaneDLeft PlaneDLeft___7 -1832.93 635.539 7.87242 mm
+PlaneDTop PlaneDTop___8 -1902.49 613.442 81.3924 mm
+PlaneDTop PlaneDTop___9 -2149.93 534.104 82.0202 mm

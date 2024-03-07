@@ -1,0 +1,36 @@
+#############################################
+# 8/2018 AutoCorr1 survey points
+#############################################
+
+AutoCorr1 AutoCorr1___4 -209.517 304.843 2315.43 mm
+AutoCorr1 AutoCorr1___1 -210.244 -305.226 2317.84 mm
+AutoCorr1 AutoCorr1___2 209.044 -305.745 2317.6 mm
+AutoCorr1 AutoCorr1___3 209.626 304.337 2315.27 mm
+AutoCorr1* AutoCorr1*___3 209.723 304.332 2314.79 mm
+AutoCorr1* AutoCorr1*___2 209.117 -305.74 2317.07 mm
+AutoCorr1* AutoCorr1*___1 -210.174 -305.221 2317.66 mm
+AutoCorr1* AutoCorr1*___4 -209.423 304.873 2315.3 mm
+AutoCorr1DS AutoCorr1DS___3 209.735 304.322 2314.77 mm
+AutoCorr1DS AutoCorr1DS___2 209.089 -305.742 2317.04 mm
+AutoCorr1DS AutoCorr1DS___1 -210.179 -305.214 2317.64 mm
+AutoCorr1DS AutoCorr1DS___4 -209.438 304.868 2315.26 mm
+AutoCorr1***US AutoCorr1***US___4 209.657 304.175 1319.42 mm
+AutoCorr1***US AutoCorr1***US___3 209.122 -305.886 1323.07 mm
+AutoCorr1***US AutoCorr1***US___2 -210.194 -305.43 1323.33 mm
+AutoCorr1***US AutoCorr1***US___1 -209.517 304.646 1319.56 mm
+AutoCorr1****DS AutoCorr1****DS___4 -209.448 304.888 2315.27 mm
+AutoCorr1****DS AutoCorr1****DS___1 -210.24 -305.207 2317.66 mm
+AutoCorr1****DS AutoCorr1****DS___2 209.09 -305.756 2317.09 mm
+AutoCorr1****DS AutoCorr1****DS___3 209.696 304.27 2314.79 mm
+AutoCorr1*****US AutoCorr1*****US___4 209.637 304.144 1319.24 mm
+AutoCorr1*****US AutoCorr1*****US___3 209.124 -305.865 1322.65 mm
+AutoCorr1*****US AutoCorr1*****US___2 -210.164 -305.403 1322.75 mm
+AutoCorr1*****US AutoCorr1*****US___1 -209.501 304.671 1319.23 mm
+AutoCorr1******DS AutoCorr1******DS___4 -209.478 304.896 2315.05 mm
+AutoCorr1******DS AutoCorr1******DS___1 -210.281 -305.19 2317.27 mm
+AutoCorr1******DS AutoCorr1******DS___2 209.013 -305.747 2316.81 mm
+AutoCorr1******DS AutoCorr1******DS___3 209.686 304.323 2314.68 mm
+AutoCorr1*******US AutoCorr1*******US___4 209.644 304.183 1319.36 mm
+AutoCorr1*******US AutoCorr1*******US___3 209.108 -305.878 1322.88 mm
+AutoCorr1*******US AutoCorr1*******US___1 -209.514 304.649 1319.35 mm
+AutoCorr1*******US AutoCorr1*******US___2 -210.177 -305.417 1322.95 mm

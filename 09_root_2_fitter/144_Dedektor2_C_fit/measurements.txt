@@ -1,0 +1,40 @@
+#############################################
+# 7/2019 Dedektor2_pos1 survey points
+#############################################
+
+Dedektor2_pos1 Dedektor2_pos1___1 209.393 -308.097 2373.65 mm
+Dedektor2_pos1 Dedektor2_pos1___2 209.559 301.852 2374.09 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -209.519 -307.656 2374.63 mm
+Dedektor2_pos1 Dedektor2_pos1___5 238.325 -282.854 2345.04 mm
+Dedektor2_pos1 Dedektor2_pos1___6 238.62 276.962 2345.31 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -209.098 302.202 2374.44 mm
+Dedektor2_pos1 Dedektor2_pos1___1 209.393 -308.097 2373.65 mm
+Dedektor2_pos1 Dedektor2_pos1___2 209.559 301.852 2374.09 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -209.519 -307.656 2374.63 mm
+Dedektor2_pos1 Dedektor2_pos1___5 238.325 -282.854 2345.04 mm
+Dedektor2_pos1 Dedektor2_pos1___6 238.62 276.962 2345.31 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -209.098 302.202 2374.44 mm
+Dedektor2_pos1 Dedektor2_pos1___1 209.393 -308.097 2373.65 mm
+Dedektor2_pos1 Dedektor2_pos1___2 209.559 301.852 2374.09 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -209.519 -307.656 2374.63 mm
+Dedektor2_pos1 Dedektor2_pos1___5 238.325 -282.854 2345.04 mm
+Dedektor2_pos1 Dedektor2_pos1___6 238.62 276.962 2345.31 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -209.098 302.202 2374.44 mm
+Dedektor2_pos1 Dedektor2_pos1___1 -927.507 566.761 -349.834 mm
+Dedektor2_pos1 Dedektor2_pos1___2 -928.634 566.723 260.115 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -1334.19 667.249 -350.251 mm
+Dedektor2_pos1 Dedektor2_pos1___5 -892.558 587.533 -324.537 mm
+Dedektor2_pos1 Dedektor2_pos1___6 -893.421 587.595 235.278 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -1334.92 667.758 259.607 mm
+Dedektor2_pos1 Dedektor2_pos1___1 209.393 -308.097 2373.65 mm
+Dedektor2_pos1 Dedektor2_pos1___2 209.559 301.852 2374.09 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -209.519 -307.656 2374.63 mm
+Dedektor2_pos1 Dedektor2_pos1___5 238.325 -282.854 2345.04 mm
+Dedektor2_pos1 Dedektor2_pos1___6 238.62 276.962 2345.31 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -209.098 302.202 2374.44 mm
+Dedektor2_pos1 Dedektor2_pos1___1 209.393 -308.097 2373.65 mm
+Dedektor2_pos1 Dedektor2_pos1___2 209.559 301.852 2374.09 mm
+Dedektor2_pos1 Dedektor2_pos1___4 -209.519 -307.656 2374.63 mm
+Dedektor2_pos1 Dedektor2_pos1___5 238.325 -282.854 2345.04 mm
+Dedektor2_pos1 Dedektor2_pos1___6 238.62 276.962 2345.31 mm
+Dedektor2_pos1 Dedektor2_pos1___7 -209.098 302.202 2374.44 mm

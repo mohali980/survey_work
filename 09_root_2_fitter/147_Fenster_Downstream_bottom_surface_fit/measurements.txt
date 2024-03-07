@@ -1,0 +1,26 @@
+#############################################
+# 4/2021 Fenster_Downstream survey points
+#############################################
+
+Fenster_Downstream Fenster_Downstream___1 -19.6056 -248.453 244.753 mm
+Fenster_Downstream Fenster_Downstream___2 -2.65457 -247.689 245.523 mm
+Fenster_Downstream Fenster_Downstream___3 14.4403 -248.315 245.035 mm
+Fenster_Downstream Fenster_Downstream___4 -19.6483 -619.372 244.417 mm
+Fenster_Downstream Fenster_Downstream___5 -2.41226 -619.828 245.116 mm
+Fenster_Downstream Fenster_Downstream___6 14.5932 -619.162 244.666 mm
+Fenster_Downstream Fenster_Downstream___7 45.9459 -300.045 240.867 mm
+Fenster_Downstream Fenster_Downstream___8 46.0274 -416.975 240.345 mm
+Fenster_Downstream Fenster_Downstream___9 -50.9691 -417.072 239.699 mm
+Fenster_Downstream Fenster_Downstream___10 46.0254 -567.491 240.646 mm
+Fenster_Downstream Fenster_Downstream___11 -50.9824 -567.504 239.832 mm
+Fenster_Downstream Fenster_Downstream___1 -19.6056 -248.453 244.753 mm
+Fenster_Downstream Fenster_Downstream___2 -2.65457 -247.689 245.523 mm
+Fenster_Downstream Fenster_Downstream___3 14.4403 -248.315 245.035 mm
+Fenster_Downstream Fenster_Downstream___4 -19.6483 -619.372 244.417 mm
+Fenster_Downstream Fenster_Downstream___5 -2.41226 -619.828 245.116 mm
+Fenster_Downstream Fenster_Downstream___6 14.5932 -619.162 244.666 mm
+Fenster_Downstream Fenster_Downstream___7 45.9459 -300.045 240.867 mm
+Fenster_Downstream Fenster_Downstream___8 46.0274 -416.975 240.345 mm
+Fenster_Downstream Fenster_Downstream___9 -50.9691 -417.072 239.699 mm
+Fenster_Downstream Fenster_Downstream___10 46.0254 -567.491 240.646 mm
+Fenster_Downstream Fenster_Downstream___11 -50.9824 -567.504 239.832 mm

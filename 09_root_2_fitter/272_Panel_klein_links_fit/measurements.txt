@@ -1,0 +1,12 @@
+#############################################
+# 11/2018 Panelkleinlinks1 survey points
+#############################################
+
+Panelkleinlinks1 Panelkleinlinks1___1 865.976 -1183.88 -195.795 mm
+Panelkleinlinks1 Panelkleinlinks1___2 801.016 34.0582 -80.9903 mm
+Panelkleinlinks1 Panelkleinlinks1___3 288.342 24.9718 811.644 mm
+Panelkleinlinks1 Panelkleinlinks1___4 274.669 -1181.72 833.107 mm
+Panelkleinlinks2 Panelkleinlinks2___4 274.498 -1181.73 833.034 mm
+Panelkleinlinks2 Panelkleinlinks2___3 288.244 24.9564 811.586 mm
+Panelkleinlinks2 Panelkleinlinks2___2 800.852 34.0515 -81.0765 mm
+Panelkleinlinks2 Panelkleinlinks2___1 865.729 -1183.89 -195.914 mm

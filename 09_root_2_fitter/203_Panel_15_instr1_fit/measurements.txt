@@ -1,0 +1,34 @@
+#############################################
+# 8/2022 Panel15-EbeneUS1_links survey points
+#############################################
+
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___1 -687.578 -2838.38 11.9296 mm
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___2 -682.165 -2847.45 13.6268 mm
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___3 -687.635 -2841.35 -259.651 mm
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___4 -676.755 -2859.56 -259.325 mm
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___5 -689.768 -2836.5 -135.567 mm
+Panel15-EbeneUS1_links Panel15-EbeneUS1_links___6 -686.978 -2840.9 -110.474 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___1 -805.642 -2901.08 14.9733 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___2 -803.089 -2906.08 -48.1983 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___3 -804.908 -2903.26 -60.0884 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___4 -806.485 -2902.95 -255.921 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___5 -804.083 -2906.92 -254.534 mm
+Panel15-EbeneUS1_rechts Panel15-EbeneUS1_rechts___6 -805.602 -2903.46 -176.238 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___1 -1055.03 -3051.27 14.9143 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___2 -1053.53 -3053.69 13.9538 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___3 -1054.94 -3052.69 -54.1005 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___4 -1053.28 -3055.35 -54.4346 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___5 -1056.49 -3053.77 -255.547 mm
+Panel15-EbeneUS2_rechts Panel15-EbeneUS2_rechts___6 -1054.34 -3057.19 -254.736 mm
+Panel15-EbeneUS2_links Panel15-EbeneUS2_links___1 -940.202 -2983.25 15.4634 mm
+Panel15-EbeneUS2_links Panel15-EbeneUS2_links___2 -921.886 -3013.14 16.5539 mm
+Panel15-EbeneUS2_links Panel15-EbeneUS2_links___3 -938.82 -2990.31 -253.226 mm
+Panel15-EbeneUS2_links Panel15-EbeneUS2_links___4 -919.711 -3021.6 -252.629 mm
+Panel15_EckeFolie Panel15_EckeFolie___1 -700.879 -2836.14 37.3387 mm
+Panel15_EckeFolie Panel15_EckeFolie___2 -698.124 -2839.72 -276.512 mm
+Panel15_EckeFolie Panel15_EckeFolie___3 -794.543 -2894.89 -275.704 mm
+Panel15_EckeFolie Panel15_EckeFolie___4 -798.663 -2890.04 37.4323 mm
+Panel15_EckeFolie Panel15_EckeFolie___5 -953.959 -2987.57 38.6362 mm
+Panel15_EckeFolie Panel15_EckeFolie___6 -955.445 -2989.72 -274.93 mm
+Panel15_EckeFolie Panel15_EckeFolie___7 -1042.35 -3043.88 -275.231 mm
+Panel15_EckeFolie Panel15_EckeFolie___8 -1045.76 -3040.31 37.445 mm

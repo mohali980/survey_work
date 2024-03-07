@@ -1,0 +1,49 @@
+#############################################
+# 8/2022 St5PlaneC(Beamright) survey points
+#############################################
+
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 -203.26 130.061 -608.465 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 -203.475 -129.963 -606.909 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 203.555 129.657 -609.188 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 1449.89 -523.04 1695.8 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 1392.56 -522.383 1442.17 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 1053.07 -524.809 1785.41 mm
+PlaneCTop PlaneCTop___1 1142.65 -1030.21 1840.86 mm
+PlaneCTop PlaneCTop___2 1142.57 -1030.29 1840.79 mm
+PlaneCTop PlaneCTop___10 1396.09 -1029.17 1783.79 mm
+PlaneCLeft PlaneCLeft___3 1054.83 -1030.45 1785.06 mm
+PlaneCLeft PlaneCLeft___4 997.445 -1029.9 1531.19 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 -2082.43 -1326.87 11.2617 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 -2081.51 -1328.51 -248.76 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 -1733.94 -1116.97 11.0943 mm
+PlaneCTop PlaneCTop___1 -2057.52 -721.103 82.5638 mm
+PlaneCTop PlaneCTop___2 -2057.51 -720.997 82.4815 mm
+PlaneCTop PlaneCTop___10 -2280.11 -855.054 82.8274 mm
+PlaneCLeft PlaneCLeft___3 -1994.48 -683.624 8.76309 mm
+PlaneCLeft PlaneCLeft___4 -1993.61 -685.172 -251.512 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 -2074.13 49.7459 10.6686 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 -2073.65 47.8304 -249.353 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 -1686.64 173.644 10.4086 mm
+PlaneCTop PlaneCTop___1 -1910.23 633.479 81.7201 mm
+PlaneCTop PlaneCTop___2 -1910.19 633.577 81.6377 mm
+PlaneCTop PlaneCTop___10 -2157.7 554.451 82.0427 mm
+PlaneCLeft PlaneCLeft___3 -1840.26 655.386 7.90286 mm
+PlaneCLeft PlaneCLeft___4 -1839.8 653.575 -252.371 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 -2074.13 49.7459 10.6686 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 -2073.65 47.8304 -249.353 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 -1686.64 173.644 10.4086 mm
+PlaneCTop PlaneCTop___1 -1910.23 633.479 81.7201 mm
+PlaneCTop PlaneCTop___2 -1910.19 633.577 81.6377 mm
+PlaneCTop PlaneCTop___10 -2157.7 554.451 82.0427 mm
+PlaneCLeft PlaneCLeft___3 -1840.26 655.386 7.90286 mm
+PlaneCLeft PlaneCLeft___4 -1839.8 653.575 -252.371 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___1 -2074.13 49.7459 10.6686 mm
+St5PlaneC(Beamright) St5PlaneC(Beamright)___2 -2073.65 47.8304 -249.353 mm
+St5PlaneC(Beamleft) St5PlaneC(Beamleft)___3 -1686.64 173.644 10.4086 mm
+PlaneCTop PlaneCTop___1 -1910.23 633.479 81.7201 mm
+PlaneCTop PlaneCTop___2 -1910.19 633.577 81.6377 mm
+PlaneCTop PlaneCTop___10 -2157.7 554.451 82.0427 mm
+PlaneCLeft PlaneCLeft___3 -1840.26 655.386 7.90286 mm
+PlaneCLeft PlaneCLeft___4 -1839.8 653.575 -252.371 mm
+PlaneCST1 PlaneCST1___1 129.322 203.055 -608.97 mm
+PlaneCST1 PlaneCST1___2 -130.665 203.052 -608.416 mm

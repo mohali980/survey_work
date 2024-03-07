@@ -1,0 +1,34 @@
+#############################################
+# 10/2018 Detector1Ebene1 survey points
+#############################################
+
+Detector1Ebene1 Detector1Ebene1___1 -1397.65 325.705 201.428 mm
+Detector1Ebene1 Detector1Ebene1___2 -1396.81 72.3225 203.013 mm
+Detector1Ebene1 Detector1Ebene1___3 -1392.05 -103.228 210.336 mm
+Detector1Ebene1 Detector1Ebene1___4 -1394.16 -318.957 205.12 mm
+Detector1Ebene1 Detector1Ebene1___13 -878.224 -400.083 1092.68 mm
+Detector1Ebene1 Detector1Ebene1___14 -933.955 -431.15 995.998 mm
+Detector1Ebene1 Detector1Ebene1___15 -936.477 -106.688 994.933 mm
+Detector1Ebene1 Detector1Ebene1___16 -878.746 -79.3453 1092.33 mm
+Detector1Ebene1 Detector1Ebene1___17 -872.636 370.873 1102.58 mm
+Detector1Ebene1 Detector1Ebene1___18 -939.479 220.998 990.25 mm
+Detector1Ebene1 Detector1Ebene1___19 -1001.83 -94.3056 880.357 mm
+Detector1Ebene1 Detector1Ebene1___20 -1002.01 -341.624 879.012 mm
+Detector1Ebene1 Detector1Ebene1___21 -996.445 295.964 890.08 mm
+Detector1Ebene2 Detector1Ebene2___5 -1437.53 -363.768 187.312 mm
+Detector1Ebene2 Detector1Ebene2___6 -1424.98 -287.392 179.811 mm
+Detector1Ebene2 Detector1Ebene2___7 -1438.12 -120.811 187.575 mm
+Detector1Ebene2 Detector1Ebene2___8 -1423.95 -46.6158 179.011 mm
+Detector1Ebene2 Detector1Ebene2___9 -1426.21 74.159 180.234 mm
+Detector1Ebene2 Detector1Ebene2___10 -1435.67 130.472 185.839 mm
+Detector1Ebene2 Detector1Ebene2___11 -1426.46 386.615 179.976 mm
+Detector1Ebene2 Detector1Ebene2___12 -1439.18 268.329 187.766 mm
+Detector1Ebene3 Detector1Ebene3___22 -872.534 -368.951 1138.19 mm
+Detector1Ebene3 Detector1Ebene3___23 -868.984 -274.978 1136.1 mm
+Detector1Ebene3 Detector1Ebene3___24 -878.998 -115.962 1141.62 mm
+Detector1Ebene3 Detector1Ebene3___25 -878.112 93.8527 1140.84 mm
+Detector1Ebene3 Detector1Ebene3___26 -872.893 402.714 1137.45 mm
+Detector1Ebene3 Detector1Ebene3___27 -874.445 345.537 1138.43 mm
+Detector1Ebene3 Detector1Ebene3___28 -884.075 295.434 1144.02 mm
+Detector1Ebene3 Detector1Ebene3___29 -870.159 126.857 1136.2 mm
+Detector1Ebene3 Detector1Ebene3___30 -880.509 -427.142 1142.79 mm

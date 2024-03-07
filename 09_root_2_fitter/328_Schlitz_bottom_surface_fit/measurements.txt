@@ -1,0 +1,52 @@
+#############################################
+# 2/2021 Schlitz survey points
+#############################################
+
+Schlitz Schlitz___497 -6.13645 -747.692 -13.9073 mm
+Schlitz Schlitz___498 -4.1389 -747.657 -14.0381 mm
+Schlitz Schlitz___499 -2.15023 -747.633 -13.8001 mm
+Schlitz Schlitz___500 -0.144983 -747.608 -13.8097 mm
+Schlitz Schlitz___501 1.85694 -747.596 -13.8008 mm
+Schlitz Schlitz___502 3.86085 -747.631 -13.8831 mm
+Schlitz Schlitz___503 5.85854 -747.552 -13.985 mm
+Schlitz Schlitz___504 7.83687 -747.64 -14.2711 mm
+Schlitz Schlitz___505 9.83249 -747.54 -14.1662 mm
+Schlitz Schlitz___506 11.8323 -747.505 -14.1244 mm
+Schlitz Schlitz___507 9.82678 -747.524 -14.2016 mm
+Schlitz Schlitz___508 7.84685 -747.61 -13.9307 mm
+Schlitz Schlitz___509 5.85143 -747.531 -13.8118 mm
+Schlitz Schlitz___510 3.84912 -747.618 -13.7509 mm
+Schlitz Schlitz___511 1.84833 -747.579 -13.6474 mm
+Schlitz Schlitz___512 -0.146776 -747.582 -13.8066 mm
+Schlitz Schlitz___497 -5.97166 -747.687 -13.383 mm
+Schlitz Schlitz___498 -3.97404 -747.652 -13.5126 mm
+Schlitz Schlitz___499 -1.98553 -747.626 -13.2734 mm
+Schlitz Schlitz___500 0.019719 -747.601 -13.2817 mm
+Schlitz Schlitz___501 2.02163 -747.589 -13.2716 mm
+Schlitz Schlitz___502 4.0256 -747.623 -13.3527 mm
+Schlitz Schlitz___503 6.02333 -747.543 -13.4533 mm
+Schlitz Schlitz___504 8.00187 -747.63 -13.7382 mm
+Schlitz Schlitz___505 9.99739 -747.53 -13.6321 mm
+Schlitz Schlitz___506 11.9972 -747.494 -13.5891 mm
+Schlitz Schlitz___507 9.99169 -747.513 -13.6676 mm
+Schlitz Schlitz___508 8.01162 -747.601 -13.3978 mm
+Schlitz Schlitz___509 6.0161 -747.522 -13.2802 mm
+Schlitz Schlitz___510 4.01379 -747.61 -13.2205 mm
+Schlitz Schlitz___511 2.01292 -747.571 -13.1182 mm
+Schlitz Schlitz___512 0.017915 -747.575 -13.2786 mm
+Schlitz Schlitz___497 -5.97166 -747.687 -13.383 mm
+Schlitz Schlitz___498 -3.97404 -747.652 -13.5126 mm
+Schlitz Schlitz___499 -1.98553 -747.626 -13.2734 mm
+Schlitz Schlitz___500 0.019719 -747.601 -13.2817 mm
+Schlitz Schlitz___501 2.02163 -747.589 -13.2716 mm
+Schlitz Schlitz___502 4.0256 -747.623 -13.3527 mm
+Schlitz Schlitz___503 6.02333 -747.543 -13.4533 mm
+Schlitz Schlitz___504 8.00187 -747.63 -13.7382 mm
+Schlitz Schlitz___505 9.99739 -747.53 -13.6321 mm
+Schlitz Schlitz___506 11.9972 -747.494 -13.5891 mm
+Schlitz Schlitz___507 9.99169 -747.513 -13.6676 mm
+Schlitz Schlitz___508 8.01162 -747.601 -13.3978 mm
+Schlitz Schlitz___509 6.0161 -747.522 -13.2802 mm
+Schlitz Schlitz___510 4.01379 -747.61 -13.2205 mm
+Schlitz Schlitz___511 2.01292 -747.571 -13.1182 mm
+Schlitz Schlitz___512 0.017915 -747.575 -13.2786 mm

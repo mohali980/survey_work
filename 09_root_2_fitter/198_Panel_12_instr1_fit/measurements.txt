@@ -1,0 +1,30 @@
+#############################################
+# 8/2022 Panel12-Ebenelinks survey points
+#############################################
+
+Panel12-Ebenelinks Panel12-Ebenelinks___1 -1477.99 -3104.05 -391.977 mm
+Panel12-Ebenelinks Panel12-Ebenelinks___2 -1465.43 -3082.53 -394.565 mm
+Panel12-Ebenelinks Panel12-Ebenelinks___3 -1478.95 -3104.42 121.062 mm
+Panel12-Ebenelinks Panel12-Ebenelinks___4 -1471.13 -3091.05 124.841 mm
+Panel12-Ebenelinks Panel12-Ebenelinks___5 -1480.19 -3105.98 417.345 mm
+Panel12-Ebenelinks Panel12-Ebenelinks___6 -1471.6 -3091.23 417.284 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___1 -2961.79 -2253.19 -551.93 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___2 -2960.9 -2251.49 -578.39 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___3 -2961.08 -2252.04 -652.281 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___4 -2961.94 -2253.74 -653.361 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___5 -2946.33 -2222.44 163.004 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___6 -2948.6 -2226.73 162.452 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___7 -2946.19 -2224.91 -649.001 mm
+Panel12-Ebenerechts Panel12-Ebenerechts___8 -2947.19 -2226.81 -646.242 mm
+Panel12-ebeneUS Panel12-ebeneUS___1 -2888.41 -2242.27 3.48364 mm
+Panel12-ebeneUS Panel12-ebeneUS___2 -2888.42 -2240.88 321.592 mm
+Panel12-ebeneUS Panel12-ebeneUS___3 -2889.38 -2239.4 573.132 mm
+Panel12-ebeneUS Panel12-ebeneUS___4 -2876.64 -2252.03 -790.364 mm
+Panel12-ebeneUS Panel12-ebeneUS___5 -1496.72 -3009.75 -334.748 mm
+Panel12-ebeneUS Panel12-ebeneUS___6 -1451.36 -3034.53 -41.7189 mm
+Panel12-ebeneUS Panel12-ebeneUS___7 -1451.84 -3031.57 476.437 mm
+Panel12-ebeneUS Panel12-ebeneUS___8 -1451.33 -3036.04 -449.597 mm
+Panel12-ebeneUS Panel12-ebeneUS___9 -1497.23 -3011.69 -982.741 mm
+Panel12-EckFolie Panel12-EckFolie___1 -1445.78 -3040.15 990.537 mm
+Panel12-EckFolie Panel12-EckFolie___2 -1456.59 -3043.76 -1222.06 mm
+Panel12-EckFolie Panel12-EckFolie___3 -2890.02 -2245.5 988.355 mm

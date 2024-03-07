@@ -1,0 +1,34 @@
+#############################################
+# 6/2019 Kupferfläche survey points
+#############################################
+
+Kupferfläche Kupferfläche___1 2467.95 -1563.29 -474.335 mm
+Kupferfläche Kupferfläche___2 2457.36 -1544.52 -474.312 mm
+Kupferfläche Kupferfläche___3 2479.01 -1543.03 -474.364 mm
+Kupferfläche Kupferfläche___4 2487.68 -1545.79 -474.329 mm
+Kupferfläche Kupferfläche___5 2488.5 -1498.55 -474.297 mm
+Kupferfläche Kupferfläche___6 2525.37 -1480.46 -474.414 mm
+Kupferfläche Kupferfläche___1 2467.95 -1563.29 -474.335 mm
+Kupferfläche Kupferfläche___2 2457.36 -1544.52 -474.312 mm
+Kupferfläche Kupferfläche___3 2479.01 -1543.03 -474.364 mm
+Kupferfläche Kupferfläche___4 2487.68 -1545.79 -474.329 mm
+Kupferfläche Kupferfläche___5 2488.5 -1498.55 -474.297 mm
+Kupferfläche Kupferfläche___6 2525.37 -1480.46 -474.414 mm
+Kupferfläche Kupferfläche___1 2467.95 -1563.29 -474.335 mm
+Kupferfläche Kupferfläche___2 2457.36 -1544.52 -474.312 mm
+Kupferfläche Kupferfläche___3 2479.01 -1543.03 -474.364 mm
+Kupferfläche Kupferfläche___4 2487.68 -1545.79 -474.329 mm
+Kupferfläche Kupferfläche___5 2488.5 -1498.55 -474.297 mm
+Kupferfläche Kupferfläche___6 2525.37 -1480.46 -474.414 mm
+Kupferfläche Kupferfläche___1 2467.95 -1563.29 -474.335 mm
+Kupferfläche Kupferfläche___2 2457.36 -1544.52 -474.312 mm
+Kupferfläche Kupferfläche___3 2479.01 -1543.03 -474.364 mm
+Kupferfläche Kupferfläche___4 2487.68 -1545.79 -474.329 mm
+Kupferfläche Kupferfläche___5 2488.5 -1498.55 -474.297 mm
+Kupferfläche Kupferfläche___6 2525.37 -1480.46 -474.414 mm
+Kupferfläche Kupferfläche___1 2467.95 -1563.29 -474.335 mm
+Kupferfläche Kupferfläche___2 2457.36 -1544.52 -474.312 mm
+Kupferfläche Kupferfläche___3 2479.01 -1543.03 -474.364 mm
+Kupferfläche Kupferfläche___4 2487.68 -1545.79 -474.329 mm
+Kupferfläche Kupferfläche___5 2488.5 -1498.55 -474.297 mm
+Kupferfläche Kupferfläche___6 2525.37 -1480.46 -474.414 mm

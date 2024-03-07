@@ -130,12 +130,12 @@ void root_2_fitter()
 
 
 		out_f.close();
-
+/*
 			gSystem->ChangeDirectory(dir_name+"/"+dir);
 			gSystem->Exec("root root_2_OBJ_fit.c");
 			gSystem->ChangeDirectory("../..");
+*/
 
-			.q
 			
 
 

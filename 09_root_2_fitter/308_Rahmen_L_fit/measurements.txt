@@ -1,0 +1,13 @@
+#############################################
+# 10/2018 Rahmen_Löcher survey points
+#############################################
+
+Rahmen_Löcher Rahmen_Löcher___1 -128.269 202.721 -953.567 mm
+Rahmen_Löcher Rahmen_Löcher___2 -98.2408 204.785 -953.639 mm
+Rahmen_Löcher Rahmen_Löcher___3 101.781 204.494 -954.092 mm
+Rahmen_Löcher Rahmen_Löcher___4 131.747 202.588 -954.177 mm
+Rahmen_Löcher Rahmen_Löcher___5 205.069 128.949 -954.319 mm
+Rahmen_Löcher Rahmen_Löcher___7 -201.757 129.474 -953.357 mm
+Rahmen_Löcher Rahmen_Löcher___8 -203.762 99.4686 -953.42 mm
+Rahmen_Löcher Rahmen_Löcher___9 -202.026 -130.494 -953.549 mm
+Rahmen_Löcher Rahmen_Löcher___10 -203.968 -100.516 -953.546 mm

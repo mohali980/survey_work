@@ -1,0 +1,20 @@
+#############################################
+# 1/2022 Gestellreferenzen survey points
+#############################################
+
+Gestellreferenzen Gestellreferenzen___1 -430.552 862.694 181.441 mm
+Gestellreferenzen Gestellreferenzen___2 -430.527 902.662 181.47 mm
+Gestellreferenzen Gestellreferenzen___3 -672.755 35.9121 -147.864 mm
+Gestellreferenzen Gestellreferenzen___4 -671.427 480.586 -145.671 mm
+Gestellreferenzen Gestellreferenzen___1 -430.552 862.694 181.441 mm
+Gestellreferenzen Gestellreferenzen___2 -430.527 902.662 181.47 mm
+Gestellreferenzen Gestellreferenzen___3 -672.755 35.9121 -147.864 mm
+Gestellreferenzen Gestellreferenzen___4 -671.427 480.586 -145.671 mm
+Gestellreferenzen Gestellreferenzen___1 -430.552 862.694 181.441 mm
+Gestellreferenzen Gestellreferenzen___2 -430.527 902.662 181.47 mm
+Gestellreferenzen Gestellreferenzen___3 -672.755 35.9121 -147.864 mm
+Gestellreferenzen Gestellreferenzen___4 -671.427 480.586 -145.671 mm
+Gestellreferenzen Gestellreferenzen___1 -430.552 862.694 181.441 mm
+Gestellreferenzen Gestellreferenzen___2 -430.527 902.662 181.47 mm
+Gestellreferenzen Gestellreferenzen___3 -672.755 35.9121 -147.864 mm
+Gestellreferenzen Gestellreferenzen___4 -671.427 480.586 -145.671 mm

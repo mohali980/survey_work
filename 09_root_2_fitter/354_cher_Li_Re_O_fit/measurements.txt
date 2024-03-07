@@ -1,0 +1,30 @@
+#############################################
+# 9/2022 Löcher_Li_O_1 survey points
+#############################################
+
+Löcher_Li_O_1 Löcher_Li_O_1___4 48.1844 121.035 189.903 mm
+Löcher_Li_O_1 Löcher_Li_O_1___5 48.0795 120.756 189.938 mm
+Löcher_Li_O_1 Löcher_Li_O_1___6 48.115 120.855 189.893 mm
+Löcher_Li_O_1 Löcher_Li_O_1___13 48.1199 120.797 189.914 mm
+Löcher_Li_O_1 Löcher_Li_O_1___14 48.0663 120.713 189.914 mm
+Löcher_Li_O_1 Löcher_Li_O_1___15 48.1206 120.805 189.892 mm
+Löcher_Li_O_1 Löcher_Li_O_1___16 48.0813 120.738 189.916 mm
+Löcher_Re_O_1 Löcher_Re_O_1___10 -38.0704 121.173 190.769 mm
+Löcher_Re_O_1 Löcher_Re_O_1___11 -37.9115 121.009 190.778 mm
+Löcher_Re_O_1 Löcher_Re_O_1___12 -38.0173 121.175 190.748 mm
+Löcher_Re_O_1 Löcher_Re_O_1___17 -37.8749 120.981 190.768 mm
+Löcher_Re_O_1 Löcher_Re_O_1___18 -37.8699 120.997 190.802 mm
+Löcher_Re_O_1 Löcher_Re_O_1___19 -37.8721 121.01 190.823 mm
+Löcher_Li_O_1 Löcher_Li_O_1___4 48.1844 121.035 189.903 mm
+Löcher_Li_O_1 Löcher_Li_O_1___5 48.0795 120.756 189.938 mm
+Löcher_Li_O_1 Löcher_Li_O_1___6 48.115 120.855 189.893 mm
+Löcher_Li_O_1 Löcher_Li_O_1___13 48.1199 120.797 189.914 mm
+Löcher_Li_O_1 Löcher_Li_O_1___14 48.0663 120.713 189.914 mm
+Löcher_Li_O_1 Löcher_Li_O_1___15 48.1206 120.805 189.892 mm
+Löcher_Li_O_1 Löcher_Li_O_1___16 48.0813 120.738 189.916 mm
+Löcher_Re_O_1 Löcher_Re_O_1___10 -38.0704 121.173 190.769 mm
+Löcher_Re_O_1 Löcher_Re_O_1___11 -37.9115 121.009 190.778 mm
+Löcher_Re_O_1 Löcher_Re_O_1___12 -38.0173 121.175 190.748 mm
+Löcher_Re_O_1 Löcher_Re_O_1___17 -37.8749 120.981 190.768 mm
+Löcher_Re_O_1 Löcher_Re_O_1___18 -37.8699 120.997 190.802 mm
+Löcher_Re_O_1 Löcher_Re_O_1___19 -37.8721 121.01 190.823 mm

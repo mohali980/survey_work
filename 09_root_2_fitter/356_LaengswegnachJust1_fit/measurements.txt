@@ -1,0 +1,9 @@
+#############################################
+# 7/2018 LaengswegnachJust1 survey points
+#############################################
+
+LaengswegnachJust1 LaengswegnachJust1___1 -78.2777 -307.748 2344.68 mm
+LaengswegnachJust1 LaengswegnachJust1___2 -78.0217 -307.304 2122.31 mm
+LaengswegnachJust1 LaengswegnachJust1___3 -77.7101 -307.21 1855.83 mm
+LaengswegnachJust1 LaengswegnachJust1___4 -77.7921 -307.185 1590.88 mm
+LaengswegnachJust1 LaengswegnachJust1___5 -77.9608 -307.051 1348.8 mm

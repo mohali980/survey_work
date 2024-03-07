@@ -1,0 +1,4 @@
+/g4PSI/det/trans target  -1.71725 -81.31388  -1.61511 mm
+/g4PSI/det/rot target   0.25583 453.58690  -0.22057 deg
+/g4PSI/det/trans tgtsurvey  -1.26821  33.57617  -1.94018 mm
+/g4PSI/det/rot tgtsurvey  -0.08504   0.46883  -0.16881 deg

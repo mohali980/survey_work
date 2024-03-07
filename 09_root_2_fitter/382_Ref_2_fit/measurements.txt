@@ -1,0 +1,25 @@
+#############################################
+# 9/2022 GEMsundSupport survey points
+#############################################
+
+GEMsundSupport TA3 -1569.2 -77.5126 -311.082 mm
+GEMsundSupport TA4 -1536.97 -117.42 -362.377 mm
+GEMsundSupport TA5 -1560.16 -100.443 -779.448 mm
+GEMsundSupport TA6 -1537.27 -118.599 -764.385 mm
+GEMsundSupport TA1 -1536.51 278.833 -322.533 mm
+GEMsundSupport TA7 -1594.78 -96.5781 53.9527 mm
+GEMsundSupport TA8 -1968.19 -281.485 -436.099 mm
+GEMsundSupport TA9 -1968.44 -281.165 -745.063 mm
+GEMsundSupport Ref5 -1770.77 -19.4102 -236.648 mm
+GEMsundSupport Ref1 -1798.98 77.3521 -236.983 mm
+GEMsundSupport2 Ref2 -1927.3 36.9537 -236.913 mm
+GEMsundSupport2 Ref3 -1850.27 14.9155 -236.943 mm
+GEMsundSupport2 Ref4 -1891.49 -67.5625 -236.526 mm
+GEMsundSupport2 WdhRef1 -1799.12 77.8215 -237.116 mm
+GEMsundSupport2 WdhRef2 -1927.31 36.95 -236.949 mm
+GEMsundSupport2 WdhRef3 -1850.35 15.0482 -237.06 mm
+GEMsundSupport2 Wdh2Ref1 -1799.06 77.9045 -237.15 mm
+GEMsundSupport2 Wdh2Ref2 -1927.34 37.0541 -237.074 mm
+GEMsundSupport2 Wdh2Ref3 -1850.28 14.9961 -237.101 mm
+GEMsundSupportRefdirekt Ref1 -1799 77.5836 -236.802 mm
+GEMsundSupportRefdirekt Ref5 -1770.86 -19.4704 -236.387 mm

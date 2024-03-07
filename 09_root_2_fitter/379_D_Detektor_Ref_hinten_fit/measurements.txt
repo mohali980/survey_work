@@ -1,0 +1,24 @@
+#############################################
+# 7/2018 Detektor_Ref_hinten survey points
+#############################################
+
+Detektor_Ref_hinten D1 -211.52 -305.525 2317.6 mm
+Detektor_Ref_hinten D2 -210.854 304.582 2315.35 mm
+Detektor_Ref_hinten D3 208.287 304.109 2315.41 mm
+Detektor_Ref_hinten D4 207.738 -305.915 2317.5 mm
+Detektor_Ref_hinten D5 -146.686 1017.53 2303.27 mm
+Detektor_Ref_hinten1 D1 -211.486 -305.49 2317.92 mm
+Detektor_Ref_hinten1 D2 -210.861 304.578 2315.6 mm
+Detektor_Ref_hinten1 D3 208.318 304.111 2315.6 mm
+Detektor_Ref_hinten1 D4 207.825 -305.946 2317.85 mm
+Detektor_Ref_hinten1 D5 -146.679 1017.51 2303.36 mm
+Detektor_Ref_hinten2 D1 -211.546 -305.555 2317.71 mm
+Detektor_Ref_hinten2 D2 -210.918 304.534 2315.33 mm
+Detektor_Ref_hinten2 D3 208.235 304.071 2315.47 mm
+Detektor_Ref_hinten2 D4 207.731 -305.995 2317.76 mm
+Detektor_Ref_hinten2 D5 -146.7 1017.4 2303.1 mm
+Detektor_Ref_hinten3 D1 -211.398 -305.635 2318.17 mm
+Detektor_Ref_hinten3 D2 -210.823 304.467 2315.66 mm
+Detektor_Ref_hinten3 D3 208.34 304.062 2315.85 mm
+Detektor_Ref_hinten3 D4 207.881 -305.993 2318.26 mm
+Detektor_Ref_hinten3 D5 -146.66 1017.35 2303.43 mm

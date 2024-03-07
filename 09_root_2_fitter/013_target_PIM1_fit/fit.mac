@@ -1,0 +1,12 @@
+#we add a target system
+/g4PSI/det/add_system target
+/g4PSI/det/add_system test
+
+/g4PSI/det/trans test 0 400 0 mm
+/g4PSI/det/add_system tgtsurvey  test
+
+/g4PSI/det/trans target $tgt_XOFF $tgt_YOFF $tgt_ZOFF mm
+/g4PSI/det/rot target $tgt_XROT $tgt_YROT $tgt_ZROT deg
+
+/g4PSI/det/trans tgtsurvey $tgts_XOFF $tgts_YOFF $tgts_ZOFF mm
+/g4PSI/det/rot tgtsurvey $tgts_XROT $tgts_YROT $tgts_ZROT deg

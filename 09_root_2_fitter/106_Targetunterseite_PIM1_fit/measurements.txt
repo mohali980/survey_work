@@ -1,0 +1,16 @@
+#############################################
+# 6/2021 1.5ZollTargetunterseite survey points
+#############################################
+
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___1 -16.1405 -343.407 8.84907 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___2 18.8196 -343.147 8.88256 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___3 25.8769 -342.645 -18.6791 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___4 -1.35581 -343.077 -6.18129 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___1 -16.1405 -343.407 8.84907 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___2 18.8196 -343.147 8.88256 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___3 25.8769 -342.645 -18.6791 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___4 -1.35581 -343.077 -6.18129 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___1 -16.1405 -343.407 8.84907 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___2 18.8196 -343.147 8.88256 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___3 25.8769 -342.645 -18.6791 mm
+1.5ZollTargetunterseite 1.5ZollTargetunterseite___4 -1.35581 -343.077 -6.18129 mm
