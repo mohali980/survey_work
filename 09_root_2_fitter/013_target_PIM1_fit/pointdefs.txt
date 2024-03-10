@@ -26,7 +26,7 @@ proj global TC-13  0 0 1   79.258656 mm
 
 # 2 so that height is the total. - for the lower.
 
-distp target Z20___1 1 0 1 radius_curing
+distp target Z201 1 0 1 radius_curing
 distp target Z20___2 1 0 1 radius_curing
 distp target Z20___3 1 0 1 radius_curing
 distp target Z20___4 1 0 1 radius_curing

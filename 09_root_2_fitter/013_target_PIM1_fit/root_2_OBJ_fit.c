@@ -62,13 +62,13 @@ void root_2_OBJ_fit()
 //	define the input files... 
 //	the first one is ole and its frame is the old/main PSI frame, there is no need to use it, it is not a direct MUSE survey.
 
-	vector<TString> files_vec{"measurements","measurements_in_global"};//,"fitted"};
+	vector<TString> files_vec{"measurements","aaa.measurements_in_global"};//,"fitted"};
 
 	for(int j=0;j<files_vec.size();j++)
 	{
 
 	if(j==0)	{	in_file.open(files_vec[0]+".txt");	}
-	if(j==1)	{	in_file.open("measurements_in_global.txt");	}
+	if(j==1)	{	in_file.open(files_vec[1]);	}
 
 	stringstream ss;
 

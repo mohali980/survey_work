@@ -33,9 +33,6 @@ int paramcount = 0;
 
 std::string commands;
 
-
-//...........................................................................
-
 void loadPointDefs(std::string filename) {
     std::ifstream infile(filename);
     std::string line;
@@ -46,9 +43,7 @@ void loadPointDefs(std::string filename) {
             std::stringstream ss(line);
             std::string type, system, name;
             ss >> type >> system >> name;
-
-            if (type == "proj") 
-            {
+            if (type == "proj") {
                 double x, y, z;
                 ss >> x >> y >> z;
                 char buffer[1024];
@@ -58,9 +53,7 @@ void loadPointDefs(std::string filename) {
                 pointdefs.push_back(
                     {0, system, name, std::vector<double>{x, y, z, dist}, ""});
             }
-
-            if (type == "projp") 
-            {
+            if (type == "projp") {
                 double x, y, z;
                 std::string parmname;
                 ss >> x >> y >> z >> parmname;
@@ -70,9 +63,7 @@ void loadPointDefs(std::string filename) {
                                      std::vector<double>{x, y, z, 0},
                                      parmname});
             }
-
-            if (type == "dist") 
-            {
+            if (type == "dist") {
                 double x, y, z;
                 ss >> x >> y >> z;
                 char buffer[1024];
@@ -81,10 +72,8 @@ void loadPointDefs(std::string filename) {
                     G4UIcmdWithADoubleAndUnit::GetNewDoubleValue(buffer);
                 pointdefs.push_back(
                     {2, system, name, std::vector<double>{x, y, z, dist}, ""}); 
-            }
-
-            if (type == "distp") 
-            {
+                                }
+            if (type == "distp") {
                 double x, y, z;
                 std::string parmname;
                 ss >> x >> y >> z >> parmname;
@@ -95,78 +84,56 @@ void loadPointDefs(std::string filename) {
                                      parmname});
             }
 
-            if (type == "end") 
-            {
+
+            if (type == "end") {
                 break;
             }
         }
     }
 }
-
-//...........................................................................
-
-
-void showPointDefs() 
-{
-    for (auto m : pointdefs) 
-    {
+void showPointDefs() {
+    for (auto m : pointdefs) {
         printf("PD type %i is in system %s name %s using ", m.type,
                m.system.c_str(), m.name.c_str());
         for (auto v : m.param)
-        
-        printf("%g ", v);
+            printf("%g ", v);
         printf("\n");
     }
 }
 
-
-//...........................................................................
 // Format of the survey information
 // coordinate_system_name   point_name   coords_x coords_y coords_z
 
-class measurement 
-{
+class measurement {
   public:
     std::string system;
     std::string name;
     HepGeom::Point3D<double> pos;
-
-    measurement(std::string s, std::string n, HepGeom::Point3D<double> p) 
-    {
+    measurement(std::string s, std::string n, HepGeom::Point3D<double> p) {
         system = s;
         name = n;
         pos = p;
     }
-}
+};
 
 std::multimap<std::string, measurement> measurements;
 
-template <typename It> struct range 
-{
+template <typename It> struct range {
     It begin_, end_;
     It begin() const { return begin_; }
     It end() const { return end_; }
-}
-
-template <typename It> range<It> as_range(const std::pair<It, It> &p) 
-{
+};
+template <typename It> range<It> as_range(const std::pair<It, It> &p) {
     return {p.first, p.second};
 }
 
-
-
-//...........................................................................
-
-void loadMeasurements(std::string filename) 
-{
+void loadMeasurements(std::string filename) {
     std::ifstream infile(filename);
     std::string line;
-    while (std::getline(infile, line)) 
-    {
+    while (std::getline(infile, line)) {
         size_t start = line.find_first_not_of(" ");
         // skip comment lines
-        if (start != std::string::npos && line.substr(start, 1) != "#") 
-        {
+        if (start != std::string::npos && line.substr(start, 1) != "#") {
             size_t pos = line.find(" ");
             std::string system = line.substr(0, pos);
             line.erase(0, pos + 1);
@@ -185,45 +152,32 @@ void loadMeasurements(std::string filename)
     infile.close();
 }
 
-//...........................................................................
-
-void showMeasurements() 
-{
-    for (auto m : measurements) 
-    {
+void showMeasurements() {
+    for (auto m : measurements) {
         printf("Point %s in system %s at point %g %g %g\n",
                m.second.name.c_str(), m.second.system.c_str(), m.second.pos[0],
                m.second.pos[1], m.second.pos[2]);
     }
 }
 
-//...........................................................................
-
-
 void loadAndFindParams(std::string filename, std::string &mac_commands,
-                       std::string &mac_commands_transform) 
-{
+                       std::string &mac_commands_transform) {
 
     std::ifstream file(filename);
     std::string str;
-    while (std::getline(file, str)) 
-    {
+    while (std::getline(file, str)) {
         size_t start = str.find_first_not_of(" ");
         // skip comment lines
-        if (start != std::string::npos && str.substr(start, 1) != "#") 
-        {
+        if (start != std::string::npos && str.substr(start, 1) != "#") {
             mac_commands += str + "\n";
-            if (str.find("$") != std::string::npos) 
-            {
+            if (str.find("$") != std::string::npos) {
                 mac_commands_transform += str + "\n";
             }
-
             std::stringstream ss(str);
             while (ss.good()) {
                 std::string word;
                 ss >> word;
-                if (word[0] == '$') 
-                {
+                if (word[0] == '$') {
                     printf("Found param: %s\n", word.c_str());
                     if (nameToParam.count(word) == 0)
                         nameToParam[word] = paramcount++;
@@ -235,45 +189,35 @@ void loadAndFindParams(std::string filename, std::string &mac_commands,
 
 double *params;
 
-
-//...........................................................................
-
 std::string updateCommands(std::string mac_file, const double *par,
-                           std::string format_string = "%.20g") 
-{
-    for (auto p : nameToParam) 
-    {
+                           std::string format_string = "%.20g") {
+    for (auto p : nameToParam) {
         size_t pos;
         char buf[1024];
         sprintf(buf, format_string.c_str(), par[p.second]);
         while (mac_file.npos != (pos = mac_file.find(p.first)))
         
-            mac_file.replace(pos, p.first.length(), buf);  
+            mac_file.replace(pos, p.first.length(), buf);
+        
     }        
     return mac_file;
 }
 
-//...........................................................................
 void showCommandsAndParams() {
     std::cout << commands << std::endl;
     for (auto p : nameToParam) {
         std::cout << p.first << " " << p.second << std::endl;
     }
 }
-//...........................................................................
-void sendCommands(std::string cmd) 
-{
+
+void sendCommands(std::string cmd) {
     std::string buffer;
     std::stringstream cmds(cmd);
-    while (cmds.good()) 
-    {
+    while (cmds.good()) {
         std::getline(cmds, buffer);
         G4UImanager::GetUIpointer()->ApplyCommand(buffer);
     }
 }
-
-
-//...........................................................................
 
 survey_points sp;
 int iter = 0;
@@ -282,8 +226,7 @@ inline double sqr(double x) { return x * x; }
 
 
 
-int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag) 
-{
+int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag) {
     double chi2 = 0;
     // show parameters
     /*    printf("==========\n");
@@ -306,15 +249,7 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
 
     std::map<std::string, G4Transform3D> rcache, mcache;
 
-
-
-//...........................................................................
-
-
-
-
-    for (auto &rule : pointdefs) 
-    {
+    for (auto &rule : pointdefs) {
 
         // here, convert from m.system to rule.system
         // geant 4 call!
@@ -324,29 +259,23 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
         G4Transform3D trans;
         G4Transform3D trans2;
         g4PSIDetectorParts *parts = g4PSIDetectorParts::getInstance();
-        if (measurements.find(rule.name) == measurements.end()) 
-        {
+        if (measurements.find(rule.name) == measurements.end()) {
             assert(false);
             printf("Did not find measurement for %s.. bailing out\n",
                    rule.name.c_str());
             exit(-1);
         }
 
-        if (rcache.find(rule.system) == rcache.end()) 
-        {
+        if (rcache.find(rule.system) == rcache.end()) {
             G4Transform3D r_trans;
-            if (r_system != "global") 
-            {
+            if (r_system != "global") {
                 survey_points::marker *sm1 = sp.get_survey_marker(rule.system);
-                if (sm1) 
-                {
+                if (sm1) {
                     r_system = sm1->marker_system;
                     r_trans = sm1->trans.inverse();
                 }
             }
-        
-        if (r_system != "global") 
-            {
+            if (r_system != "global") {
                 bool found = false;
                 trans = parts->FindTrans(r_system, found).inverse();
                 if (!found) {
@@ -359,33 +288,26 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
             }
             trans = r_trans * trans;
             rcache[rule.system] = trans;
-        }
-
-        else    {   trans = rcache[rule.system];    }
+        } else
+            trans = rcache[rule.system];
       
 
-        for (auto m : as_range(measurements.equal_range(rule.name))) 
-        {
-            if (mcache.find(m.second.system) == mcache.end()) 
-            {
+        for (auto m : as_range(measurements.equal_range(rule.name))) {
+            if (mcache.find(m.second.system) == mcache.end()) {
                 std::string m_system = m.second.system;
                 G4Transform3D m_trans;
-                if (m_system != "global") 
-                {
+                if (m_system != "global") {
                     survey_points::marker *sm =
                         sp.get_survey_marker(m.second.system);
-                    if (sm) 
-                    {
+                    if (sm) {
                         m_system = sm->marker_system;
                         m_trans = sm->trans;
                     }
                 }
-                if (m_system != "global") 
-                {
+                if (m_system != "global") {
                     bool found = false;
                     trans2 = parts->FindTrans(m_system, found);
-                    if (!found) 
-                    {
+                    if (!found) {
                         printf("Did not find %s as m.system.. bailing "
                                "out\n",
                                m_system.c_str());
@@ -393,19 +315,17 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
                         exit(-1);
                     }
                 }
-
                 trans2 = trans2 * m_trans;
                 mcache[m.second.system] = trans2;
-            } 
-            else    {   trans2 = mcache[m.second.system];   }
+            } else
+                trans2 = mcache[m.second.system];
 
         
 
             G4ThreeVector transformed_meas = trans * trans2 * m.second.pos;
             
 
-            if (rule.type == 0 || rule.type == 1) 
-            {
+            if (rule.type == 0 || rule.type == 1) {
                 if (rule.type == 1)
                     rule.param[3] = x[nameToParam[rule.paramname]];
                 double err = transformed_meas[0] * rule.param[0] +
@@ -425,14 +345,10 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
                            err);
                 i++;
             }
-
-        if (rule.type == 2 || rule.type == 3) 
-            {
-                if (rule.type == 3)
-                {
+        if (rule.type == 2 || rule.type == 3) {
+                if (rule.type == 3){
                     rule.param[3] = x[nameToParam[rule.paramname]];                    
                 }
-
                 double err = sqrt(sqr(transformed_meas[0] * rule.param[0]) +
                              sqr(transformed_meas[1] * rule.param[1]) +
                              sqr(transformed_meas[2] * rule.param[2])) -
@@ -459,34 +375,23 @@ int fitfunc(void *p, int m0, int n, const double *x, double *fvec, int iflag)
     return 0;
 }
 
-
-//...........................................................................
-
-
-
-
-void dumpAllMeasurementsInGlobal(std::string basename) 
-{
+void dumpAllMeasurementsInGlobal(std::string basename) {
     std::ofstream ofile;
     ofile.open(basename + ".measurements_in_global");
     g4PSIDetectorParts *parts = g4PSIDetectorParts::getInstance();
 
-    for (auto &m : measurements) 
-    {
+    for (auto &m : measurements) {
         std::string m_system = m.second.system;
         G4Transform3D trans;
         G4Transform3D m_trans;
-        if (m_system != "global") 
-        {
+        if (m_system != "global") {
             survey_points::marker *sm = sp.get_survey_marker(m.second.system);
-            if (sm) 
-            {
+            if (sm) {
                 m_system = sm->marker_system;
                 m_trans = sm->trans;
             }
         }
-        if (m_system != "global") 
-        {
+        if (m_system != "global") {
             bool found = false;
             trans = parts->FindTrans(m_system, found);
             if (!found)
@@ -500,26 +405,16 @@ void dumpAllMeasurementsInGlobal(std::string basename)
     ofile.close();
 }
 
-
-
-//...........................................................................
-
-int calcNumberOfPoints() 
-{
+int calcNumberOfPoints() {
     int np = 0;
-    for (auto pd : pointdefs) 
-    {
+    for (auto pd : pointdefs) {
         np += measurements.count(pd.name);
     }
     return np;
 }
 
-//...........................................................................
-
-int main(int argc, char **argv) 
-{
-    if (argc < 4) 
-    {
+int main(int argc, char **argv) {
+    if (argc < 4) {
         printf("Need more arguments: <pointdefs> <measurements> <mac "
                "file> "
                "[output-base-name]\n");
@@ -566,8 +461,7 @@ int main(int argc, char **argv)
 
     // Print out best parameters;
     printf("Final parameters\n");
-    for (auto p : nameToParam) 
-    {
+    for (auto p : nameToParam) {
         printf("%s %8.12g\n", p.first.c_str(), params[p.second]);
     }
     runManager->ReinitializeGeometry(true);
@@ -587,4 +481,3 @@ int main(int argc, char **argv)
     }
     return 0;
 }
-

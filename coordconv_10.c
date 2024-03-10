@@ -11,7 +11,6 @@ using namespace std;
 
 
 ClassImp(TTimeStamp);
-using namespace std;
 
 void coordconv_10()
 {
