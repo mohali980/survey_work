@@ -311,32 +311,150 @@ void TXT_2_TREE()
 
 	cout<<"START Block (1) : reading data from the 2D-vector and classifying them in the out_tree in a root file. ... "<<endl;
 
-	TFile *out_root_file	=	new TFile("measurements.root","RECREATE");
-	TTree *out_tree 		=	new TTree("measurements","");
+	TString		out_file_name,out_frame,out_collection,out_group,out_point,out_date_time;
+	float 		out_x,out_y,out_z,out_offp,out_offr;
+	int 		out_month,out_day,out_yr,out_hr,out_min,out_sec;
+
 
 	vector<vector<PointDef>>	working_2_ALL_DATA;
 	working_2_ALL_DATA=ALL_DATA_2D_vec;
 
 	PointDef out_Points;
 
+
+//	.............................................................................
+	TFile *out_root_file	=	new TFile("measurements.root","RECREATE");
+//	.............................................................................
+
+	vector<TString> trees;
+	basic_string<char> a;
+
+//	-----------------------------------------------------------
+	a = string ("001_target_Chamber_1");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_001 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_001	->	Branch("file_name",&out_file_name);
+	out_tree_001	->	Branch("frame",&out_frame);
+	out_tree_001	->	Branch("collection",&out_collection);
+	out_tree_001	->	Branch("group",&out_group);
+	out_tree_001	->	Branch("point",&out_point);
+	out_tree_001	->	Branch("sec",&out_sec);	
+	out_tree_001	->	Branch("min",&out_min);
+	out_tree_001	->	Branch("hr",&out_hr);
+	out_tree_001	->	Branch("day",&out_day);
+	out_tree_001	->	Branch("month",&out_month);
+	out_tree_001	->	Branch("yr",&out_yr);
+	out_tree_001	->	Branch("x",&out_x);
+	out_tree_001	->	Branch("y",&out_y);
+	out_tree_001	->	Branch("z",&out_z);
+	out_tree_001	->	Branch("offp",&out_offp);
+	out_tree_001	->	Branch("offr",&out_offr);
+//	-----------------------------------------------------------
+	a = string ("002_target_Chamber_2");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_002 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_002	->	Branch("file_name",&out_file_name);
+	out_tree_002	->	Branch("frame",&out_frame);
+	out_tree_002	->	Branch("collection",&out_collection);
+	out_tree_002	->	Branch("group",&out_group);
+	out_tree_002	->	Branch("point",&out_point);
+	out_tree_002	->	Branch("sec",&out_sec);	
+	out_tree_002	->	Branch("min",&out_min);
+	out_tree_002	->	Branch("hr",&out_hr);
+	out_tree_002	->	Branch("day",&out_day);
+	out_tree_002	->	Branch("month",&out_month);
+	out_tree_002	->	Branch("yr",&out_yr);
+	out_tree_002	->	Branch("x",&out_x);
+	out_tree_002	->	Branch("y",&out_y);
+	out_tree_002	->	Branch("z",&out_z);
+	out_tree_002	->	Branch("offp",&out_offp);
+	out_tree_002	->	Branch("offr",&out_offr);
+//	-----------------------------------------------------------
+	a = string ("003_aaa");
+	trees.push_back(Form("%s",a.c_str()));
+	TTree *out_tree_003 = new TTree(Form("%s",a.c_str()),"");
+
+	out_tree_003	->	Branch("file_name",&out_file_name);
+	out_tree_003	->	Branch("frame",&out_frame);
+	out_tree_003	->	Branch("collection",&out_collection);
+	out_tree_003	->	Branch("group",&out_group);
+	out_tree_003	->	Branch("point",&out_point);
+	out_tree_003	->	Branch("sec",&out_sec);	
+	out_tree_003	->	Branch("min",&out_min);
+	out_tree_003	->	Branch("hr",&out_hr);
+	out_tree_003	->	Branch("day",&out_day);
+	out_tree_003	->	Branch("month",&out_month);
+	out_tree_003	->	Branch("yr",&out_yr);
+	out_tree_003	->	Branch("x",&out_x);
+	out_tree_003	->	Branch("y",&out_y);
+	out_tree_003	->	Branch("z",&out_z);
+	out_tree_003	->	Branch("offp",&out_offp);
+	out_tree_003	->	Branch("offr",&out_offr);
+
+
+
+
+
+
+
+
+
+
+
+//	---------------------------------------------------------------------------
 	for(int i=0;i<working_2_ALL_DATA.size();i++)
 	{
 		for(int j=0;j<working_2_ALL_DATA[i].size();j++)
 		{
+//..................................................................
+//	just to make the if-statements shorter.
+
+		TString P=working_2_ALL_DATA[i][j].Point;
+		TString G=working_2_ALL_DATA[i][j].Group;
+		TString C=working_2_ALL_DATA[i][j].Collection;
+		TString F=working_2_ALL_DATA[i][j].Frame;
+		TString Fi=working_2_ALL_DATA[i][j].File_name;
+//..................................................................
+		out_file_name=working_2_ALL_DATA[i][j].File_name;
+		out_frame=working_2_ALL_DATA[i][j].Frame;
+		out_collection=working_2_ALL_DATA[i][j].Collection;
+		out_group=working_2_ALL_DATA[i][j].Group;
+		out_point=working_2_ALL_DATA[i][j].Point;
+		out_x=working_2_ALL_DATA[i][j].x;
+		out_y=working_2_ALL_DATA[i][j].y;
+		out_z=working_2_ALL_DATA[i][j].z;
+		out_offp=working_2_ALL_DATA[i][j].offp;
+		out_offr=working_2_ALL_DATA[i][j].offr;
+		out_month=working_2_ALL_DATA[i][j].month;
+		out_day=working_2_ALL_DATA[i][j].day;
+		out_yr=working_2_ALL_DATA[i][j].yr;
+		out_hr=working_2_ALL_DATA[i][j].hr;
+		out_min=working_2_ALL_DATA[i][j].min;
+		out_sec=working_2_ALL_DATA[i][j].sec;
+//..................................................................
+			
 			if(i==0)
 			{
-
-				TTree *out_tree =	new TTree("Standpunkt1","");
-				out_tree		->	Branch("Standpunkt1",&out_Points);				
-				out_Points	=	working_2_ALL_DATA[i][j];	
-				
-				if(working_2_ALL_DATA[i][j].Collection=="Standpunkt1")	{	out_tree->Fill();	}
-
-
-
-
-
+				if(C=="Standpunkt1")		{	out_tree_001->Fill();	}	//	No Ref points
+				if(C!="Standpunkt1")		{	out_tree_002->Fill();	}
 			}	//	if(i==0)
+
+			if(i==1)
+			{
+				if(G.Contains("AufmassL")		|| G=="Ref_blauesGestell")		{	out_tree_003->Fill();	}	//	 Hole dimensions
+				if(G.Contains("Belastung")		|| G=="Ref_blauesGestell")		{	out_tree_004->Fill();	}	//	Belastung=Load
+				if(G.Contains("Grundplatte_T")	|| G.Contains("oberePlatteT-")	|| G.Contains("RotationT-Probe")	|| G=="Ref_blauesGestell")		{	out_tree_005->Fill();	}	//	Baseplate_T-Probe
+			}	//	if(i==1)
+	
+
+
+
+
+
+
+
 		}		//	for(j)
 	}			//	for(i)
 
@@ -345,6 +463,19 @@ void TXT_2_TREE()
 //	...........................................................................
 //	2) END: reading from the TXT files.
 //	...........................................................................
+
+
+
+//	.....................................................
+//	storing all the trees' names from the vector to a TXT file.
+	ofstream out_trees_names_11;
+	out_trees_names_11.open("11_trees.txt");
+	for(int k=0;k<trees.size();k++)	
+	{	
+		out_trees_names_11<<trees[k]<<endl;	
+	}
+	out_trees_names_11.close();
+//	.....................................................
 
 
 
